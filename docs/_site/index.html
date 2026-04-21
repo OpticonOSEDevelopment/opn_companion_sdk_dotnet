@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Opticon.csp2.net | Opticon.csp2 .NET wrapper for the Opticon CSP2 library </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Opticon.csp2.net | Opticon.csp2 .NET wrapper for the Opticon CSP2 library ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OpticonOSEDevelopment/opn_companion_sdk_dotnet/blob/main/docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo.svg" alt="Opticon.csp2 .NET wrapper for the Opticon CSP2 library">
+            Opticon.csp2 .NET wrapper for the Opticon CSP2 library
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="opticoncsp2net">Opticon.csp2.net</h1>
+
+<p>A .NET wrapper for the Opticon CSP2 library, enabling C# applications to interface with OPN Companion devices.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Provides a C# interface for communicating with Opticon Companion devices using the CSP2 native functionality.</li>
+<li>Supports .NET Standard 2.0/2.1, .NET 6, .NET 8, and .NET Framework 4.6.1+.</li>
+<li>Compatible with WinForms, WPF, Console applications, and Windows Services.</li>
+<li>Simplifies device connection, polling, barcode reading, and parameter management</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>Install via NuGet:</p>
+<pre><code class="lang-bash">dotnet add package Opticon.csp2
+</code></pre>
+<p>Or search for 'Opticon.csp2' in the Visual Studio NuGet Package Manager.</p>
+<h2 id="compatibility">Compatibility</h2>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Supported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.NET Framework 4.6.1+</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>.NET Standard 2.0</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>.NET 6 / .NET 8</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usage">Usage</h2>
+<p>The following example demonstrates how to initialize the DLL, poll for devices, and retrieve barcode data.</p>
+<pre><code class="lang-csharp">using Opticon;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        try
+        {
+            Console.WriteLine(String.Format(&quot;Csp2 DLL Version = {0}&quot;, OpnEnvironment.GetDllVersion()));
+
+            var connectedDevices = new HashSet&lt;int&gt;();   // Used to avoid duplicate connection messages
+
+            OpnDevice.StartPolling(device =&gt;
+            {
+                try
+                {
+                    if (device.IsConnected)
+                    {
+                        string deviceId = device.GetDeviceId();
+                        string model = device.GetModel();
+
+                        // Handle new connection
+                        if (connectedDevices.Add(device.Port))
+                        {
+                            Console.WriteLine($&quot;[{model}] [{deviceId}] [COM{device.Port}] Connected ({device.GetSoftwareVersion()})&quot;);
+                        }
+
+                        // Handle barcode data
+                        if (device.IsDataAvailable)
+                        {
+                            // Read all barcodes from the device and store them in a list
+                            var barcodes = device.ReadBarcodes();
+
+                            Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [COM{device.Port}] {barcodes.Count} Barcode(s) Read&quot;);
+
+                            foreach (var barcode in barcodes)
+                            {
+                                Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [COM{device.Port}] [{barcode.Timestamp}] [{barcode.Data}] [{barcode.SymbologyName}]&quot;);
+                            }
+
+                            device.ClearBarcodes();
+                        }
+
+                        // Demonstrates the reading and writing of all parameter types (bool, int, enum and string/byte array)
+                        device.GetParameter(OpnParameter.Code39, out bool enabled);
+
+                        device.GetParameter(OpnParameter.ScannerOnTime, out int time);
+
+                        device.GetParameter(OpnParameter.DeleteEnable, out DeleteEnableOptions deleteOptions);
+
+                        device.SetParameter(OpnParameter.Code39, true);
+
+                        device.SetParameter(OpnParameter.ScannerOnTime, 20);
+
+                        device.SetParameter(OpnParameter.Gs1DataBar, Gs1DataBarOptions.Gs1DataBar | Gs1DataBarOptions.Gs1Expanded);
+
+                        device.SetParameter(OpnParameter.ScratchPad, &quot;Hello&quot;);
+
+                        device.GetTime(out DateTime dTime);
+
+                        device.SetTime(DateTime.Now);       // Sync device time with PC time
+                    }
+                    else
+                    {
+                        // Handle disconnect
+                        if (connectedDevices.Remove(device.Port))
+                        {
+                            Console.WriteLine($&quot;[{device.GetModel()}] [{device.GetDeviceId()}] [COM{device.Port}] Disconnected&quot;);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($&quot;Exception occurred: {ex.Message}&quot;);
+                }
+            });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($&quot;Failed to start polling: {ex.Message}&quot;);
+        }
+
+        Console.ReadLine();
+    }
+}
+</code></pre>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="runtime-errors--dll-not-found">Runtime Errors / DLL Not Found</h3>
+<p>This NuGet package of the CSP2 .NET wrapper should automatically add the correct native Csp2.dll to your output directory. If any DLL errors occur, verify that the correct native Csp2.dll is present in your application's output directory. Ensure the native binary matches your target architecture (x86/x64).</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OpticonOSEDevelopment/opn_companion_sdk_dotnet/blob/main/docs/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.LaserMode
+  commentId: T:Opticon.LaserMode
+  id: LaserMode
+  parent: Opticon
+  children:
+  - Opticon.LaserMode.AimingHelp
+  - Opticon.LaserMode.Normal
+  - Opticon.LaserMode.Small
+  langs:
+  - csharp
+  - vb
+  name: LaserMode
+  nameWithType: LaserMode
+  fullName: Opticon.LaserMode
+  type: Enum
+  source:
+    id: LaserMode
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 312
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Laser operating modes.
+  example: []
+  syntax:
+    content: public enum LaserMode
+    content.vb: Public Enum LaserMode
+- uid: Opticon.LaserMode.Normal
+  commentId: F:Opticon.LaserMode.Normal
+  id: Normal
+  parent: Opticon.LaserMode
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: LaserMode.Normal
+  fullName: Opticon.LaserMode.Normal
+  type: Field
+  source:
+    id: Normal
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 315
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Normal mode.
+  example: []
+  syntax:
+    content: Normal = 0
+    return:
+      type: Opticon.LaserMode
+- uid: Opticon.LaserMode.AimingHelp
+  commentId: F:Opticon.LaserMode.AimingHelp
+  id: AimingHelp
+  parent: Opticon.LaserMode
+  langs:
+  - csharp
+  - vb
+  name: AimingHelp
+  nameWithType: LaserMode.AimingHelp
+  fullName: Opticon.LaserMode.AimingHelp
+  type: Field
+  source:
+    id: AimingHelp
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 317
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Aiming help enabled.
+  example: []
+  syntax:
+    content: AimingHelp = 1
+    return:
+      type: Opticon.LaserMode
+- uid: Opticon.LaserMode.Small
+  commentId: F:Opticon.LaserMode.Small
+  id: Small
+  parent: Opticon.LaserMode
+  langs:
+  - csharp
+  - vb
+  name: Small
+  nameWithType: LaserMode.Small
+  fullName: Opticon.LaserMode.Small
+  type: Field
+  source:
+    id: Small
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 319
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Small laser mode (OPN-2001 only).
+  example: []
+  syntax:
+    content: Small = 2
+    return:
+      type: Opticon.LaserMode
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.LaserMode
+  commentId: T:Opticon.LaserMode
+  parent: Opticon
+  href: Opticon.LaserMode.html
+  name: LaserMode
+  nameWithType: LaserMode
+  fullName: Opticon.LaserMode

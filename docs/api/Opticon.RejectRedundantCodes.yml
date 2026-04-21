@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.RejectRedundantCodes
+  commentId: T:Opticon.RejectRedundantCodes
+  id: RejectRedundantCodes
+  parent: Opticon
+  children:
+  - Opticon.RejectRedundantCodes.Any
+  - Opticon.RejectRedundantCodes.Consecutive
+  - Opticon.RejectRedundantCodes.Off
+  langs:
+  - csharp
+  - vb
+  name: RejectRedundantCodes
+  nameWithType: RejectRedundantCodes
+  fullName: Opticon.RejectRedundantCodes
+  type: Enum
+  source:
+    id: RejectRedundantCodes
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 277
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Redundant barcode filtering options.
+  example: []
+  syntax:
+    content: public enum RejectRedundantCodes
+    content.vb: Public Enum RejectRedundantCodes
+- uid: Opticon.RejectRedundantCodes.Off
+  commentId: F:Opticon.RejectRedundantCodes.Off
+  id: Off
+  parent: Opticon.RejectRedundantCodes
+  langs:
+  - csharp
+  - vb
+  name: Off
+  nameWithType: RejectRedundantCodes.Off
+  fullName: Opticon.RejectRedundantCodes.Off
+  type: Field
+  source:
+    id: Off
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 280
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Redundant barcode filtering disabled (default)
+  example: []
+  syntax:
+    content: Off = 0
+    return:
+      type: Opticon.RejectRedundantCodes
+- uid: Opticon.RejectRedundantCodes.Consecutive
+  commentId: F:Opticon.RejectRedundantCodes.Consecutive
+  id: Consecutive
+  parent: Opticon.RejectRedundantCodes
+  langs:
+  - csharp
+  - vb
+  name: Consecutive
+  nameWithType: RejectRedundantCodes.Consecutive
+  fullName: Opticon.RejectRedundantCodes.Consecutive
+  type: Field
+  source:
+    id: Consecutive
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 282
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Reject consecutive identical barcodes.
+  example: []
+  syntax:
+    content: Consecutive = 1
+    return:
+      type: Opticon.RejectRedundantCodes
+- uid: Opticon.RejectRedundantCodes.Any
+  commentId: F:Opticon.RejectRedundantCodes.Any
+  id: Any
+  parent: Opticon.RejectRedundantCodes
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: RejectRedundantCodes.Any
+  fullName: Opticon.RejectRedundantCodes.Any
+  type: Field
+  source:
+    id: Any
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 284
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Reject any duplicate barcodes.
+  example: []
+  syntax:
+    content: Any = 2
+    return:
+      type: Opticon.RejectRedundantCodes
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.RejectRedundantCodes
+  commentId: T:Opticon.RejectRedundantCodes
+  parent: Opticon
+  href: Opticon.RejectRedundantCodes.html
+  name: RejectRedundantCodes
+  nameWithType: RejectRedundantCodes
+  fullName: Opticon.RejectRedundantCodes

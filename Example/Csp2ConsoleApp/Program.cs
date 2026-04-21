@@ -1,40 +1,4 @@
-# OPN Companion SDK for developing .NET application
-
-This is the official .NET SDK from Opticon Sensors Europe BV for the OPN Companion Scanners to create C# applications to interface with OPN Companion devices using the  Nuget Opticon.csp2 package
-
-The GitHub Pages of this SDK can be found here: [opn_companion_sdk_dotnet](https://opticonosedevelopment.github.io/opn_companion_sdk_dotnet/)
-
-## Features
-
-* Provides a C# interface for communicating with Opticon Companion devices using the CSP2 native functionality.
-* Supports .NET Standard 2.0/2.1, .NET 6, .NET 8, and .NET Framework 4.6.1+.
-* Compatible with WinForms, WPF, Console applications, and Windows Services.
-* Simplifies device connection, polling, barcode reading, and parameter management
-
-## Installation
-
-Install via NuGet:
-
-```bash
-dotnet add package Opticon.csp2
-```
-
-Or search for 'Opticon.csp2' in the Visual Studio NuGet Package Manager.
-
-## Compatibility
-
-| Platform              | Supported |
-|----------------------|----------|
-| .NET Framework 4.6.1+ | ✅ |
-| .NET Standard 2.0     | ✅ |
-| .NET 6 / .NET 8       | ✅ |
-
-## Usage
-
-The following example demonstrates how to initialize the DLL, poll for devices, and retrieve barcode data.
-	
-```csharp
-using Opticon;
+﻿using Opticon;
 
 class Program
 {
@@ -119,14 +83,3 @@ class Program
         Console.ReadLine();
     }
 }
-```
-
-## Troubleshooting
-
-### Runtime Errors / DLL Not Found
-
-This NuGet package of the CSP2 .NET wrapper should automatically add the correct native Csp2.dll to your output directory. If any DLL errors occur, verify that the correct native Csp2.dll is present in your application's output directory. Ensure the native binary matches your target architecture (x86/x64).
-
-## License
-
-This project is licensed under the MIT License.

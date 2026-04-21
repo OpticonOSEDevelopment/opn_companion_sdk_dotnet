@@ -1,0 +1,1457 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.OpnParameter
+  commentId: T:Opticon.OpnParameter
+  id: OpnParameter
+  parent: Opticon
+  children:
+  - Opticon.OpnParameter.AimingOnTime
+  - Opticon.OpnParameter.AsciiMode
+  - Opticon.OpnParameter.AutoClear
+  - Opticon.OpnParameter.BaudRate
+  - Opticon.OpnParameter.BaudSwitchDelay
+  - Opticon.OpnParameter.BuzzerAutoOn
+  - Opticon.OpnParameter.BuzzerToggle
+  - Opticon.OpnParameter.BuzzerVolume
+  - Opticon.OpnParameter.Code128
+  - Opticon.OpnParameter.Code39
+  - Opticon.OpnParameter.Code39CheckDigit
+  - Opticon.OpnParameter.Code39FullAscii
+  - Opticon.OpnParameter.CommAwakeTime
+  - Opticon.OpnParameter.ConvertEan8ToEan13
+  - Opticon.OpnParameter.ConvertEan8ToEan13Type
+  - Opticon.OpnParameter.ConvertItf14ToEan13
+  - Opticon.OpnParameter.ConvertUpcEToA
+  - Opticon.OpnParameter.CouponCode
+  - Opticon.OpnParameter.D2of5
+  - Opticon.OpnParameter.D2of5Length1
+  - Opticon.OpnParameter.D2of5Length2
+  - Opticon.OpnParameter.DataProtection
+  - Opticon.OpnParameter.DeleteEnable
+  - Opticon.OpnParameter.Ean128
+  - Opticon.OpnParameter.GoodDecodeLedOnTime
+  - Opticon.OpnParameter.Gs1DataBar
+  - Opticon.OpnParameter.HostCompleteBeep
+  - Opticon.OpnParameter.HostConnectBeep
+  - Opticon.OpnParameter.I2of5
+  - Opticon.OpnParameter.I2of5CheckDigit
+  - Opticon.OpnParameter.I2of5Length1
+  - Opticon.OpnParameter.I2of5Length2
+  - Opticon.OpnParameter.LaserMode
+  - Opticon.OpnParameter.LowBatteryIndication
+  - Opticon.OpnParameter.MaxBarcodeLength
+  - Opticon.OpnParameter.MemoryFullIndication
+  - Opticon.OpnParameter.MemoryLowIndication
+  - Opticon.OpnParameter.RejectRedundantBarcode
+  - Opticon.OpnParameter.ResetBaudRates
+  - Opticon.OpnParameter.ScannerOnTime
+  - Opticon.OpnParameter.ScratchPad
+  - Opticon.OpnParameter.SendUpcACheckDigit
+  - Opticon.OpnParameter.SendUpcECheckDigit
+  - Opticon.OpnParameter.StoreRtc
+  - Opticon.OpnParameter.TransmitCode39CheckDigit
+  - Opticon.OpnParameter.TransmitI2of5CheckDigit
+  - Opticon.OpnParameter.Upc
+  - Opticon.OpnParameter.UpcAPreamble
+  - Opticon.OpnParameter.UpcEPreamble
+  - Opticon.OpnParameter.UpcEanSecurityLevel
+  - Opticon.OpnParameter.UpcEanSupplementalRedundancy
+  - Opticon.OpnParameter.UpcSupplements
+  langs:
+  - csharp
+  - vb
+  name: OpnParameter
+  nameWithType: OpnParameter
+  fullName: Opticon.OpnParameter
+  type: Enum
+  source:
+    id: OpnParameter
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 8
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Defines configurable barcode scanner parameters.
+  example: []
+  syntax:
+    content: public enum OpnParameter
+    content.vb: Public Enum OpnParameter
+- uid: Opticon.OpnParameter.Code39
+  commentId: F:Opticon.OpnParameter.Code39
+  id: Code39
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: Code39
+  nameWithType: OpnParameter.Code39
+  fullName: Opticon.OpnParameter.Code39
+  type: Field
+  source:
+    id: Code39
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 13
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Code-39 enable/disable.'
+  example: []
+  syntax:
+    content: Code39 = 31
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.Upc
+  commentId: F:Opticon.OpnParameter.Upc
+  id: Upc
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: Upc
+  nameWithType: OpnParameter.Upc
+  fullName: Opticon.OpnParameter.Upc
+  type: Field
+  source:
+    id: Upc
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 16
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] UPC configuration.'
+  example: []
+  syntax:
+    content: Upc = 9
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.Code128
+  commentId: F:Opticon.OpnParameter.Code128
+  id: Code128
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: Code128
+  nameWithType: OpnParameter.Code128
+  fullName: Opticon.OpnParameter.Code128
+  type: Field
+  source:
+    id: Code128
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 19
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Code 128 configuration.'
+  example: []
+  syntax:
+    content: Code128 = 8
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.Code39FullAscii
+  commentId: F:Opticon.OpnParameter.Code39FullAscii
+  id: Code39FullAscii
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: Code39FullAscii
+  nameWithType: OpnParameter.Code39FullAscii
+  fullName: Opticon.OpnParameter.Code39FullAscii
+  type: Field
+  source:
+    id: Code39FullAscii
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 22
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Code 39 Full ASCII mode.'
+  example: []
+  syntax:
+    content: Code39FullAscii = 54
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.ConvertUpcEToA
+  commentId: F:Opticon.OpnParameter.ConvertUpcEToA
+  id: ConvertUpcEToA
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: ConvertUpcEToA
+  nameWithType: OpnParameter.ConvertUpcEToA
+  fullName: Opticon.OpnParameter.ConvertUpcEToA
+  type: Field
+  source:
+    id: ConvertUpcEToA
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 25
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Convert UPC-E to UPC-A.'
+  example: []
+  syntax:
+    content: ConvertUpcEToA = 41
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.ConvertEan8ToEan13
+  commentId: F:Opticon.OpnParameter.ConvertEan8ToEan13
+  id: ConvertEan8ToEan13
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: ConvertEan8ToEan13
+  nameWithType: OpnParameter.ConvertEan8ToEan13
+  fullName: Opticon.OpnParameter.ConvertEan8ToEan13
+  type: Field
+  source:
+    id: ConvertEan8ToEan13
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 28
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Convert EAN-8 to EAN-13.'
+  example: []
+  syntax:
+    content: ConvertEan8ToEan13 = 42
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.ConvertEan8ToEan13Type
+  commentId: F:Opticon.OpnParameter.ConvertEan8ToEan13Type
+  id: ConvertEan8ToEan13Type
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: ConvertEan8ToEan13Type
+  nameWithType: OpnParameter.ConvertEan8ToEan13Type
+  fullName: Opticon.OpnParameter.ConvertEan8ToEan13Type
+  type: Field
+  source:
+    id: ConvertEan8ToEan13Type
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 31
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Convert EAN-8 to EAN-13 type.'
+  example: []
+  syntax:
+    content: ConvertEan8ToEan13Type = 55
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.SendUpcACheckDigit
+  commentId: F:Opticon.OpnParameter.SendUpcACheckDigit
+  id: SendUpcACheckDigit
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: SendUpcACheckDigit
+  nameWithType: OpnParameter.SendUpcACheckDigit
+  fullName: Opticon.OpnParameter.SendUpcACheckDigit
+  type: Field
+  source:
+    id: SendUpcACheckDigit
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 34
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Send UPC-A check digit.'
+  example: []
+  syntax:
+    content: SendUpcACheckDigit = 43
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.SendUpcECheckDigit
+  commentId: F:Opticon.OpnParameter.SendUpcECheckDigit
+  id: SendUpcECheckDigit
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: SendUpcECheckDigit
+  nameWithType: OpnParameter.SendUpcECheckDigit
+  fullName: Opticon.OpnParameter.SendUpcECheckDigit
+  type: Field
+  source:
+    id: SendUpcECheckDigit
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 37
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Send UPC-E check digit.'
+  example: []
+  syntax:
+    content: SendUpcECheckDigit = 44
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.Code39CheckDigit
+  commentId: F:Opticon.OpnParameter.Code39CheckDigit
+  id: Code39CheckDigit
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: Code39CheckDigit
+  nameWithType: OpnParameter.Code39CheckDigit
+  fullName: Opticon.OpnParameter.Code39CheckDigit
+  type: Field
+  source:
+    id: Code39CheckDigit
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 40
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Code 39 check digit.'
+  example: []
+  syntax:
+    content: Code39CheckDigit = 46
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.TransmitCode39CheckDigit
+  commentId: F:Opticon.OpnParameter.TransmitCode39CheckDigit
+  id: TransmitCode39CheckDigit
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: TransmitCode39CheckDigit
+  nameWithType: OpnParameter.TransmitCode39CheckDigit
+  fullName: Opticon.OpnParameter.TransmitCode39CheckDigit
+  type: Field
+  source:
+    id: TransmitCode39CheckDigit
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 43
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Transmit Code 39 check digit.'
+  example: []
+  syntax:
+    content: TransmitCode39CheckDigit = 45
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.Ean128
+  commentId: F:Opticon.OpnParameter.Ean128
+  id: Ean128
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: Ean128
+  nameWithType: OpnParameter.Ean128
+  fullName: Opticon.OpnParameter.Ean128
+  type: Field
+  source:
+    id: Ean128
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 46
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] EAN-128 configuration.'
+  example: []
+  syntax:
+    content: Ean128 = 52
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.I2of5
+  commentId: F:Opticon.OpnParameter.I2of5
+  id: I2of5
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: I2of5
+  nameWithType: OpnParameter.I2of5
+  fullName: Opticon.OpnParameter.I2of5
+  type: Field
+  source:
+    id: I2of5
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 49
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Interleaved 2 of 5 configuration.'
+  example: []
+  syntax:
+    content: I2of5 = 58
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.TransmitI2of5CheckDigit
+  commentId: F:Opticon.OpnParameter.TransmitI2of5CheckDigit
+  id: TransmitI2of5CheckDigit
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: TransmitI2of5CheckDigit
+  nameWithType: OpnParameter.TransmitI2of5CheckDigit
+  fullName: Opticon.OpnParameter.TransmitI2of5CheckDigit
+  type: Field
+  source:
+    id: TransmitI2of5CheckDigit
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 52
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Transmit Interleaved 2 of 5 check digit.'
+  example: []
+  syntax:
+    content: TransmitI2of5CheckDigit = 64
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.ConvertItf14ToEan13
+  commentId: F:Opticon.OpnParameter.ConvertItf14ToEan13
+  id: ConvertItf14ToEan13
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: ConvertItf14ToEan13
+  nameWithType: OpnParameter.ConvertItf14ToEan13
+  fullName: Opticon.OpnParameter.ConvertItf14ToEan13
+  type: Field
+  source:
+    id: ConvertItf14ToEan13
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 55
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Convert ITF-14 to EAN-13.'
+  example: []
+  syntax:
+    content: ConvertItf14ToEan13 = 63
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.D2of5
+  commentId: F:Opticon.OpnParameter.D2of5
+  id: D2of5
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: D2of5
+  nameWithType: OpnParameter.D2of5
+  fullName: Opticon.OpnParameter.D2of5
+  type: Field
+  source:
+    id: D2of5
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 58
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Discrete 2 of 5 configuration.'
+  example: []
+  syntax:
+    content: D2of5 = 57
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.HostConnectBeep
+  commentId: F:Opticon.OpnParameter.HostConnectBeep
+  id: HostConnectBeep
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: HostConnectBeep
+  nameWithType: OpnParameter.HostConnectBeep
+  fullName: Opticon.OpnParameter.HostConnectBeep
+  type: Field
+  source:
+    id: HostConnectBeep
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 61
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Host connect beep.'
+  example: []
+  syntax:
+    content: HostConnectBeep = 10
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.HostCompleteBeep
+  commentId: F:Opticon.OpnParameter.HostCompleteBeep
+  id: HostCompleteBeep
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: HostCompleteBeep
+  nameWithType: OpnParameter.HostCompleteBeep
+  fullName: Opticon.OpnParameter.HostCompleteBeep
+  type: Field
+  source:
+    id: HostCompleteBeep
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 64
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Host complete beep.'
+  example: []
+  syntax:
+    content: HostCompleteBeep = 11
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.AutoClear
+  commentId: F:Opticon.OpnParameter.AutoClear
+  id: AutoClear
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: AutoClear
+  nameWithType: OpnParameter.AutoClear
+  fullName: Opticon.OpnParameter.AutoClear
+  type: Field
+  source:
+    id: AutoClear
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 67
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Auto clear.'
+  example: []
+  syntax:
+    content: AutoClear = 15
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.StoreRtc
+  commentId: F:Opticon.OpnParameter.StoreRtc
+  id: StoreRtc
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: StoreRtc
+  nameWithType: OpnParameter.StoreRtc
+  fullName: Opticon.OpnParameter.StoreRtc
+  type: Field
+  source:
+    id: StoreRtc
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 70
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Store RTC.'
+  example: []
+  syntax:
+    content: StoreRtc = 35
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.BuzzerToggle
+  commentId: F:Opticon.OpnParameter.BuzzerToggle
+  id: BuzzerToggle
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: BuzzerToggle
+  nameWithType: OpnParameter.BuzzerToggle
+  fullName: Opticon.OpnParameter.BuzzerToggle
+  type: Field
+  source:
+    id: BuzzerToggle
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 73
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[bool] Beeper Toggle.'
+  example: []
+  syntax:
+    content: BuzzerToggle = 85
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.UpcSupplements
+  commentId: F:Opticon.OpnParameter.UpcSupplements
+  id: UpcSupplements
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: UpcSupplements
+  nameWithType: OpnParameter.UpcSupplements
+  fullName: Opticon.OpnParameter.UpcSupplements
+  type: Field
+  source:
+    id: UpcSupplements
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 78
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: UpcSupplements] UPC supplemental configuration. [Options 0-2]'
+  example: []
+  syntax:
+    content: UpcSupplements = 53
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.UpcEPreamble
+  commentId: F:Opticon.OpnParameter.UpcEPreamble
+  id: UpcEPreamble
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: UpcEPreamble
+  nameWithType: OpnParameter.UpcEPreamble
+  fullName: Opticon.OpnParameter.UpcEPreamble
+  type: Field
+  source:
+    id: UpcEPreamble
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 81
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: UpcPreamble] UPC-E preamble. [Options 0-3]'
+  example: []
+  syntax:
+    content: UpcEPreamble = 37
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.UpcAPreamble
+  commentId: F:Opticon.OpnParameter.UpcAPreamble
+  id: UpcAPreamble
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: UpcAPreamble
+  nameWithType: OpnParameter.UpcAPreamble
+  fullName: Opticon.OpnParameter.UpcAPreamble
+  type: Field
+  source:
+    id: UpcAPreamble
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 84
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: UpcPreamble] UPC-A preamble. [Options 0-3]'
+  example: []
+  syntax:
+    content: UpcAPreamble = 36
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.I2of5CheckDigit
+  commentId: F:Opticon.OpnParameter.I2of5CheckDigit
+  id: I2of5CheckDigit
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: I2of5CheckDigit
+  nameWithType: OpnParameter.I2of5CheckDigit
+  fullName: Opticon.OpnParameter.I2of5CheckDigit
+  type: Field
+  source:
+    id: I2of5CheckDigit
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 87
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: I2of5CheckDigit] Interleaved 2 of 5 check digit. [Options 0-4]'
+  example: []
+  syntax:
+    content: I2of5CheckDigit = 65
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.LowBatteryIndication
+  commentId: F:Opticon.OpnParameter.LowBatteryIndication
+  id: LowBatteryIndication
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: LowBatteryIndication
+  nameWithType: OpnParameter.LowBatteryIndication
+  fullName: Opticon.OpnParameter.LowBatteryIndication
+  type: Field
+  source:
+    id: LowBatteryIndication
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 90
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: BatteryLowIndication] Low-battery indication. [Options 0-6]'
+  example: []
+  syntax:
+    content: LowBatteryIndication = 7
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.DeleteEnable
+  commentId: F:Opticon.OpnParameter.DeleteEnable
+  id: DeleteEnable
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: DeleteEnable
+  nameWithType: OpnParameter.DeleteEnable
+  fullName: Opticon.OpnParameter.DeleteEnable
+  type: Field
+  source:
+    id: DeleteEnable
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 93
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: DeleteEnableOptions] Delete key enable. [Options 0-7]'
+  example: []
+  syntax:
+    content: DeleteEnable = 33
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.Gs1DataBar
+  commentId: F:Opticon.OpnParameter.Gs1DataBar
+  id: Gs1DataBar
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: Gs1DataBar
+  nameWithType: OpnParameter.Gs1DataBar
+  fullName: Opticon.OpnParameter.Gs1DataBar
+  type: Field
+  source:
+    id: Gs1DataBar
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 96
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: Gs1DataBarOptions] GS1 DataBar configuration. [Options 0-10]'
+  example: []
+  syntax:
+    content: Gs1DataBar = 20
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.BuzzerVolume
+  commentId: F:Opticon.OpnParameter.BuzzerVolume
+  id: BuzzerVolume
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: BuzzerVolume
+  nameWithType: OpnParameter.BuzzerVolume
+  fullName: Opticon.OpnParameter.BuzzerVolume
+  type: Field
+  source:
+    id: BuzzerVolume
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 99
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: BuzzerVolume] Buzzer Volume. [Options 0-13]'
+  example: []
+  syntax:
+    content: BuzzerVolume = 2
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.RejectRedundantBarcode
+  commentId: F:Opticon.OpnParameter.RejectRedundantBarcode
+  id: RejectRedundantBarcode
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: RejectRedundantBarcode
+  nameWithType: OpnParameter.RejectRedundantBarcode
+  fullName: Opticon.OpnParameter.RejectRedundantBarcode
+  type: Field
+  source:
+    id: RejectRedundantBarcode
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 102
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: RejectRedundantCodes] Reject redundant barcode. [Options 0-12]'
+  example: []
+  syntax:
+    content: RejectRedundantBarcode = 4
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.MemoryLowIndication
+  commentId: F:Opticon.OpnParameter.MemoryLowIndication
+  id: MemoryLowIndication
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: MemoryLowIndication
+  nameWithType: OpnParameter.MemoryLowIndication
+  fullName: Opticon.OpnParameter.MemoryLowIndication
+  type: Field
+  source:
+    id: MemoryLowIndication
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 105
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: MemoryIndication] Memory (Low) Indication. [Options 0-14]'
+  example: []
+  syntax:
+    content: MemoryLowIndication = 51
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.GoodDecodeLedOnTime
+  commentId: F:Opticon.OpnParameter.GoodDecodeLedOnTime
+  id: GoodDecodeLedOnTime
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: GoodDecodeLedOnTime
+  nameWithType: OpnParameter.GoodDecodeLedOnTime
+  fullName: Opticon.OpnParameter.GoodDecodeLedOnTime
+  type: Field
+  source:
+    id: GoodDecodeLedOnTime
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 108
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: GoodReadLedOnTime] Good decode LED on time. [Options 1-8]'
+  example: []
+  syntax:
+    content: GoodDecodeLedOnTime = 30
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.LaserMode
+  commentId: F:Opticon.OpnParameter.LaserMode
+  id: LaserMode
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: LaserMode
+  nameWithType: OpnParameter.LaserMode
+  fullName: Opticon.OpnParameter.LaserMode
+  type: Field
+  source:
+    id: LaserMode
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 111
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[enum: LaserMode] Laser operating mode. [Options 0-11]'
+  example: []
+  syntax:
+    content: LaserMode = 5
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.UpcEanSecurityLevel
+  commentId: F:Opticon.OpnParameter.UpcEanSecurityLevel
+  id: UpcEanSecurityLevel
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: UpcEanSecurityLevel
+  nameWithType: OpnParameter.UpcEanSecurityLevel
+  fullName: Opticon.OpnParameter.UpcEanSecurityLevel
+  type: Field
+  source:
+    id: UpcEanSecurityLevel
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 116
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] UPC/EAN Security level. [Range: 0-3]'
+  example: []
+  syntax:
+    content: UpcEanSecurityLevel = 47
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.UpcEanSupplementalRedundancy
+  commentId: F:Opticon.OpnParameter.UpcEanSupplementalRedundancy
+  id: UpcEanSupplementalRedundancy
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: UpcEanSupplementalRedundancy
+  nameWithType: OpnParameter.UpcEanSupplementalRedundancy
+  fullName: Opticon.OpnParameter.UpcEanSupplementalRedundancy
+  type: Field
+  source:
+    id: UpcEanSupplementalRedundancy
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 119
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] UPC/EAN Supplemental Redundancy. [Range: 2-20]'
+  example: []
+  syntax:
+    content: UpcEanSupplementalRedundancy = 48
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.ScannerOnTime
+  commentId: F:Opticon.OpnParameter.ScannerOnTime
+  id: ScannerOnTime
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: ScannerOnTime
+  nameWithType: OpnParameter.ScannerOnTime
+  fullName: Opticon.OpnParameter.ScannerOnTime
+  type: Field
+  source:
+    id: ScannerOnTime
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 122
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] Scanner On-Time. [Range: 10-100] (Defines 1.0 to 10.0 seconds)'
+  example: []
+  syntax:
+    content: ScannerOnTime = 17
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.AimingOnTime
+  commentId: F:Opticon.OpnParameter.AimingOnTime
+  id: AimingOnTime
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: AimingOnTime
+  nameWithType: OpnParameter.AimingOnTime
+  fullName: Opticon.OpnParameter.AimingOnTime
+  type: Field
+  source:
+    id: AimingOnTime
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 125
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] Aiming On-Time. [Range: 10-100]'
+  example: []
+  syntax:
+    content: AimingOnTime = 19
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.I2of5Length1
+  commentId: F:Opticon.OpnParameter.I2of5Length1
+  id: I2of5Length1
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: I2of5Length1
+  nameWithType: OpnParameter.I2of5Length1
+  fullName: Opticon.OpnParameter.I2of5Length1
+  type: Field
+  source:
+    id: I2of5Length1
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 128
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] Interleaved 2 of 5 Length 1. [Range: 0-30]'
+  example: []
+  syntax:
+    content: I2of5Length1 = 59
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.I2of5Length2
+  commentId: F:Opticon.OpnParameter.I2of5Length2
+  id: I2of5Length2
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: I2of5Length2
+  nameWithType: OpnParameter.I2of5Length2
+  fullName: Opticon.OpnParameter.I2of5Length2
+  type: Field
+  source:
+    id: I2of5Length2
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 131
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] Interleaved 2 of 5 Length 2. [Range: 0-30]'
+  example: []
+  syntax:
+    content: I2of5Length2 = 60
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.D2of5Length1
+  commentId: F:Opticon.OpnParameter.D2of5Length1
+  id: D2of5Length1
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: D2of5Length1
+  nameWithType: OpnParameter.D2of5Length1
+  fullName: Opticon.OpnParameter.D2of5Length1
+  type: Field
+  source:
+    id: D2of5Length1
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 134
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] Discrete 2 of 5 Length 1. [Range: 0-30]'
+  example: []
+  syntax:
+    content: D2of5Length1 = 61
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.D2of5Length2
+  commentId: F:Opticon.OpnParameter.D2of5Length2
+  id: D2of5Length2
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: D2of5Length2
+  nameWithType: OpnParameter.D2of5Length2
+  fullName: Opticon.OpnParameter.D2of5Length2
+  type: Field
+  source:
+    id: D2of5Length2
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 137
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] Discrete 2 of 5 Length 2. [Range: 0-30]'
+  example: []
+  syntax:
+    content: D2of5Length2 = 62
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.MaxBarcodeLength
+  commentId: F:Opticon.OpnParameter.MaxBarcodeLength
+  id: MaxBarcodeLength
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: MaxBarcodeLength
+  nameWithType: OpnParameter.MaxBarcodeLength
+  fullName: Opticon.OpnParameter.MaxBarcodeLength
+  type: Field
+  source:
+    id: MaxBarcodeLength
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 140
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[int] Max Barcode Length. [Range: 1-255] (255=unlimited)'
+  example: []
+  syntax:
+    content: MaxBarcodeLength = 34
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.ScratchPad
+  commentId: F:Opticon.OpnParameter.ScratchPad
+  id: ScratchPad
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: ScratchPad
+  nameWithType: OpnParameter.ScratchPad
+  fullName: Opticon.OpnParameter.ScratchPad
+  type: Field
+  source:
+    id: ScratchPad
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 145
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: '[string] Scratch pad data storage. [Length: 32 bytes] (Note: PX20/OPN2005/6 may not correctly support this parameter)'
+  example: []
+  syntax:
+    content: ScratchPad = 38
+    return:
+      type: Opticon.OpnParameter
+- uid: Opticon.OpnParameter.BaudRate
+  commentId: F:Opticon.OpnParameter.BaudRate
+  id: BaudRate
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: BaudRate
+  nameWithType: OpnParameter.BaudRate
+  fullName: Opticon.OpnParameter.BaudRate
+  type: Field
+  source:
+    id: BaudRate
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 150
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: [enum: BaudRate] Baud Rate. [Options 3-5]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      BaudRate = 13
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      BaudRate = 13
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.ResetBaudRates
+  commentId: F:Opticon.OpnParameter.ResetBaudRates
+  id: ResetBaudRates
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: ResetBaudRates
+  nameWithType: OpnParameter.ResetBaudRates
+  fullName: Opticon.OpnParameter.ResetBaudRates
+  type: Field
+  source:
+    id: ResetBaudRates
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 154
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: Reset baud rates to default. [0: Disable, 1: Enable]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      ResetBaudRates = 28
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      ResetBaudRates = 28
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.BaudSwitchDelay
+  commentId: F:Opticon.OpnParameter.BaudSwitchDelay
+  id: BaudSwitchDelay
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: BaudSwitchDelay
+  nameWithType: OpnParameter.BaudSwitchDelay
+  fullName: Opticon.OpnParameter.BaudSwitchDelay
+  type: Field
+  source:
+    id: BaudSwitchDelay
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 158
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: Baud Switch Delay. [Range: 0-100]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      BaudSwitchDelay = 29
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      BaudSwitchDelay = 29
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.CommAwakeTime
+  commentId: F:Opticon.OpnParameter.CommAwakeTime
+  id: CommAwakeTime
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: CommAwakeTime
+  nameWithType: OpnParameter.CommAwakeTime
+  fullName: Opticon.OpnParameter.CommAwakeTime
+  type: Field
+  source:
+    id: CommAwakeTime
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 162
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: Communication awake time. [Range: 1-6]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      CommAwakeTime = 32
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      CommAwakeTime = 32
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.DataProtection
+  commentId: F:Opticon.OpnParameter.DataProtection
+  id: DataProtection
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: DataProtection
+  nameWithType: OpnParameter.DataProtection
+  fullName: Opticon.OpnParameter.DataProtection
+  type: Field
+  source:
+    id: DataProtection
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 166
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: Data Protection. [0: Disable, 1: Enable]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      DataProtection = 49
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      DataProtection = 49
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.MemoryFullIndication
+  commentId: F:Opticon.OpnParameter.MemoryFullIndication
+  id: MemoryFullIndication
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: MemoryFullIndication
+  nameWithType: OpnParameter.MemoryFullIndication
+  fullName: Opticon.OpnParameter.MemoryFullIndication
+  type: Field
+  source:
+    id: MemoryFullIndication
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 170
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: Memory full indication. [0: Disable, 1: Enable]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      MemoryFullIndication = 50
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      MemoryFullIndication = 50
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.CouponCode
+  commentId: F:Opticon.OpnParameter.CouponCode
+  id: CouponCode
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: CouponCode
+  nameWithType: OpnParameter.CouponCode
+  fullName: Opticon.OpnParameter.CouponCode
+  type: Field
+  source:
+    id: CouponCode
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 174
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: Coupon Code. [0: Disable, 1: Enable]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      CouponCode = 56
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      CouponCode = 56
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.AsciiMode
+  commentId: F:Opticon.OpnParameter.AsciiMode
+  id: AsciiMode
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: AsciiMode
+  nameWithType: OpnParameter.AsciiMode
+  fullName: Opticon.OpnParameter.AsciiMode
+  type: Field
+  source:
+    id: AsciiMode
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 178
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: ASCII mode. [Options 0-9]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      AsciiMode = 79
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      AsciiMode = 79
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+- uid: Opticon.OpnParameter.BuzzerAutoOn
+  commentId: F:Opticon.OpnParameter.BuzzerAutoOn
+  id: BuzzerAutoOn
+  parent: Opticon.OpnParameter
+  langs:
+  - csharp
+  - vb
+  name: BuzzerAutoOn
+  nameWithType: OpnParameter.BuzzerAutoOn
+  fullName: Opticon.OpnParameter.BuzzerAutoOn
+  type: Field
+  source:
+    id: BuzzerAutoOn
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 182
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: 'NOT SUPPORTED: Beeper Auto On. [0: Disable, 1: Enable]'
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Not supported by device firmware.")]
+
+      BuzzerAutoOn = 86
+    return:
+      type: Opticon.OpnParameter
+    content.vb: >-
+      <Obsolete("Not supported by device firmware.")>
+
+      BuzzerAutoOn = 86
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not supported by device firmware.
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.OpnParameter
+  commentId: T:Opticon.OpnParameter
+  parent: Opticon
+  href: Opticon.OpnParameter.html
+  name: OpnParameter
+  nameWithType: OpnParameter
+  fullName: Opticon.OpnParameter

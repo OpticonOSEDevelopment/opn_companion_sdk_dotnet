@@ -1,8 +1,6 @@
-# OPN Companion SDK for developing .NET application
+# Opticon.csp2.net
 
-This is the official .NET SDK from Opticon Sensors Europe BV for the OPN Companion Scanners to create C# applications to interface with OPN Companion devices using the  Nuget Opticon.csp2 package
-
-The GitHub Pages of this SDK can be found here: [opn_companion_sdk_dotnet](https://opticonosedevelopment.github.io/opn_companion_sdk_dotnet/)
+A .NET wrapper for the Opticon CSP2 library, enabling C# applications to interface with OPN Companion devices.
 
 ## Features
 

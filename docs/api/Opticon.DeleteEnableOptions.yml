@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.DeleteEnableOptions
+  commentId: T:Opticon.DeleteEnableOptions
+  id: DeleteEnableOptions
+  parent: Opticon
+  children:
+  - Opticon.DeleteEnableOptions.ClearAll
+  - Opticon.DeleteEnableOptions.Delete
+  - Opticon.DeleteEnableOptions.Disabled
+  - Opticon.DeleteEnableOptions.SetDefault
+  langs:
+  - csharp
+  - vb
+  name: DeleteEnableOptions
+  nameWithType: DeleteEnableOptions
+  fullName: Opticon.DeleteEnableOptions
+  type: Enum
+  source:
+    id: DeleteEnableOptions
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 232
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Delete key behavior options (bit flags).
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DeleteEnableOptions
+    content.vb: >-
+      <Flags>
+
+      Public Enum DeleteEnableOptions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Opticon.DeleteEnableOptions.Disabled
+  commentId: F:Opticon.DeleteEnableOptions.Disabled
+  id: Disabled
+  parent: Opticon.DeleteEnableOptions
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: DeleteEnableOptions.Disabled
+  fullName: Opticon.DeleteEnableOptions.Disabled
+  type: Field
+  source:
+    id: Disabled
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 236
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: All disabled
+  example: []
+  syntax:
+    content: Disabled = 0
+    return:
+      type: Opticon.DeleteEnableOptions
+- uid: Opticon.DeleteEnableOptions.ClearAll
+  commentId: F:Opticon.DeleteEnableOptions.ClearAll
+  id: ClearAll
+  parent: Opticon.DeleteEnableOptions
+  langs:
+  - csharp
+  - vb
+  name: ClearAll
+  nameWithType: DeleteEnableOptions.ClearAll
+  fullName: Opticon.DeleteEnableOptions.ClearAll
+  type: Field
+  source:
+    id: ClearAll
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 238
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Allow clearing all data.
+  example: []
+  syntax:
+    content: ClearAll = 1
+    return:
+      type: Opticon.DeleteEnableOptions
+- uid: Opticon.DeleteEnableOptions.Delete
+  commentId: F:Opticon.DeleteEnableOptions.Delete
+  id: Delete
+  parent: Opticon.DeleteEnableOptions
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: DeleteEnableOptions.Delete
+  fullName: Opticon.DeleteEnableOptions.Delete
+  type: Field
+  source:
+    id: Delete
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 240
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Allow deleting a single barcode.
+  example: []
+  syntax:
+    content: Delete = 2
+    return:
+      type: Opticon.DeleteEnableOptions
+- uid: Opticon.DeleteEnableOptions.SetDefault
+  commentId: F:Opticon.DeleteEnableOptions.SetDefault
+  id: SetDefault
+  parent: Opticon.DeleteEnableOptions
+  langs:
+  - csharp
+  - vb
+  name: SetDefault
+  nameWithType: DeleteEnableOptions.SetDefault
+  fullName: Opticon.DeleteEnableOptions.SetDefault
+  type: Field
+  source:
+    id: SetDefault
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 242
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Allow factory reset.
+  example: []
+  syntax:
+    content: SetDefault = 4
+    return:
+      type: Opticon.DeleteEnableOptions
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.DeleteEnableOptions
+  commentId: T:Opticon.DeleteEnableOptions
+  parent: Opticon
+  href: Opticon.DeleteEnableOptions.html
+  name: DeleteEnableOptions
+  nameWithType: DeleteEnableOptions
+  fullName: Opticon.DeleteEnableOptions

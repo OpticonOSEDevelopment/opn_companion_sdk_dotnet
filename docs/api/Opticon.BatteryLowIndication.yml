@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.BatteryLowIndication
+  commentId: T:Opticon.BatteryLowIndication
+  id: BatteryLowIndication
+  parent: Opticon
+  children:
+  - Opticon.BatteryLowIndication.AllowOperation
+  - Opticon.BatteryLowIndication.IndicationEnabled
+  - Opticon.BatteryLowIndication.None
+  langs:
+  - csharp
+  - vb
+  name: BatteryLowIndication
+  nameWithType: BatteryLowIndication
+  fullName: Opticon.BatteryLowIndication
+  type: Enum
+  source:
+    id: BatteryLowIndication
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 220
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Battery low indication options (bit flags).
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum BatteryLowIndication
+    content.vb: >-
+      <Flags>
+
+      Public Enum BatteryLowIndication
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Opticon.BatteryLowIndication.None
+  commentId: F:Opticon.BatteryLowIndication.None
+  id: None
+  parent: Opticon.BatteryLowIndication
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BatteryLowIndication.None
+  fullName: Opticon.BatteryLowIndication.None
+  type: Field
+  source:
+    id: None
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 224
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: No indication.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Opticon.BatteryLowIndication
+- uid: Opticon.BatteryLowIndication.IndicationEnabled
+  commentId: F:Opticon.BatteryLowIndication.IndicationEnabled
+  id: IndicationEnabled
+  parent: Opticon.BatteryLowIndication
+  langs:
+  - csharp
+  - vb
+  name: IndicationEnabled
+  nameWithType: BatteryLowIndication.IndicationEnabled
+  fullName: Opticon.BatteryLowIndication.IndicationEnabled
+  type: Field
+  source:
+    id: IndicationEnabled
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 226
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Enable indication.
+  example: []
+  syntax:
+    content: IndicationEnabled = 1
+    return:
+      type: Opticon.BatteryLowIndication
+- uid: Opticon.BatteryLowIndication.AllowOperation
+  commentId: F:Opticon.BatteryLowIndication.AllowOperation
+  id: AllowOperation
+  parent: Opticon.BatteryLowIndication
+  langs:
+  - csharp
+  - vb
+  name: AllowOperation
+  nameWithType: BatteryLowIndication.AllowOperation
+  fullName: Opticon.BatteryLowIndication.AllowOperation
+  type: Field
+  source:
+    id: AllowOperation
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 228
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Allow operation when low.
+  example: []
+  syntax:
+    content: AllowOperation = 2
+    return:
+      type: Opticon.BatteryLowIndication
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.BatteryLowIndication
+  commentId: T:Opticon.BatteryLowIndication
+  parent: Opticon
+  href: Opticon.BatteryLowIndication.html
+  name: BatteryLowIndication
+  nameWithType: BatteryLowIndication
+  fullName: Opticon.BatteryLowIndication

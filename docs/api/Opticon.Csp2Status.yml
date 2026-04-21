@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.Csp2Status
+  commentId: T:Opticon.Csp2Status
+  id: Csp2Status
+  parent: Opticon
+  children:
+  - Opticon.Csp2Status.AccessDenied
+  - Opticon.Csp2Status.BadParameter
+  - Opticon.Csp2Status.CommandLrcError
+  - Opticon.Csp2Status.CommunicationsError
+  - Opticon.Csp2Status.DllArchitectureMismatch
+  - Opticon.Csp2Status.DllNotFound
+  - Opticon.Csp2Status.FileNotFound
+  - Opticon.Csp2Status.FirmwareFailure
+  - Opticon.Csp2Status.GeneralError
+  - Opticon.Csp2Status.InvalidCommandNumber
+  - Opticon.Csp2Status.Ok
+  - Opticon.Csp2Status.ReceivedCharacterError
+  - Opticon.Csp2Status.SetupError
+  - Opticon.Csp2Status.TemporaryError
+  - Opticon.Csp2Status.Uninitialized
+  - Opticon.Csp2Status.VersionError
+  langs:
+  - csharp
+  - vb
+  name: Csp2Status
+  nameWithType: Csp2Status
+  fullName: Opticon.Csp2Status
+  type: Enum
+  source:
+    id: Csp2Status
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 10
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Status codes returned by the CSP2 library.
+  example: []
+  syntax:
+    content: public enum Csp2Status
+    content.vb: Public Enum Csp2Status
+- uid: Opticon.Csp2Status.Ok
+  commentId: F:Opticon.Csp2Status.Ok
+  id: Ok
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: Csp2Status.Ok
+  fullName: Opticon.Csp2Status.Ok
+  type: Field
+  source:
+    id: Ok
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 13
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Operation completed successfully.
+  example: []
+  syntax:
+    content: Ok = 0
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.CommunicationsError
+  commentId: F:Opticon.Csp2Status.CommunicationsError
+  id: CommunicationsError
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: CommunicationsError
+  nameWithType: Csp2Status.CommunicationsError
+  fullName: Opticon.Csp2Status.CommunicationsError
+  type: Field
+  source:
+    id: CommunicationsError
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 16
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: General communications error (e.g. disconnected device).
+  example: []
+  syntax:
+    content: CommunicationsError = -1
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.BadParameter
+  commentId: F:Opticon.Csp2Status.BadParameter
+  id: BadParameter
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: BadParameter
+  nameWithType: Csp2Status.BadParameter
+  fullName: Opticon.Csp2Status.BadParameter
+  type: Field
+  source:
+    id: BadParameter
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 19
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Invalid parameter passed.
+  example: []
+  syntax:
+    content: BadParameter = -2
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.SetupError
+  commentId: F:Opticon.Csp2Status.SetupError
+  id: SetupError
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: SetupError
+  nameWithType: Csp2Status.SetupError
+  fullName: Opticon.Csp2Status.SetupError
+  type: Field
+  source:
+    id: SetupError
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 22
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Device setup error.
+  example: []
+  syntax:
+    content: SetupError = -3
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.InvalidCommandNumber
+  commentId: F:Opticon.Csp2Status.InvalidCommandNumber
+  id: InvalidCommandNumber
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: InvalidCommandNumber
+  nameWithType: Csp2Status.InvalidCommandNumber
+  fullName: Opticon.Csp2Status.InvalidCommandNumber
+  type: Field
+  source:
+    id: InvalidCommandNumber
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 25
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Invalid command number.
+  example: []
+  syntax:
+    content: InvalidCommandNumber = -4
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.CommandLrcError
+  commentId: F:Opticon.Csp2Status.CommandLrcError
+  id: CommandLrcError
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: CommandLrcError
+  nameWithType: Csp2Status.CommandLrcError
+  fullName: Opticon.Csp2Status.CommandLrcError
+  type: Field
+  source:
+    id: CommandLrcError
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 28
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Command LRC (checksum) error.
+  example: []
+  syntax:
+    content: CommandLrcError = -7
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.ReceivedCharacterError
+  commentId: F:Opticon.Csp2Status.ReceivedCharacterError
+  id: ReceivedCharacterError
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: ReceivedCharacterError
+  nameWithType: Csp2Status.ReceivedCharacterError
+  fullName: Opticon.Csp2Status.ReceivedCharacterError
+  type: Field
+  source:
+    id: ReceivedCharacterError
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 31
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Received character error.
+  example: []
+  syntax:
+    content: ReceivedCharacterError = -8
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.GeneralError
+  commentId: F:Opticon.Csp2Status.GeneralError
+  id: GeneralError
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: GeneralError
+  nameWithType: Csp2Status.GeneralError
+  fullName: Opticon.Csp2Status.GeneralError
+  type: Field
+  source:
+    id: GeneralError
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 34
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: General unspecified error.
+  example: []
+  syntax:
+    content: GeneralError = -9
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.Uninitialized
+  commentId: F:Opticon.Csp2Status.Uninitialized
+  id: Uninitialized
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: Uninitialized
+  nameWithType: Csp2Status.Uninitialized
+  fullName: Opticon.Csp2Status.Uninitialized
+  type: Field
+  source:
+    id: Uninitialized
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 37
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Device not initialized.
+  example: []
+  syntax:
+    content: Uninitialized = -10
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.VersionError
+  commentId: F:Opticon.Csp2Status.VersionError
+  id: VersionError
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: VersionError
+  nameWithType: Csp2Status.VersionError
+  fullName: Opticon.Csp2Status.VersionError
+  type: Field
+  source:
+    id: VersionError
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 40
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Version mismatch.
+  example: []
+  syntax:
+    content: VersionError = -11
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.FirmwareFailure
+  commentId: F:Opticon.Csp2Status.FirmwareFailure
+  id: FirmwareFailure
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: FirmwareFailure
+  nameWithType: Csp2Status.FirmwareFailure
+  fullName: Opticon.Csp2Status.FirmwareFailure
+  type: Field
+  source:
+    id: FirmwareFailure
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 43
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Firmware failure.
+  example: []
+  syntax:
+    content: FirmwareFailure = -12
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.TemporaryError
+  commentId: F:Opticon.Csp2Status.TemporaryError
+  id: TemporaryError
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: TemporaryError
+  nameWithType: Csp2Status.TemporaryError
+  fullName: Opticon.Csp2Status.TemporaryError
+  type: Field
+  source:
+    id: TemporaryError
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 46
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Temporary error (retry may succeed).
+  example: []
+  syntax:
+    content: TemporaryError = -13
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.DllNotFound
+  commentId: F:Opticon.Csp2Status.DllNotFound
+  id: DllNotFound
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: DllNotFound
+  nameWithType: Csp2Status.DllNotFound
+  fullName: Opticon.Csp2Status.DllNotFound
+  type: Field
+  source:
+    id: DllNotFound
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 49
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: CSP2 DLL not found.
+  example: []
+  syntax:
+    content: DllNotFound = -14
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.DllArchitectureMismatch
+  commentId: F:Opticon.Csp2Status.DllArchitectureMismatch
+  id: DllArchitectureMismatch
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: DllArchitectureMismatch
+  nameWithType: Csp2Status.DllArchitectureMismatch
+  fullName: Opticon.Csp2Status.DllArchitectureMismatch
+  type: Field
+  source:
+    id: DllArchitectureMismatch
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 52
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: CSP2 DLL architecture mismatch.
+  example: []
+  syntax:
+    content: DllArchitectureMismatch = -15
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.FileNotFound
+  commentId: F:Opticon.Csp2Status.FileNotFound
+  id: FileNotFound
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: FileNotFound
+  nameWithType: Csp2Status.FileNotFound
+  fullName: Opticon.Csp2Status.FileNotFound
+  type: Field
+  source:
+    id: FileNotFound
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 55
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: File not found.
+  example: []
+  syntax:
+    content: FileNotFound = 2
+    return:
+      type: Opticon.Csp2Status
+- uid: Opticon.Csp2Status.AccessDenied
+  commentId: F:Opticon.Csp2Status.AccessDenied
+  id: AccessDenied
+  parent: Opticon.Csp2Status
+  langs:
+  - csharp
+  - vb
+  name: AccessDenied
+  nameWithType: Csp2Status.AccessDenied
+  fullName: Opticon.Csp2Status.AccessDenied
+  type: Field
+  source:
+    id: AccessDenied
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnException.cs
+    startLine: 58
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Access denied.
+  example: []
+  syntax:
+    content: AccessDenied = 5
+    return:
+      type: Opticon.Csp2Status
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.Csp2Status
+  commentId: T:Opticon.Csp2Status
+  parent: Opticon
+  href: Opticon.Csp2Status.html
+  name: Csp2Status
+  nameWithType: Csp2Status
+  fullName: Opticon.Csp2Status

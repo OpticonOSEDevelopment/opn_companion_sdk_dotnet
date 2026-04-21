@@ -1,0 +1,1190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.BarcodeSymbology
+  commentId: T:Opticon.BarcodeSymbology
+  id: BarcodeSymbology
+  parent: Opticon
+  children:
+  - Opticon.BarcodeSymbology.Bookland
+  - Opticon.BarcodeSymbology.Codabar
+  - Opticon.BarcodeSymbology.Code11
+  - Opticon.BarcodeSymbology.Code128
+  - Opticon.BarcodeSymbology.Code32
+  - Opticon.BarcodeSymbology.Code39
+  - Opticon.BarcodeSymbology.Code39FullAscii
+  - Opticon.BarcodeSymbology.Code93
+  - Opticon.BarcodeSymbology.Composite
+  - Opticon.BarcodeSymbology.Coupon
+  - Opticon.BarcodeSymbology.D25
+  - Opticon.BarcodeSymbology.DataMatrix
+  - Opticon.BarcodeSymbology.Ean128
+  - Opticon.BarcodeSymbology.Ean13
+  - Opticon.BarcodeSymbology.Ean13_2
+  - Opticon.BarcodeSymbology.Ean13_5
+  - Opticon.BarcodeSymbology.Ean8
+  - Opticon.BarcodeSymbology.Ean8_2
+  - Opticon.BarcodeSymbology.Ean8_5
+  - Opticon.BarcodeSymbology.Iata
+  - Opticon.BarcodeSymbology.Isbt128
+  - Opticon.BarcodeSymbology.Isbt128Concat
+  - Opticon.BarcodeSymbology.Itf
+  - Opticon.BarcodeSymbology.MacroPdf
+  - Opticon.BarcodeSymbology.Msi
+  - Opticon.BarcodeSymbology.Pdf417
+  - Opticon.BarcodeSymbology.PostalAustralia
+  - Opticon.BarcodeSymbology.PostalJapan
+  - Opticon.BarcodeSymbology.PostalUk
+  - Opticon.BarcodeSymbology.PostbarCanada
+  - Opticon.BarcodeSymbology.PostnetUs
+  - Opticon.BarcodeSymbology.QrCode
+  - Opticon.BarcodeSymbology.Rss14
+  - Opticon.BarcodeSymbology.RssExpanded
+  - Opticon.BarcodeSymbology.RssLimited
+  - Opticon.BarcodeSymbology.Signature
+  - Opticon.BarcodeSymbology.TriopticCode39
+  - Opticon.BarcodeSymbology.UpcA
+  - Opticon.BarcodeSymbology.UpcA_2
+  - Opticon.BarcodeSymbology.UpcA_5
+  - Opticon.BarcodeSymbology.UpcE
+  - Opticon.BarcodeSymbology.UpcE1
+  - Opticon.BarcodeSymbology.UpcE1_2
+  - Opticon.BarcodeSymbology.UpcE1_5
+  - Opticon.BarcodeSymbology.UpcE_2
+  - Opticon.BarcodeSymbology.UpcE_5
+  langs:
+  - csharp
+  - vb
+  name: BarcodeSymbology
+  nameWithType: BarcodeSymbology
+  fullName: Opticon.BarcodeSymbology
+  type: Enum
+  source:
+    id: BarcodeSymbology
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 8
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Defines barcode symbologies of a BarcodeRecord as reported by the device.
+  example: []
+  syntax:
+    content: public enum BarcodeSymbology
+    content.vb: Public Enum BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Bookland
+  commentId: F:Opticon.BarcodeSymbology.Bookland
+  id: Bookland
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Bookland
+  nameWithType: BarcodeSymbology.Bookland
+  fullName: Opticon.BarcodeSymbology.Bookland
+  type: Field
+  source:
+    id: Bookland
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 11
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Bookland barcode.
+  example: []
+  syntax:
+    content: Bookland = 22
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Codabar
+  commentId: F:Opticon.BarcodeSymbology.Codabar
+  id: Codabar
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Codabar
+  nameWithType: BarcodeSymbology.Codabar
+  fullName: Opticon.BarcodeSymbology.Codabar
+  type: Field
+  source:
+    id: Codabar
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 14
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Codabar barcode.
+  example: []
+  syntax:
+    content: Codabar = 2
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Code11
+  commentId: F:Opticon.BarcodeSymbology.Code11
+  id: Code11
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Code11
+  nameWithType: BarcodeSymbology.Code11
+  fullName: Opticon.BarcodeSymbology.Code11
+  type: Field
+  source:
+    id: Code11
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 17
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Code 11 barcode.
+  example: []
+  syntax:
+    content: Code11 = 12
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Code32
+  commentId: F:Opticon.BarcodeSymbology.Code32
+  id: Code32
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Code32
+  nameWithType: BarcodeSymbology.Code32
+  fullName: Opticon.BarcodeSymbology.Code32
+  type: Field
+  source:
+    id: Code32
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 20
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Code 32 barcode.
+  example: []
+  syntax:
+    content: Code32 = 32
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Code128
+  commentId: F:Opticon.BarcodeSymbology.Code128
+  id: Code128
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Code128
+  nameWithType: BarcodeSymbology.Code128
+  fullName: Opticon.BarcodeSymbology.Code128
+  type: Field
+  source:
+    id: Code128
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 23
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Code 128 barcode.
+  example: []
+  syntax:
+    content: Code128 = 3
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Code39
+  commentId: F:Opticon.BarcodeSymbology.Code39
+  id: Code39
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Code39
+  nameWithType: BarcodeSymbology.Code39
+  fullName: Opticon.BarcodeSymbology.Code39
+  type: Field
+  source:
+    id: Code39
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 26
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Code 39 barcode.
+  example: []
+  syntax:
+    content: Code39 = 1
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Code39FullAscii
+  commentId: F:Opticon.BarcodeSymbology.Code39FullAscii
+  id: Code39FullAscii
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Code39FullAscii
+  nameWithType: BarcodeSymbology.Code39FullAscii
+  fullName: Opticon.BarcodeSymbology.Code39FullAscii
+  type: Field
+  source:
+    id: Code39FullAscii
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 29
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Code 39 full ASCII barcode.
+  example: []
+  syntax:
+    content: Code39FullAscii = 19
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Code93
+  commentId: F:Opticon.BarcodeSymbology.Code93
+  id: Code93
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Code93
+  nameWithType: BarcodeSymbology.Code93
+  fullName: Opticon.BarcodeSymbology.Code93
+  type: Field
+  source:
+    id: Code93
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 32
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Code 93 barcode.
+  example: []
+  syntax:
+    content: Code93 = 7
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Composite
+  commentId: F:Opticon.BarcodeSymbology.Composite
+  id: Composite
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Composite
+  nameWithType: BarcodeSymbology.Composite
+  fullName: Opticon.BarcodeSymbology.Composite
+  type: Field
+  source:
+    id: Composite
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 35
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Composite barcode.
+  example: []
+  syntax:
+    content: Composite = 29
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Coupon
+  commentId: F:Opticon.BarcodeSymbology.Coupon
+  id: Coupon
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Coupon
+  nameWithType: BarcodeSymbology.Coupon
+  fullName: Opticon.BarcodeSymbology.Coupon
+  type: Field
+  source:
+    id: Coupon
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 38
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Coupon barcode.
+  example: []
+  syntax:
+    content: Coupon = 23
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.D25
+  commentId: F:Opticon.BarcodeSymbology.D25
+  id: D25
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: D25
+  nameWithType: BarcodeSymbology.D25
+  fullName: Opticon.BarcodeSymbology.D25
+  type: Field
+  source:
+    id: D25
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 41
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Discrete 2 of 5 barcode.
+  example: []
+  syntax:
+    content: D25 = 4
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.DataMatrix
+  commentId: F:Opticon.BarcodeSymbology.DataMatrix
+  id: DataMatrix
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: DataMatrix
+  nameWithType: BarcodeSymbology.DataMatrix
+  fullName: Opticon.BarcodeSymbology.DataMatrix
+  type: Field
+  source:
+    id: DataMatrix
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 44
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Data Matrix barcode.
+  example: []
+  syntax:
+    content: DataMatrix = 27
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Ean128
+  commentId: F:Opticon.BarcodeSymbology.Ean128
+  id: Ean128
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Ean128
+  nameWithType: BarcodeSymbology.Ean128
+  fullName: Opticon.BarcodeSymbology.Ean128
+  type: Field
+  source:
+    id: Ean128
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 47
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: EAN-128 barcode.
+  example: []
+  syntax:
+    content: Ean128 = 15
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Ean13
+  commentId: F:Opticon.BarcodeSymbology.Ean13
+  id: Ean13
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Ean13
+  nameWithType: BarcodeSymbology.Ean13
+  fullName: Opticon.BarcodeSymbology.Ean13
+  type: Field
+  source:
+    id: Ean13
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 50
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: EAN-13 barcode.
+  example: []
+  syntax:
+    content: Ean13 = 11
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Ean13_2
+  commentId: F:Opticon.BarcodeSymbology.Ean13_2
+  id: Ean13_2
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Ean13_2
+  nameWithType: BarcodeSymbology.Ean13_2
+  fullName: Opticon.BarcodeSymbology.Ean13_2
+  type: Field
+  source:
+    id: Ean13_2
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 53
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: EAN-13 with 2-digit add-on.
+  example: []
+  syntax:
+    content: Ean13_2 = 75
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Ean13_5
+  commentId: F:Opticon.BarcodeSymbology.Ean13_5
+  id: Ean13_5
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Ean13_5
+  nameWithType: BarcodeSymbology.Ean13_5
+  fullName: Opticon.BarcodeSymbology.Ean13_5
+  type: Field
+  source:
+    id: Ean13_5
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 56
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: EAN-13 with 5-digit add-on.
+  example: []
+  syntax:
+    content: Ean13_5 = 139
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Ean8
+  commentId: F:Opticon.BarcodeSymbology.Ean8
+  id: Ean8
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Ean8
+  nameWithType: BarcodeSymbology.Ean8
+  fullName: Opticon.BarcodeSymbology.Ean8
+  type: Field
+  source:
+    id: Ean8
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 59
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: EAN-8 barcode.
+  example: []
+  syntax:
+    content: Ean8 = 10
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Ean8_2
+  commentId: F:Opticon.BarcodeSymbology.Ean8_2
+  id: Ean8_2
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Ean8_2
+  nameWithType: BarcodeSymbology.Ean8_2
+  fullName: Opticon.BarcodeSymbology.Ean8_2
+  type: Field
+  source:
+    id: Ean8_2
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 62
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: EAN-8 with 2-digit add-on.
+  example: []
+  syntax:
+    content: Ean8_2 = 74
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Ean8_5
+  commentId: F:Opticon.BarcodeSymbology.Ean8_5
+  id: Ean8_5
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Ean8_5
+  nameWithType: BarcodeSymbology.Ean8_5
+  fullName: Opticon.BarcodeSymbology.Ean8_5
+  type: Field
+  source:
+    id: Ean8_5
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 65
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: EAN-8 with 5-digit add-on.
+  example: []
+  syntax:
+    content: Ean8_5 = 138
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Iata
+  commentId: F:Opticon.BarcodeSymbology.Iata
+  id: Iata
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Iata
+  nameWithType: BarcodeSymbology.Iata
+  fullName: Opticon.BarcodeSymbology.Iata
+  type: Field
+  source:
+    id: Iata
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 68
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: IATA barcode.
+  example: []
+  syntax:
+    content: Iata = 5
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Isbt128
+  commentId: F:Opticon.BarcodeSymbology.Isbt128
+  id: Isbt128
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Isbt128
+  nameWithType: BarcodeSymbology.Isbt128
+  fullName: Opticon.BarcodeSymbology.Isbt128
+  type: Field
+  source:
+    id: Isbt128
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 71
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: ISBT-128 barcode.
+  example: []
+  syntax:
+    content: Isbt128 = 25
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Isbt128Concat
+  commentId: F:Opticon.BarcodeSymbology.Isbt128Concat
+  id: Isbt128Concat
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Isbt128Concat
+  nameWithType: BarcodeSymbology.Isbt128Concat
+  fullName: Opticon.BarcodeSymbology.Isbt128Concat
+  type: Field
+  source:
+    id: Isbt128Concat
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 74
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: ISBT-128 concatenated barcode.
+  example: []
+  syntax:
+    content: Isbt128Concat = 33
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Itf
+  commentId: F:Opticon.BarcodeSymbology.Itf
+  id: Itf
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Itf
+  nameWithType: BarcodeSymbology.Itf
+  fullName: Opticon.BarcodeSymbology.Itf
+  type: Field
+  source:
+    id: Itf
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 77
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Interleaved 2 of 5 barcode.
+  example: []
+  syntax:
+    content: Itf = 6
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.MacroPdf
+  commentId: F:Opticon.BarcodeSymbology.MacroPdf
+  id: MacroPdf
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: MacroPdf
+  nameWithType: BarcodeSymbology.MacroPdf
+  fullName: Opticon.BarcodeSymbology.MacroPdf
+  type: Field
+  source:
+    id: MacroPdf
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 80
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Macro PDF barcode.
+  example: []
+  syntax:
+    content: MacroPdf = 40
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Msi
+  commentId: F:Opticon.BarcodeSymbology.Msi
+  id: Msi
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Msi
+  nameWithType: BarcodeSymbology.Msi
+  fullName: Opticon.BarcodeSymbology.Msi
+  type: Field
+  source:
+    id: Msi
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 83
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: MSI barcode.
+  example: []
+  syntax:
+    content: Msi = 14
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Pdf417
+  commentId: F:Opticon.BarcodeSymbology.Pdf417
+  id: Pdf417
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Pdf417
+  nameWithType: BarcodeSymbology.Pdf417
+  fullName: Opticon.BarcodeSymbology.Pdf417
+  type: Field
+  source:
+    id: Pdf417
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 86
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: PDF417 barcode.
+  example: []
+  syntax:
+    content: Pdf417 = 17
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.PostbarCanada
+  commentId: F:Opticon.BarcodeSymbology.PostbarCanada
+  id: PostbarCanada
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: PostbarCanada
+  nameWithType: BarcodeSymbology.PostbarCanada
+  fullName: Opticon.BarcodeSymbology.PostbarCanada
+  type: Field
+  source:
+    id: PostbarCanada
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 89
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Canada Postbar barcode.
+  example: []
+  syntax:
+    content: PostbarCanada = 38
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.PostnetUs
+  commentId: F:Opticon.BarcodeSymbology.PostnetUs
+  id: PostnetUs
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: PostnetUs
+  nameWithType: BarcodeSymbology.PostnetUs
+  fullName: Opticon.BarcodeSymbology.PostnetUs
+  type: Field
+  source:
+    id: PostnetUs
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 92
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: US Postnet barcode.
+  example: []
+  syntax:
+    content: PostnetUs = 30
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.PostalAustralia
+  commentId: F:Opticon.BarcodeSymbology.PostalAustralia
+  id: PostalAustralia
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: PostalAustralia
+  nameWithType: BarcodeSymbology.PostalAustralia
+  fullName: Opticon.BarcodeSymbology.PostalAustralia
+  type: Field
+  source:
+    id: PostalAustralia
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 95
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Australia Post barcode.
+  example: []
+  syntax:
+    content: PostalAustralia = 35
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.PostalJapan
+  commentId: F:Opticon.BarcodeSymbology.PostalJapan
+  id: PostalJapan
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: PostalJapan
+  nameWithType: BarcodeSymbology.PostalJapan
+  fullName: Opticon.BarcodeSymbology.PostalJapan
+  type: Field
+  source:
+    id: PostalJapan
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 98
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Japan Post barcode.
+  example: []
+  syntax:
+    content: PostalJapan = 34
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.PostalUk
+  commentId: F:Opticon.BarcodeSymbology.PostalUk
+  id: PostalUk
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: PostalUk
+  nameWithType: BarcodeSymbology.PostalUk
+  fullName: Opticon.BarcodeSymbology.PostalUk
+  type: Field
+  source:
+    id: PostalUk
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 101
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UK postal barcode.
+  example: []
+  syntax:
+    content: PostalUk = 39
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.QrCode
+  commentId: F:Opticon.BarcodeSymbology.QrCode
+  id: QrCode
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: QrCode
+  nameWithType: BarcodeSymbology.QrCode
+  fullName: Opticon.BarcodeSymbology.QrCode
+  type: Field
+  source:
+    id: QrCode
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 104
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: QR code.
+  example: []
+  syntax:
+    content: QrCode = 28
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.RssLimited
+  commentId: F:Opticon.BarcodeSymbology.RssLimited
+  id: RssLimited
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: RssLimited
+  nameWithType: BarcodeSymbology.RssLimited
+  fullName: Opticon.BarcodeSymbology.RssLimited
+  type: Field
+  source:
+    id: RssLimited
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 107
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: RSS Limited barcode.
+  example: []
+  syntax:
+    content: RssLimited = 49
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Rss14
+  commentId: F:Opticon.BarcodeSymbology.Rss14
+  id: Rss14
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Rss14
+  nameWithType: BarcodeSymbology.Rss14
+  fullName: Opticon.BarcodeSymbology.Rss14
+  type: Field
+  source:
+    id: Rss14
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 110
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: RSS-14 barcode.
+  example: []
+  syntax:
+    content: Rss14 = 48
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.RssExpanded
+  commentId: F:Opticon.BarcodeSymbology.RssExpanded
+  id: RssExpanded
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: RssExpanded
+  nameWithType: BarcodeSymbology.RssExpanded
+  fullName: Opticon.BarcodeSymbology.RssExpanded
+  type: Field
+  source:
+    id: RssExpanded
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 113
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: RSS Expanded barcode.
+  example: []
+  syntax:
+    content: RssExpanded = 50
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.Signature
+  commentId: F:Opticon.BarcodeSymbology.Signature
+  id: Signature
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: Signature
+  nameWithType: BarcodeSymbology.Signature
+  fullName: Opticon.BarcodeSymbology.Signature
+  type: Field
+  source:
+    id: Signature
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 116
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Signature capture.
+  example: []
+  syntax:
+    content: Signature = 36
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.TriopticCode39
+  commentId: F:Opticon.BarcodeSymbology.TriopticCode39
+  id: TriopticCode39
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: TriopticCode39
+  nameWithType: BarcodeSymbology.TriopticCode39
+  fullName: Opticon.BarcodeSymbology.TriopticCode39
+  type: Field
+  source:
+    id: TriopticCode39
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 119
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Tri-Optic Code 39 barcode.
+  example: []
+  syntax:
+    content: TriopticCode39 = 21
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcA
+  commentId: F:Opticon.BarcodeSymbology.UpcA
+  id: UpcA
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcA
+  nameWithType: BarcodeSymbology.UpcA
+  fullName: Opticon.BarcodeSymbology.UpcA
+  type: Field
+  source:
+    id: UpcA
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 122
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-A barcode.
+  example: []
+  syntax:
+    content: UpcA = 8
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcA_2
+  commentId: F:Opticon.BarcodeSymbology.UpcA_2
+  id: UpcA_2
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcA_2
+  nameWithType: BarcodeSymbology.UpcA_2
+  fullName: Opticon.BarcodeSymbology.UpcA_2
+  type: Field
+  source:
+    id: UpcA_2
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 125
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-A with 2-digit add-on.
+  example: []
+  syntax:
+    content: UpcA_2 = 72
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcA_5
+  commentId: F:Opticon.BarcodeSymbology.UpcA_5
+  id: UpcA_5
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcA_5
+  nameWithType: BarcodeSymbology.UpcA_5
+  fullName: Opticon.BarcodeSymbology.UpcA_5
+  type: Field
+  source:
+    id: UpcA_5
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 128
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-A with 5-digit add-on.
+  example: []
+  syntax:
+    content: UpcA_5 = 136
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcE
+  commentId: F:Opticon.BarcodeSymbology.UpcE
+  id: UpcE
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcE
+  nameWithType: BarcodeSymbology.UpcE
+  fullName: Opticon.BarcodeSymbology.UpcE
+  type: Field
+  source:
+    id: UpcE
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 131
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-E barcode.
+  example: []
+  syntax:
+    content: UpcE = 9
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcE_2
+  commentId: F:Opticon.BarcodeSymbology.UpcE_2
+  id: UpcE_2
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcE_2
+  nameWithType: BarcodeSymbology.UpcE_2
+  fullName: Opticon.BarcodeSymbology.UpcE_2
+  type: Field
+  source:
+    id: UpcE_2
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 134
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-E with 2-digit add-on.
+  example: []
+  syntax:
+    content: UpcE_2 = 73
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcE_5
+  commentId: F:Opticon.BarcodeSymbology.UpcE_5
+  id: UpcE_5
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcE_5
+  nameWithType: BarcodeSymbology.UpcE_5
+  fullName: Opticon.BarcodeSymbology.UpcE_5
+  type: Field
+  source:
+    id: UpcE_5
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 137
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-E with 5-digit add-on.
+  example: []
+  syntax:
+    content: UpcE_5 = 137
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcE1
+  commentId: F:Opticon.BarcodeSymbology.UpcE1
+  id: UpcE1
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcE1
+  nameWithType: BarcodeSymbology.UpcE1
+  fullName: Opticon.BarcodeSymbology.UpcE1
+  type: Field
+  source:
+    id: UpcE1
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 140
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-E1 barcode.
+  example: []
+  syntax:
+    content: UpcE1 = 16
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcE1_2
+  commentId: F:Opticon.BarcodeSymbology.UpcE1_2
+  id: UpcE1_2
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcE1_2
+  nameWithType: BarcodeSymbology.UpcE1_2
+  fullName: Opticon.BarcodeSymbology.UpcE1_2
+  type: Field
+  source:
+    id: UpcE1_2
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 143
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-E1 with 2-digit add-on.
+  example: []
+  syntax:
+    content: UpcE1_2 = 80
+    return:
+      type: Opticon.BarcodeSymbology
+- uid: Opticon.BarcodeSymbology.UpcE1_5
+  commentId: F:Opticon.BarcodeSymbology.UpcE1_5
+  id: UpcE1_5
+  parent: Opticon.BarcodeSymbology
+  langs:
+  - csharp
+  - vb
+  name: UpcE1_5
+  nameWithType: BarcodeSymbology.UpcE1_5
+  fullName: Opticon.BarcodeSymbology.UpcE1_5
+  type: Field
+  source:
+    id: UpcE1_5
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\BarcodeRecord.cs
+    startLine: 146
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: UPC-E1 with 5-digit add-on.
+  example: []
+  syntax:
+    content: UpcE1_5 = 144
+    return:
+      type: Opticon.BarcodeSymbology
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.BarcodeSymbology
+  commentId: T:Opticon.BarcodeSymbology
+  parent: Opticon
+  href: Opticon.BarcodeSymbology.html
+  name: BarcodeSymbology
+  nameWithType: BarcodeSymbology
+  fullName: Opticon.BarcodeSymbology

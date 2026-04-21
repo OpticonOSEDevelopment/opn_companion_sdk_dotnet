@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Opticon.BuzzerVolume
+  commentId: T:Opticon.BuzzerVolume
+  id: BuzzerVolume
+  parent: Opticon
+  children:
+  - Opticon.BuzzerVolume.Disabled
+  - Opticon.BuzzerVolume.Loud
+  - Opticon.BuzzerVolume.Maximum
+  - Opticon.BuzzerVolume.Minimum
+  - Opticon.BuzzerVolume.Normal
+  - Opticon.BuzzerVolume.Soft
+  langs:
+  - csharp
+  - vb
+  name: BuzzerVolume
+  nameWithType: BuzzerVolume
+  fullName: Opticon.BuzzerVolume
+  type: Enum
+  source:
+    id: BuzzerVolume
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 260
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Buzzer volume levels.
+  example: []
+  syntax:
+    content: public enum BuzzerVolume
+    content.vb: Public Enum BuzzerVolume
+- uid: Opticon.BuzzerVolume.Disabled
+  commentId: F:Opticon.BuzzerVolume.Disabled
+  id: Disabled
+  parent: Opticon.BuzzerVolume
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: BuzzerVolume.Disabled
+  fullName: Opticon.BuzzerVolume.Disabled
+  type: Field
+  source:
+    id: Disabled
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 263
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Disabled.
+  example: []
+  syntax:
+    content: Disabled = 0
+    return:
+      type: Opticon.BuzzerVolume
+- uid: Opticon.BuzzerVolume.Maximum
+  commentId: F:Opticon.BuzzerVolume.Maximum
+  id: Maximum
+  parent: Opticon.BuzzerVolume
+  langs:
+  - csharp
+  - vb
+  name: Maximum
+  nameWithType: BuzzerVolume.Maximum
+  fullName: Opticon.BuzzerVolume.Maximum
+  type: Field
+  source:
+    id: Maximum
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 265
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Maximum volume.
+  example: []
+  syntax:
+    content: Maximum = 1
+    return:
+      type: Opticon.BuzzerVolume
+- uid: Opticon.BuzzerVolume.Loud
+  commentId: F:Opticon.BuzzerVolume.Loud
+  id: Loud
+  parent: Opticon.BuzzerVolume
+  langs:
+  - csharp
+  - vb
+  name: Loud
+  nameWithType: BuzzerVolume.Loud
+  fullName: Opticon.BuzzerVolume.Loud
+  type: Field
+  source:
+    id: Loud
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 267
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: High volume.
+  example: []
+  syntax:
+    content: Loud = 2
+    return:
+      type: Opticon.BuzzerVolume
+- uid: Opticon.BuzzerVolume.Normal
+  commentId: F:Opticon.BuzzerVolume.Normal
+  id: Normal
+  parent: Opticon.BuzzerVolume
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: BuzzerVolume.Normal
+  fullName: Opticon.BuzzerVolume.Normal
+  type: Field
+  source:
+    id: Normal
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 269
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Normal volume.
+  example: []
+  syntax:
+    content: Normal = 3
+    return:
+      type: Opticon.BuzzerVolume
+- uid: Opticon.BuzzerVolume.Soft
+  commentId: F:Opticon.BuzzerVolume.Soft
+  id: Soft
+  parent: Opticon.BuzzerVolume
+  langs:
+  - csharp
+  - vb
+  name: Soft
+  nameWithType: BuzzerVolume.Soft
+  fullName: Opticon.BuzzerVolume.Soft
+  type: Field
+  source:
+    id: Soft
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 271
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Low volume.
+  example: []
+  syntax:
+    content: Soft = 4
+    return:
+      type: Opticon.BuzzerVolume
+- uid: Opticon.BuzzerVolume.Minimum
+  commentId: F:Opticon.BuzzerVolume.Minimum
+  id: Minimum
+  parent: Opticon.BuzzerVolume
+  langs:
+  - csharp
+  - vb
+  name: Minimum
+  nameWithType: BuzzerVolume.Minimum
+  fullName: Opticon.BuzzerVolume.Minimum
+  type: Field
+  source:
+    id: Minimum
+    path: C:\OPN2001\CSP2\Windows\M3188 .Net Wrapper\source\Csp2.net\Opticon.csp2.net\OpnParameters.cs
+    startLine: 273
+  assemblies:
+  - Opticon.csp2
+  namespace: Opticon
+  summary: Minimum volume.
+  example: []
+  syntax:
+    content: Minimum = 5
+    return:
+      type: Opticon.BuzzerVolume
+references:
+- uid: Opticon
+  commentId: N:Opticon
+  href: Opticon.html
+  name: Opticon
+  nameWithType: Opticon
+  fullName: Opticon
+- uid: Opticon.BuzzerVolume
+  commentId: T:Opticon.BuzzerVolume
+  parent: Opticon
+  href: Opticon.BuzzerVolume.html
+  name: BuzzerVolume
+  nameWithType: BuzzerVolume
+  fullName: Opticon.BuzzerVolume
