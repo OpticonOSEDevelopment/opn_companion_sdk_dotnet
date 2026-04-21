@@ -11,16 +11,6 @@
       }
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "images/logo.svg",
       "output": {
@@ -36,16 +26,6 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "introduction.html"
         }
       },
       "version": ""
