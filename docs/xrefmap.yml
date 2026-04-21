@@ -1768,3 +1768,743 @@ references:
   commentId: F:Opticon.UpcSupplements.Only
   fullName: Opticon.UpcSupplements.Only
   nameWithType: UpcSupplements.Only
+- uid: Opticon.csp2
+  name: csp2
+  href: api/Opticon.csp2.html
+  commentId: T:Opticon.csp2
+  fullName: Opticon.csp2
+  nameWithType: csp2
+- uid: Opticon.csp2.ClearData
+  name: ClearData()
+  href: api/Opticon.csp2.html#Opticon_csp2_ClearData
+  commentId: M:Opticon.csp2.ClearData
+  fullName: Opticon.csp2.ClearData()
+  nameWithType: csp2.ClearData()
+- uid: Opticon.csp2.ClearData(System.Int32)
+  name: ClearData(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_ClearData_System_Int32_
+  commentId: M:Opticon.csp2.ClearData(System.Int32)
+  name.vb: ClearData(Integer)
+  fullName: Opticon.csp2.ClearData(int)
+  fullName.vb: Opticon.csp2.ClearData(Integer)
+  nameWithType: csp2.ClearData(int)
+  nameWithType.vb: csp2.ClearData(Integer)
+- uid: Opticon.csp2.ClearData*
+  name: ClearData
+  href: api/Opticon.csp2.html#Opticon_csp2_ClearData_
+  commentId: Overload:Opticon.csp2.ClearData
+  fullName: Opticon.csp2.ClearData
+  nameWithType: csp2.ClearData
+- uid: Opticon.csp2.DataAvailable
+  name: DataAvailable()
+  href: api/Opticon.csp2.html#Opticon_csp2_DataAvailable
+  commentId: M:Opticon.csp2.DataAvailable
+  fullName: Opticon.csp2.DataAvailable()
+  nameWithType: csp2.DataAvailable()
+- uid: Opticon.csp2.DataAvailable(System.Int32)
+  name: DataAvailable(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_DataAvailable_System_Int32_
+  commentId: M:Opticon.csp2.DataAvailable(System.Int32)
+  name.vb: DataAvailable(Integer)
+  fullName: Opticon.csp2.DataAvailable(int)
+  fullName.vb: Opticon.csp2.DataAvailable(Integer)
+  nameWithType: csp2.DataAvailable(int)
+  nameWithType.vb: csp2.DataAvailable(Integer)
+- uid: Opticon.csp2.DataAvailable*
+  name: DataAvailable
+  href: api/Opticon.csp2.html#Opticon_csp2_DataAvailable_
+  commentId: Overload:Opticon.csp2.DataAvailable
+  fullName: Opticon.csp2.DataAvailable
+  nameWithType: csp2.DataAvailable
+- uid: Opticon.csp2.DisablePolling
+  name: DisablePolling()
+  href: api/Opticon.csp2.html#Opticon_csp2_DisablePolling
+  commentId: M:Opticon.csp2.DisablePolling
+  fullName: Opticon.csp2.DisablePolling()
+  nameWithType: csp2.DisablePolling()
+- uid: Opticon.csp2.DisablePolling*
+  name: DisablePolling
+  href: api/Opticon.csp2.html#Opticon_csp2_DisablePolling_
+  commentId: Overload:Opticon.csp2.DisablePolling
+  fullName: Opticon.csp2.DisablePolling
+  nameWithType: csp2.DisablePolling
+- uid: Opticon.csp2.EnablePolling
+  name: EnablePolling()
+  href: api/Opticon.csp2.html#Opticon_csp2_EnablePolling
+  commentId: M:Opticon.csp2.EnablePolling
+  fullName: Opticon.csp2.EnablePolling()
+  nameWithType: csp2.EnablePolling()
+- uid: Opticon.csp2.EnablePolling*
+  name: EnablePolling
+  href: api/Opticon.csp2.html#Opticon_csp2_EnablePolling_
+  commentId: Overload:Opticon.csp2.EnablePolling
+  fullName: Opticon.csp2.EnablePolling
+  nameWithType: csp2.EnablePolling
+- uid: Opticon.csp2.GetASCIIMode
+  name: GetASCIIMode()
+  href: api/Opticon.csp2.html#Opticon_csp2_GetASCIIMode
+  commentId: M:Opticon.csp2.GetASCIIMode
+  fullName: Opticon.csp2.GetASCIIMode()
+  nameWithType: csp2.GetASCIIMode()
+- uid: Opticon.csp2.GetASCIIMode(System.Int32)
+  name: GetASCIIMode(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetASCIIMode_System_Int32_
+  commentId: M:Opticon.csp2.GetASCIIMode(System.Int32)
+  name.vb: GetASCIIMode(Integer)
+  fullName: Opticon.csp2.GetASCIIMode(int)
+  fullName.vb: Opticon.csp2.GetASCIIMode(Integer)
+  nameWithType: csp2.GetASCIIMode(int)
+  nameWithType.vb: csp2.GetASCIIMode(Integer)
+- uid: Opticon.csp2.GetASCIIMode*
+  name: GetASCIIMode
+  href: api/Opticon.csp2.html#Opticon_csp2_GetASCIIMode_
+  commentId: Overload:Opticon.csp2.GetASCIIMode
+  fullName: Opticon.csp2.GetASCIIMode
+  nameWithType: csp2.GetASCIIMode
+- uid: Opticon.csp2.GetCTS
+  name: GetCTS()
+  href: api/Opticon.csp2.html#Opticon_csp2_GetCTS
+  commentId: M:Opticon.csp2.GetCTS
+  fullName: Opticon.csp2.GetCTS()
+  nameWithType: csp2.GetCTS()
+- uid: Opticon.csp2.GetCTS(System.Int32)
+  name: GetCTS(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetCTS_System_Int32_
+  commentId: M:Opticon.csp2.GetCTS(System.Int32)
+  name.vb: GetCTS(Integer)
+  fullName: Opticon.csp2.GetCTS(int)
+  fullName.vb: Opticon.csp2.GetCTS(Integer)
+  nameWithType: csp2.GetCTS(int)
+  nameWithType.vb: csp2.GetCTS(Integer)
+- uid: Opticon.csp2.GetCTS*
+  name: GetCTS
+  href: api/Opticon.csp2.html#Opticon_csp2_GetCTS_
+  commentId: Overload:Opticon.csp2.GetCTS
+  fullName: Opticon.csp2.GetCTS
+  nameWithType: csp2.GetCTS
+- uid: Opticon.csp2.GetCodeType(System.Int32,System.Char[],System.Int32)
+  name: GetCodeType(int, char[], int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetCodeType_System_Int32_System_Char___System_Int32_
+  commentId: M:Opticon.csp2.GetCodeType(System.Int32,System.Char[],System.Int32)
+  name.vb: GetCodeType(Integer, Char(), Integer)
+  fullName: Opticon.csp2.GetCodeType(int, char[], int)
+  fullName.vb: Opticon.csp2.GetCodeType(Integer, Char(), Integer)
+  nameWithType: csp2.GetCodeType(int, char[], int)
+  nameWithType.vb: csp2.GetCodeType(Integer, Char(), Integer)
+- uid: Opticon.csp2.GetCodeType*
+  name: GetCodeType
+  href: api/Opticon.csp2.html#Opticon_csp2_GetCodeType_
+  commentId: Overload:Opticon.csp2.GetCodeType
+  fullName: Opticon.csp2.GetCodeType
+  nameWithType: csp2.GetCodeType
+- uid: Opticon.csp2.GetDSR
+  name: GetDSR()
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDSR
+  commentId: M:Opticon.csp2.GetDSR
+  fullName: Opticon.csp2.GetDSR()
+  nameWithType: csp2.GetDSR()
+- uid: Opticon.csp2.GetDSR(System.Int32)
+  name: GetDSR(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDSR_System_Int32_
+  commentId: M:Opticon.csp2.GetDSR(System.Int32)
+  name.vb: GetDSR(Integer)
+  fullName: Opticon.csp2.GetDSR(int)
+  fullName.vb: Opticon.csp2.GetDSR(Integer)
+  nameWithType: csp2.GetDSR(int)
+  nameWithType.vb: csp2.GetDSR(Integer)
+- uid: Opticon.csp2.GetDSR*
+  name: GetDSR
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDSR_
+  commentId: Overload:Opticon.csp2.GetDSR
+  fullName: Opticon.csp2.GetDSR
+  nameWithType: csp2.GetDSR
+- uid: Opticon.csp2.GetDeviceId(System.String@)
+  name: GetDeviceId(out string)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDeviceId_System_String__
+  commentId: M:Opticon.csp2.GetDeviceId(System.String@)
+  name.vb: GetDeviceId(String)
+  fullName: Opticon.csp2.GetDeviceId(out string)
+  fullName.vb: Opticon.csp2.GetDeviceId(String)
+  nameWithType: csp2.GetDeviceId(out string)
+  nameWithType.vb: csp2.GetDeviceId(String)
+- uid: Opticon.csp2.GetDeviceId(System.String@,System.Int32)
+  name: GetDeviceId(out string, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDeviceId_System_String__System_Int32_
+  commentId: M:Opticon.csp2.GetDeviceId(System.String@,System.Int32)
+  name.vb: GetDeviceId(String, Integer)
+  fullName: Opticon.csp2.GetDeviceId(out string, int)
+  fullName.vb: Opticon.csp2.GetDeviceId(String, Integer)
+  nameWithType: csp2.GetDeviceId(out string, int)
+  nameWithType.vb: csp2.GetDeviceId(String, Integer)
+- uid: Opticon.csp2.GetDeviceId*
+  name: GetDeviceId
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDeviceId_
+  commentId: Overload:Opticon.csp2.GetDeviceId
+  isSpec: "True"
+  fullName: Opticon.csp2.GetDeviceId
+  nameWithType: csp2.GetDeviceId
+- uid: Opticon.csp2.GetDllVersion(System.Text.StringBuilder,System.Int32)
+  name: GetDllVersion(StringBuilder, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDllVersion_System_Text_StringBuilder_System_Int32_
+  commentId: M:Opticon.csp2.GetDllVersion(System.Text.StringBuilder,System.Int32)
+  name.vb: GetDllVersion(StringBuilder, Integer)
+  fullName: Opticon.csp2.GetDllVersion(System.Text.StringBuilder, int)
+  fullName.vb: Opticon.csp2.GetDllVersion(System.Text.StringBuilder, Integer)
+  nameWithType: csp2.GetDllVersion(StringBuilder, int)
+  nameWithType.vb: csp2.GetDllVersion(StringBuilder, Integer)
+- uid: Opticon.csp2.GetDllVersion*
+  name: GetDllVersion
+  href: api/Opticon.csp2.html#Opticon_csp2_GetDllVersion_
+  commentId: Overload:Opticon.csp2.GetDllVersion
+  fullName: Opticon.csp2.GetDllVersion
+  nameWithType: csp2.GetDllVersion
+- uid: Opticon.csp2.GetOpnCompatiblePorts(System.Int32[])
+  name: GetOpnCompatiblePorts(int[])
+  href: api/Opticon.csp2.html#Opticon_csp2_GetOpnCompatiblePorts_System_Int32___
+  commentId: M:Opticon.csp2.GetOpnCompatiblePorts(System.Int32[])
+  name.vb: GetOpnCompatiblePorts(Integer())
+  fullName: Opticon.csp2.GetOpnCompatiblePorts(int[])
+  fullName.vb: Opticon.csp2.GetOpnCompatiblePorts(Integer())
+  nameWithType: csp2.GetOpnCompatiblePorts(int[])
+  nameWithType.vb: csp2.GetOpnCompatiblePorts(Integer())
+- uid: Opticon.csp2.GetOpnCompatiblePorts*
+  name: GetOpnCompatiblePorts
+  href: api/Opticon.csp2.html#Opticon_csp2_GetOpnCompatiblePorts_
+  commentId: Overload:Opticon.csp2.GetOpnCompatiblePorts
+  fullName: Opticon.csp2.GetOpnCompatiblePorts
+  nameWithType: csp2.GetOpnCompatiblePorts
+- uid: Opticon.csp2.GetPacket(Opticon.BarcodeRecord@,System.Int32)
+  name: GetPacket(out BarcodeRecord, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetPacket_Opticon_BarcodeRecord__System_Int32_
+  commentId: M:Opticon.csp2.GetPacket(Opticon.BarcodeRecord@,System.Int32)
+  name.vb: GetPacket(BarcodeRecord, Integer)
+  fullName: Opticon.csp2.GetPacket(out Opticon.BarcodeRecord, int)
+  fullName.vb: Opticon.csp2.GetPacket(Opticon.BarcodeRecord, Integer)
+  nameWithType: csp2.GetPacket(out BarcodeRecord, int)
+  nameWithType.vb: csp2.GetPacket(BarcodeRecord, Integer)
+- uid: Opticon.csp2.GetPacket(Opticon.BarcodeRecord@,System.Int32,System.Int32)
+  name: GetPacket(out BarcodeRecord, int, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetPacket_Opticon_BarcodeRecord__System_Int32_System_Int32_
+  commentId: M:Opticon.csp2.GetPacket(Opticon.BarcodeRecord@,System.Int32,System.Int32)
+  name.vb: GetPacket(BarcodeRecord, Integer, Integer)
+  fullName: Opticon.csp2.GetPacket(out Opticon.BarcodeRecord, int, int)
+  fullName.vb: Opticon.csp2.GetPacket(Opticon.BarcodeRecord, Integer, Integer)
+  nameWithType: csp2.GetPacket(out BarcodeRecord, int, int)
+  nameWithType.vb: csp2.GetPacket(BarcodeRecord, Integer, Integer)
+- uid: Opticon.csp2.GetPacket*
+  name: GetPacket
+  href: api/Opticon.csp2.html#Opticon_csp2_GetPacket_
+  commentId: Overload:Opticon.csp2.GetPacket
+  isSpec: "True"
+  fullName: Opticon.csp2.GetPacket
+  nameWithType: csp2.GetPacket
+- uid: Opticon.csp2.GetParam(System.Int32,System.Byte[],System.Int32)
+  name: GetParam(int, byte[], int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetParam_System_Int32_System_Byte___System_Int32_
+  commentId: M:Opticon.csp2.GetParam(System.Int32,System.Byte[],System.Int32)
+  name.vb: GetParam(Integer, Byte(), Integer)
+  fullName: Opticon.csp2.GetParam(int, byte[], int)
+  fullName.vb: Opticon.csp2.GetParam(Integer, Byte(), Integer)
+  nameWithType: csp2.GetParam(int, byte[], int)
+  nameWithType.vb: csp2.GetParam(Integer, Byte(), Integer)
+- uid: Opticon.csp2.GetParam(System.Int32,System.Byte[],System.Int32,System.Int32)
+  name: GetParam(int, byte[], int, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetParam_System_Int32_System_Byte___System_Int32_System_Int32_
+  commentId: M:Opticon.csp2.GetParam(System.Int32,System.Byte[],System.Int32,System.Int32)
+  name.vb: GetParam(Integer, Byte(), Integer, Integer)
+  fullName: Opticon.csp2.GetParam(int, byte[], int, int)
+  fullName.vb: Opticon.csp2.GetParam(Integer, Byte(), Integer, Integer)
+  nameWithType: csp2.GetParam(int, byte[], int, int)
+  nameWithType.vb: csp2.GetParam(Integer, Byte(), Integer, Integer)
+- uid: Opticon.csp2.GetParam*
+  name: GetParam
+  href: api/Opticon.csp2.html#Opticon_csp2_GetParam_
+  commentId: Overload:Opticon.csp2.GetParam
+  fullName: Opticon.csp2.GetParam
+  nameWithType: csp2.GetParam
+- uid: Opticon.csp2.GetProtocol
+  name: GetProtocol()
+  href: api/Opticon.csp2.html#Opticon_csp2_GetProtocol
+  commentId: M:Opticon.csp2.GetProtocol
+  fullName: Opticon.csp2.GetProtocol()
+  nameWithType: csp2.GetProtocol()
+- uid: Opticon.csp2.GetProtocol(System.Int32)
+  name: GetProtocol(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetProtocol_System_Int32_
+  commentId: M:Opticon.csp2.GetProtocol(System.Int32)
+  name.vb: GetProtocol(Integer)
+  fullName: Opticon.csp2.GetProtocol(int)
+  fullName.vb: Opticon.csp2.GetProtocol(Integer)
+  nameWithType: csp2.GetProtocol(int)
+  nameWithType.vb: csp2.GetProtocol(Integer)
+- uid: Opticon.csp2.GetProtocol*
+  name: GetProtocol
+  href: api/Opticon.csp2.html#Opticon_csp2_GetProtocol_
+  commentId: Overload:Opticon.csp2.GetProtocol
+  fullName: Opticon.csp2.GetProtocol
+  nameWithType: csp2.GetProtocol
+- uid: Opticon.csp2.GetRTCMode
+  name: GetRTCMode()
+  href: api/Opticon.csp2.html#Opticon_csp2_GetRTCMode
+  commentId: M:Opticon.csp2.GetRTCMode
+  fullName: Opticon.csp2.GetRTCMode()
+  nameWithType: csp2.GetRTCMode()
+- uid: Opticon.csp2.GetRTCMode(System.Int32)
+  name: GetRTCMode(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetRTCMode_System_Int32_
+  commentId: M:Opticon.csp2.GetRTCMode(System.Int32)
+  name.vb: GetRTCMode(Integer)
+  fullName: Opticon.csp2.GetRTCMode(int)
+  fullName.vb: Opticon.csp2.GetRTCMode(Integer)
+  nameWithType: csp2.GetRTCMode(int)
+  nameWithType.vb: csp2.GetRTCMode(Integer)
+- uid: Opticon.csp2.GetRTCMode*
+  name: GetRTCMode
+  href: api/Opticon.csp2.html#Opticon_csp2_GetRTCMode_
+  commentId: Overload:Opticon.csp2.GetRTCMode
+  fullName: Opticon.csp2.GetRTCMode
+  nameWithType: csp2.GetRTCMode
+- uid: Opticon.csp2.GetRetryCount
+  name: GetRetryCount()
+  href: api/Opticon.csp2.html#Opticon_csp2_GetRetryCount
+  commentId: M:Opticon.csp2.GetRetryCount
+  fullName: Opticon.csp2.GetRetryCount()
+  nameWithType: csp2.GetRetryCount()
+- uid: Opticon.csp2.GetRetryCount*
+  name: GetRetryCount
+  href: api/Opticon.csp2.html#Opticon_csp2_GetRetryCount_
+  commentId: Overload:Opticon.csp2.GetRetryCount
+  fullName: Opticon.csp2.GetRetryCount
+  nameWithType: csp2.GetRetryCount
+- uid: Opticon.csp2.GetSwVersion(System.Text.StringBuilder,System.Int32)
+  name: GetSwVersion(StringBuilder, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetSwVersion_System_Text_StringBuilder_System_Int32_
+  commentId: M:Opticon.csp2.GetSwVersion(System.Text.StringBuilder,System.Int32)
+  name.vb: GetSwVersion(StringBuilder, Integer)
+  fullName: Opticon.csp2.GetSwVersion(System.Text.StringBuilder, int)
+  fullName.vb: Opticon.csp2.GetSwVersion(System.Text.StringBuilder, Integer)
+  nameWithType: csp2.GetSwVersion(StringBuilder, int)
+  nameWithType.vb: csp2.GetSwVersion(StringBuilder, Integer)
+- uid: Opticon.csp2.GetSwVersion(System.Text.StringBuilder,System.Int32,System.Int32)
+  name: GetSwVersion(StringBuilder, int, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetSwVersion_System_Text_StringBuilder_System_Int32_System_Int32_
+  commentId: M:Opticon.csp2.GetSwVersion(System.Text.StringBuilder,System.Int32,System.Int32)
+  name.vb: GetSwVersion(StringBuilder, Integer, Integer)
+  fullName: Opticon.csp2.GetSwVersion(System.Text.StringBuilder, int, int)
+  fullName.vb: Opticon.csp2.GetSwVersion(System.Text.StringBuilder, Integer, Integer)
+  nameWithType: csp2.GetSwVersion(StringBuilder, int, int)
+  nameWithType.vb: csp2.GetSwVersion(StringBuilder, Integer, Integer)
+- uid: Opticon.csp2.GetSwVersion*
+  name: GetSwVersion
+  href: api/Opticon.csp2.html#Opticon_csp2_GetSwVersion_
+  commentId: Overload:Opticon.csp2.GetSwVersion
+  fullName: Opticon.csp2.GetSwVersion
+  nameWithType: csp2.GetSwVersion
+- uid: Opticon.csp2.GetSystemStatus
+  name: GetSystemStatus()
+  href: api/Opticon.csp2.html#Opticon_csp2_GetSystemStatus
+  commentId: M:Opticon.csp2.GetSystemStatus
+  fullName: Opticon.csp2.GetSystemStatus()
+  nameWithType: csp2.GetSystemStatus()
+- uid: Opticon.csp2.GetSystemStatus(System.Int32)
+  name: GetSystemStatus(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetSystemStatus_System_Int32_
+  commentId: M:Opticon.csp2.GetSystemStatus(System.Int32)
+  name.vb: GetSystemStatus(Integer)
+  fullName: Opticon.csp2.GetSystemStatus(int)
+  fullName.vb: Opticon.csp2.GetSystemStatus(Integer)
+  nameWithType: csp2.GetSystemStatus(int)
+  nameWithType.vb: csp2.GetSystemStatus(Integer)
+- uid: Opticon.csp2.GetSystemStatus*
+  name: GetSystemStatus
+  href: api/Opticon.csp2.html#Opticon_csp2_GetSystemStatus_
+  commentId: Overload:Opticon.csp2.GetSystemStatus
+  fullName: Opticon.csp2.GetSystemStatus
+  nameWithType: csp2.GetSystemStatus
+- uid: Opticon.csp2.GetTime(System.DateTime@)
+  name: GetTime(out DateTime)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetTime_System_DateTime__
+  commentId: M:Opticon.csp2.GetTime(System.DateTime@)
+  name.vb: GetTime(Date)
+  fullName: Opticon.csp2.GetTime(out System.DateTime)
+  fullName.vb: Opticon.csp2.GetTime(Date)
+  nameWithType: csp2.GetTime(out DateTime)
+  nameWithType.vb: csp2.GetTime(Date)
+- uid: Opticon.csp2.GetTime(System.DateTime@,System.Int32)
+  name: GetTime(out DateTime, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_GetTime_System_DateTime__System_Int32_
+  commentId: M:Opticon.csp2.GetTime(System.DateTime@,System.Int32)
+  name.vb: GetTime(Date, Integer)
+  fullName: Opticon.csp2.GetTime(out System.DateTime, int)
+  fullName.vb: Opticon.csp2.GetTime(Date, Integer)
+  nameWithType: csp2.GetTime(out DateTime, int)
+  nameWithType.vb: csp2.GetTime(Date, Integer)
+- uid: Opticon.csp2.GetTime*
+  name: GetTime
+  href: api/Opticon.csp2.html#Opticon_csp2_GetTime_
+  commentId: Overload:Opticon.csp2.GetTime
+  isSpec: "True"
+  fullName: Opticon.csp2.GetTime
+  nameWithType: csp2.GetTime
+- uid: Opticon.csp2.Init(System.Int32)
+  name: Init(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_Init_System_Int32_
+  commentId: M:Opticon.csp2.Init(System.Int32)
+  name.vb: Init(Integer)
+  fullName: Opticon.csp2.Init(int)
+  fullName.vb: Opticon.csp2.Init(Integer)
+  nameWithType: csp2.Init(int)
+  nameWithType.vb: csp2.Init(Integer)
+- uid: Opticon.csp2.Init*
+  name: Init
+  href: api/Opticon.csp2.html#Opticon_csp2_Init_
+  commentId: Overload:Opticon.csp2.Init
+  fullName: Opticon.csp2.Init
+  nameWithType: csp2.Init
+- uid: Opticon.csp2.Interrogate
+  name: Interrogate()
+  href: api/Opticon.csp2.html#Opticon_csp2_Interrogate
+  commentId: M:Opticon.csp2.Interrogate
+  fullName: Opticon.csp2.Interrogate()
+  nameWithType: csp2.Interrogate()
+- uid: Opticon.csp2.Interrogate(System.Int32)
+  name: Interrogate(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_Interrogate_System_Int32_
+  commentId: M:Opticon.csp2.Interrogate(System.Int32)
+  name.vb: Interrogate(Integer)
+  fullName: Opticon.csp2.Interrogate(int)
+  fullName.vb: Opticon.csp2.Interrogate(Integer)
+  nameWithType: csp2.Interrogate(int)
+  nameWithType.vb: csp2.Interrogate(Integer)
+- uid: Opticon.csp2.Interrogate*
+  name: Interrogate
+  href: api/Opticon.csp2.html#Opticon_csp2_Interrogate_
+  commentId: Overload:Opticon.csp2.Interrogate
+  fullName: Opticon.csp2.Interrogate
+  nameWithType: csp2.Interrogate
+- uid: Opticon.csp2.PowerDown
+  name: PowerDown()
+  href: api/Opticon.csp2.html#Opticon_csp2_PowerDown
+  commentId: M:Opticon.csp2.PowerDown
+  fullName: Opticon.csp2.PowerDown()
+  nameWithType: csp2.PowerDown()
+- uid: Opticon.csp2.PowerDown(System.Int32)
+  name: PowerDown(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_PowerDown_System_Int32_
+  commentId: M:Opticon.csp2.PowerDown(System.Int32)
+  name.vb: PowerDown(Integer)
+  fullName: Opticon.csp2.PowerDown(int)
+  fullName.vb: Opticon.csp2.PowerDown(Integer)
+  nameWithType: csp2.PowerDown(int)
+  nameWithType.vb: csp2.PowerDown(Integer)
+- uid: Opticon.csp2.PowerDown*
+  name: PowerDown
+  href: api/Opticon.csp2.html#Opticon_csp2_PowerDown_
+  commentId: Overload:Opticon.csp2.PowerDown
+  fullName: Opticon.csp2.PowerDown
+  nameWithType: csp2.PowerDown
+- uid: Opticon.csp2.ReadData
+  name: ReadData()
+  href: api/Opticon.csp2.html#Opticon_csp2_ReadData
+  commentId: M:Opticon.csp2.ReadData
+  fullName: Opticon.csp2.ReadData()
+  nameWithType: csp2.ReadData()
+- uid: Opticon.csp2.ReadData(System.Int32)
+  name: ReadData(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_ReadData_System_Int32_
+  commentId: M:Opticon.csp2.ReadData(System.Int32)
+  name.vb: ReadData(Integer)
+  fullName: Opticon.csp2.ReadData(int)
+  fullName.vb: Opticon.csp2.ReadData(Integer)
+  nameWithType: csp2.ReadData(int)
+  nameWithType.vb: csp2.ReadData(Integer)
+- uid: Opticon.csp2.ReadData*
+  name: ReadData
+  href: api/Opticon.csp2.html#Opticon_csp2_ReadData_
+  commentId: Overload:Opticon.csp2.ReadData
+  fullName: Opticon.csp2.ReadData
+  nameWithType: csp2.ReadData
+- uid: Opticon.csp2.ReadRawData(System.Byte[],System.Int32)
+  name: ReadRawData(byte[], int)
+  href: api/Opticon.csp2.html#Opticon_csp2_ReadRawData_System_Byte___System_Int32_
+  commentId: M:Opticon.csp2.ReadRawData(System.Byte[],System.Int32)
+  name.vb: ReadRawData(Byte(), Integer)
+  fullName: Opticon.csp2.ReadRawData(byte[], int)
+  fullName.vb: Opticon.csp2.ReadRawData(Byte(), Integer)
+  nameWithType: csp2.ReadRawData(byte[], int)
+  nameWithType.vb: csp2.ReadRawData(Byte(), Integer)
+- uid: Opticon.csp2.ReadRawData(System.Byte[],System.Int32,System.Int32)
+  name: ReadRawData(byte[], int, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_ReadRawData_System_Byte___System_Int32_System_Int32_
+  commentId: M:Opticon.csp2.ReadRawData(System.Byte[],System.Int32,System.Int32)
+  name.vb: ReadRawData(Byte(), Integer, Integer)
+  fullName: Opticon.csp2.ReadRawData(byte[], int, int)
+  fullName.vb: Opticon.csp2.ReadRawData(Byte(), Integer, Integer)
+  nameWithType: csp2.ReadRawData(byte[], int, int)
+  nameWithType.vb: csp2.ReadRawData(Byte(), Integer, Integer)
+- uid: Opticon.csp2.ReadRawData*
+  name: ReadRawData
+  href: api/Opticon.csp2.html#Opticon_csp2_ReadRawData_
+  commentId: Overload:Opticon.csp2.ReadRawData
+  fullName: Opticon.csp2.ReadRawData
+  nameWithType: csp2.ReadRawData
+- uid: Opticon.csp2.Restore
+  name: Restore()
+  href: api/Opticon.csp2.html#Opticon_csp2_Restore
+  commentId: M:Opticon.csp2.Restore
+  fullName: Opticon.csp2.Restore()
+  nameWithType: csp2.Restore()
+- uid: Opticon.csp2.Restore(System.Int32)
+  name: Restore(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_Restore_System_Int32_
+  commentId: M:Opticon.csp2.Restore(System.Int32)
+  name.vb: Restore(Integer)
+  fullName: Opticon.csp2.Restore(int)
+  fullName.vb: Opticon.csp2.Restore(Integer)
+  nameWithType: csp2.Restore(int)
+  nameWithType.vb: csp2.Restore(Integer)
+- uid: Opticon.csp2.Restore*
+  name: Restore
+  href: api/Opticon.csp2.html#Opticon_csp2_Restore_
+  commentId: Overload:Opticon.csp2.Restore
+  fullName: Opticon.csp2.Restore
+  nameWithType: csp2.Restore
+- uid: Opticon.csp2.SetDTR(System.Int32)
+  name: SetDTR(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDTR_System_Int32_
+  commentId: M:Opticon.csp2.SetDTR(System.Int32)
+  name.vb: SetDTR(Integer)
+  fullName: Opticon.csp2.SetDTR(int)
+  fullName.vb: Opticon.csp2.SetDTR(Integer)
+  nameWithType: csp2.SetDTR(int)
+  nameWithType.vb: csp2.SetDTR(Integer)
+- uid: Opticon.csp2.SetDTR(System.Int32,System.Int32)
+  name: SetDTR(int, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDTR_System_Int32_System_Int32_
+  commentId: M:Opticon.csp2.SetDTR(System.Int32,System.Int32)
+  name.vb: SetDTR(Integer, Integer)
+  fullName: Opticon.csp2.SetDTR(int, int)
+  fullName.vb: Opticon.csp2.SetDTR(Integer, Integer)
+  nameWithType: csp2.SetDTR(int, int)
+  nameWithType.vb: csp2.SetDTR(Integer, Integer)
+- uid: Opticon.csp2.SetDTR*
+  name: SetDTR
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDTR_
+  commentId: Overload:Opticon.csp2.SetDTR
+  fullName: Opticon.csp2.SetDTR
+  nameWithType: csp2.SetDTR
+- uid: Opticon.csp2.SetDebugMode(System.Int32)
+  name: SetDebugMode(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDebugMode_System_Int32_
+  commentId: M:Opticon.csp2.SetDebugMode(System.Int32)
+  name.vb: SetDebugMode(Integer)
+  fullName: Opticon.csp2.SetDebugMode(int)
+  fullName.vb: Opticon.csp2.SetDebugMode(Integer)
+  nameWithType: csp2.SetDebugMode(int)
+  nameWithType.vb: csp2.SetDebugMode(Integer)
+- uid: Opticon.csp2.SetDebugMode*
+  name: SetDebugMode
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDebugMode_
+  commentId: Overload:Opticon.csp2.SetDebugMode
+  fullName: Opticon.csp2.SetDebugMode
+  nameWithType: csp2.SetDebugMode
+- uid: Opticon.csp2.SetDefaults
+  name: SetDefaults()
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDefaults
+  commentId: M:Opticon.csp2.SetDefaults
+  fullName: Opticon.csp2.SetDefaults()
+  nameWithType: csp2.SetDefaults()
+- uid: Opticon.csp2.SetDefaults(System.Int32)
+  name: SetDefaults(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDefaults_System_Int32_
+  commentId: M:Opticon.csp2.SetDefaults(System.Int32)
+  name.vb: SetDefaults(Integer)
+  fullName: Opticon.csp2.SetDefaults(int)
+  fullName.vb: Opticon.csp2.SetDefaults(Integer)
+  nameWithType: csp2.SetDefaults(int)
+  nameWithType.vb: csp2.SetDefaults(Integer)
+- uid: Opticon.csp2.SetDefaults*
+  name: SetDefaults
+  href: api/Opticon.csp2.html#Opticon_csp2_SetDefaults_
+  commentId: Overload:Opticon.csp2.SetDefaults
+  fullName: Opticon.csp2.SetDefaults
+  nameWithType: csp2.SetDefaults
+- uid: Opticon.csp2.SetParam(System.Int32,System.Byte[],System.Int32)
+  name: SetParam(int, byte[], int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetParam_System_Int32_System_Byte___System_Int32_
+  commentId: M:Opticon.csp2.SetParam(System.Int32,System.Byte[],System.Int32)
+  name.vb: SetParam(Integer, Byte(), Integer)
+  fullName: Opticon.csp2.SetParam(int, byte[], int)
+  fullName.vb: Opticon.csp2.SetParam(Integer, Byte(), Integer)
+  nameWithType: csp2.SetParam(int, byte[], int)
+  nameWithType.vb: csp2.SetParam(Integer, Byte(), Integer)
+- uid: Opticon.csp2.SetParam(System.Int32,System.Byte[],System.Int32,System.Int32)
+  name: SetParam(int, byte[], int, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetParam_System_Int32_System_Byte___System_Int32_System_Int32_
+  commentId: M:Opticon.csp2.SetParam(System.Int32,System.Byte[],System.Int32,System.Int32)
+  name.vb: SetParam(Integer, Byte(), Integer, Integer)
+  fullName: Opticon.csp2.SetParam(int, byte[], int, int)
+  fullName.vb: Opticon.csp2.SetParam(Integer, Byte(), Integer, Integer)
+  nameWithType: csp2.SetParam(int, byte[], int, int)
+  nameWithType.vb: csp2.SetParam(Integer, Byte(), Integer, Integer)
+- uid: Opticon.csp2.SetParam*
+  name: SetParam
+  href: api/Opticon.csp2.html#Opticon_csp2_SetParam_
+  commentId: Overload:Opticon.csp2.SetParam
+  fullName: Opticon.csp2.SetParam
+  nameWithType: csp2.SetParam
+- uid: Opticon.csp2.SetRetryCount(System.Int32)
+  name: SetRetryCount(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetRetryCount_System_Int32_
+  commentId: M:Opticon.csp2.SetRetryCount(System.Int32)
+  name.vb: SetRetryCount(Integer)
+  fullName: Opticon.csp2.SetRetryCount(int)
+  fullName.vb: Opticon.csp2.SetRetryCount(Integer)
+  nameWithType: csp2.SetRetryCount(int)
+  nameWithType.vb: csp2.SetRetryCount(Integer)
+- uid: Opticon.csp2.SetRetryCount*
+  name: SetRetryCount
+  href: api/Opticon.csp2.html#Opticon_csp2_SetRetryCount_
+  commentId: Overload:Opticon.csp2.SetRetryCount
+  fullName: Opticon.csp2.SetRetryCount
+  nameWithType: csp2.SetRetryCount
+- uid: Opticon.csp2.SetTime(System.DateTime)
+  name: SetTime(DateTime)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetTime_System_DateTime_
+  commentId: M:Opticon.csp2.SetTime(System.DateTime)
+  name.vb: SetTime(Date)
+  fullName: Opticon.csp2.SetTime(System.DateTime)
+  fullName.vb: Opticon.csp2.SetTime(Date)
+  nameWithType: csp2.SetTime(DateTime)
+  nameWithType.vb: csp2.SetTime(Date)
+- uid: Opticon.csp2.SetTime(System.DateTime,System.Int32)
+  name: SetTime(DateTime, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_SetTime_System_DateTime_System_Int32_
+  commentId: M:Opticon.csp2.SetTime(System.DateTime,System.Int32)
+  name.vb: SetTime(Date, Integer)
+  fullName: Opticon.csp2.SetTime(System.DateTime, int)
+  fullName.vb: Opticon.csp2.SetTime(Date, Integer)
+  nameWithType: csp2.SetTime(DateTime, int)
+  nameWithType.vb: csp2.SetTime(Date, Integer)
+- uid: Opticon.csp2.SetTime*
+  name: SetTime
+  href: api/Opticon.csp2.html#Opticon_csp2_SetTime_
+  commentId: Overload:Opticon.csp2.SetTime
+  isSpec: "True"
+  fullName: Opticon.csp2.SetTime
+  nameWithType: csp2.SetTime
+- uid: Opticon.csp2.StartPolling(Opticon.csp2.csp2CallBackFunction)
+  name: StartPolling(csp2CallBackFunction)
+  href: api/Opticon.csp2.html#Opticon_csp2_StartPolling_Opticon_csp2_csp2CallBackFunction_
+  commentId: M:Opticon.csp2.StartPolling(Opticon.csp2.csp2CallBackFunction)
+  fullName: Opticon.csp2.StartPolling(Opticon.csp2.csp2CallBackFunction)
+  nameWithType: csp2.StartPolling(csp2.csp2CallBackFunction)
+- uid: Opticon.csp2.StartPolling*
+  name: StartPolling
+  href: api/Opticon.csp2.html#Opticon_csp2_StartPolling_
+  commentId: Overload:Opticon.csp2.StartPolling
+  fullName: Opticon.csp2.StartPolling
+  nameWithType: csp2.StartPolling
+- uid: Opticon.csp2.StartPollingAll(Opticon.csp2.csp2CallBackFunctionAll)
+  name: StartPollingAll(csp2CallBackFunctionAll)
+  href: api/Opticon.csp2.html#Opticon_csp2_StartPollingAll_Opticon_csp2_csp2CallBackFunctionAll_
+  commentId: M:Opticon.csp2.StartPollingAll(Opticon.csp2.csp2CallBackFunctionAll)
+  fullName: Opticon.csp2.StartPollingAll(Opticon.csp2.csp2CallBackFunctionAll)
+  nameWithType: csp2.StartPollingAll(csp2.csp2CallBackFunctionAll)
+- uid: Opticon.csp2.StartPollingAll*
+  name: StartPollingAll
+  href: api/Opticon.csp2.html#Opticon_csp2_StartPollingAll_
+  commentId: Overload:Opticon.csp2.StartPollingAll
+  fullName: Opticon.csp2.StartPollingAll
+  nameWithType: csp2.StartPollingAll
+- uid: Opticon.csp2.StopPolling
+  name: StopPolling()
+  href: api/Opticon.csp2.html#Opticon_csp2_StopPolling
+  commentId: M:Opticon.csp2.StopPolling
+  fullName: Opticon.csp2.StopPolling()
+  nameWithType: csp2.StopPolling()
+- uid: Opticon.csp2.StopPolling*
+  name: StopPolling
+  href: api/Opticon.csp2.html#Opticon_csp2_StopPolling_
+  commentId: Overload:Opticon.csp2.StopPolling
+  fullName: Opticon.csp2.StopPolling
+  nameWithType: csp2.StopPolling
+- uid: Opticon.csp2.TimeStampToDateTime(System.Byte[])
+  name: TimeStampToDateTime(byte[])
+  href: api/Opticon.csp2.html#Opticon_csp2_TimeStampToDateTime_System_Byte___
+  commentId: M:Opticon.csp2.TimeStampToDateTime(System.Byte[])
+  name.vb: TimeStampToDateTime(Byte())
+  fullName: Opticon.csp2.TimeStampToDateTime(byte[])
+  fullName.vb: Opticon.csp2.TimeStampToDateTime(Byte())
+  nameWithType: csp2.TimeStampToDateTime(byte[])
+  nameWithType.vb: csp2.TimeStampToDateTime(Byte())
+- uid: Opticon.csp2.TimeStampToDateTime*
+  name: TimeStampToDateTime
+  href: api/Opticon.csp2.html#Opticon_csp2_TimeStampToDateTime_
+  commentId: Overload:Opticon.csp2.TimeStampToDateTime
+  isSpec: "True"
+  fullName: Opticon.csp2.TimeStampToDateTime
+  nameWithType: csp2.TimeStampToDateTime
+- uid: Opticon.csp2.TimeStampToStr(System.Byte[],System.Text.StringBuilder,System.Int32)
+  name: TimeStampToStr(byte[], StringBuilder, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_TimeStampToStr_System_Byte___System_Text_StringBuilder_System_Int32_
+  commentId: M:Opticon.csp2.TimeStampToStr(System.Byte[],System.Text.StringBuilder,System.Int32)
+  name.vb: TimeStampToStr(Byte(), StringBuilder, Integer)
+  fullName: Opticon.csp2.TimeStampToStr(byte[], System.Text.StringBuilder, int)
+  fullName.vb: Opticon.csp2.TimeStampToStr(Byte(), System.Text.StringBuilder, Integer)
+  nameWithType: csp2.TimeStampToStr(byte[], StringBuilder, int)
+  nameWithType.vb: csp2.TimeStampToStr(Byte(), StringBuilder, Integer)
+- uid: Opticon.csp2.TimeStampToStr*
+  name: TimeStampToStr
+  href: api/Opticon.csp2.html#Opticon_csp2_TimeStampToStr_
+  commentId: Overload:Opticon.csp2.TimeStampToStr
+  fullName: Opticon.csp2.TimeStampToStr
+  nameWithType: csp2.TimeStampToStr
+- uid: Opticon.csp2.TimeStampToStrEx(System.Byte[],System.Text.StringBuilder,System.Int32)
+  name: TimeStampToStrEx(byte[], StringBuilder, int)
+  href: api/Opticon.csp2.html#Opticon_csp2_TimeStampToStrEx_System_Byte___System_Text_StringBuilder_System_Int32_
+  commentId: M:Opticon.csp2.TimeStampToStrEx(System.Byte[],System.Text.StringBuilder,System.Int32)
+  name.vb: TimeStampToStrEx(Byte(), StringBuilder, Integer)
+  fullName: Opticon.csp2.TimeStampToStrEx(byte[], System.Text.StringBuilder, int)
+  fullName.vb: Opticon.csp2.TimeStampToStrEx(Byte(), System.Text.StringBuilder, Integer)
+  nameWithType: csp2.TimeStampToStrEx(byte[], StringBuilder, int)
+  nameWithType.vb: csp2.TimeStampToStrEx(Byte(), StringBuilder, Integer)
+- uid: Opticon.csp2.TimeStampToStrEx*
+  name: TimeStampToStrEx
+  href: api/Opticon.csp2.html#Opticon_csp2_TimeStampToStrEx_
+  commentId: Overload:Opticon.csp2.TimeStampToStrEx
+  fullName: Opticon.csp2.TimeStampToStrEx
+  nameWithType: csp2.TimeStampToStrEx
+- uid: Opticon.csp2.WakeUp
+  name: WakeUp()
+  href: api/Opticon.csp2.html#Opticon_csp2_WakeUp
+  commentId: M:Opticon.csp2.WakeUp
+  fullName: Opticon.csp2.WakeUp()
+  nameWithType: csp2.WakeUp()
+- uid: Opticon.csp2.WakeUp(System.Int32)
+  name: WakeUp(int)
+  href: api/Opticon.csp2.html#Opticon_csp2_WakeUp_System_Int32_
+  commentId: M:Opticon.csp2.WakeUp(System.Int32)
+  name.vb: WakeUp(Integer)
+  fullName: Opticon.csp2.WakeUp(int)
+  fullName.vb: Opticon.csp2.WakeUp(Integer)
+  nameWithType: csp2.WakeUp(int)
+  nameWithType.vb: csp2.WakeUp(Integer)
+- uid: Opticon.csp2.WakeUp*
+  name: WakeUp
+  href: api/Opticon.csp2.html#Opticon_csp2_WakeUp_
+  commentId: Overload:Opticon.csp2.WakeUp
+  fullName: Opticon.csp2.WakeUp
+  nameWithType: csp2.WakeUp
+- uid: Opticon.csp2.csp2CallBackFunction
+  name: csp2.csp2CallBackFunction
+  href: api/Opticon.csp2.csp2CallBackFunction.html
+  commentId: T:Opticon.csp2.csp2CallBackFunction
+  fullName: Opticon.csp2.csp2CallBackFunction
+  nameWithType: csp2.csp2CallBackFunction
+- uid: Opticon.csp2.csp2CallBackFunctionAll
+  name: csp2.csp2CallBackFunctionAll
+  href: api/Opticon.csp2.csp2CallBackFunctionAll.html
+  commentId: T:Opticon.csp2.csp2CallBackFunctionAll
+  fullName: Opticon.csp2.csp2CallBackFunctionAll
+  nameWithType: csp2.csp2CallBackFunctionAll

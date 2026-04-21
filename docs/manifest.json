@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/OPN2001/CSP2/Windows/M3188 .Net Wrapper/source/Csp2.net/Opticon.csp2.net/opn_companion_sdk_dotnet/docs",
+  "source_base_path": "C:/OPN2001/CSP2/Windows/M3188 .Net Wrapper/source/Csp2.net/Opticon.csp2.net/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -317,6 +317,48 @@
       "IsMRef": true,
       "Title": "Opticon.UpcSupplements",
       "Summary": "<p sourcefile=\"api/Opticon.UpcSupplements.yml\" sourcestartlinenumber=\"1\">Options for UPC supplements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opticon.csp2.csp2CallBackFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opticon.csp2.csp2CallBackFunction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Opticon.csp2.csp2CallBackFunction",
+      "Summary": "<p sourcefile=\"api/Opticon.csp2.csp2CallBackFunction.yml\" sourcestartlinenumber=\"1\">Callback delegate for device detection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opticon.csp2.csp2CallBackFunctionAll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opticon.csp2.csp2CallBackFunctionAll.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Opticon.csp2.csp2CallBackFunctionAll",
+      "Summary": "<p sourcefile=\"api/Opticon.csp2.csp2CallBackFunctionAll.yml\" sourcestartlinenumber=\"1\">Callback delegate for multi-port device detection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opticon.csp2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opticon.csp2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Opticon.csp2",
+      "Summary": "<p sourcefile=\"api/Opticon.csp2.yml\" sourcestartlinenumber=\"1\">.NET Wrapper class for interfacing with Opticon OPN Companion devices.\nThis assembly requires Opticon's version of csp2.dll.</p>\n"
     },
     {
       "type": "ManagedReference",

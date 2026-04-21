@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csp2ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcd292153bb6d993ac7032d906de5a55417c9117")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+319d56d532eacdb29676db3f9b4bad0406e06e2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csp2ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csp2ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
