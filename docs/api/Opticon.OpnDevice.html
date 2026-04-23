@@ -203,7 +203,7 @@ Class OpnDevice
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Checks whether data is available to be read from the device.</p>
+  <div class="markdown level1 summary"><p>Checks whether or not the device is currently connected.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -218,7 +218,7 @@ Class OpnDevice
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p><code>true</code> if data is available; otherwise <code>false</code>.</p>
+    <dd><p><code>true</code> if the device is connected; otherwise <code>false</code>.</p>
 </dd>
   </dl>
 
@@ -1386,8 +1386,8 @@ Class OpnDevice
 
   <a id="Opticon_OpnDevice_StartPolling_" data-uid="Opticon.OpnDevice.StartPolling*"></a>
 
-  <h3 id="Opticon_OpnDevice_StartPolling_Opticon_OpnDevice_DeviceDetectedHandler_" data-uid="Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler)">
-  StartPolling(DeviceDetectedHandler)
+  <h3 id="Opticon_OpnDevice_StartPolling_Opticon_OpnDevice_DeviceDetectedHandler_System_Boolean_" data-uid="Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler,System.Boolean)">
+  StartPolling(DeviceDetectedHandler, bool)
   
   </h3>
 
@@ -1396,13 +1396,17 @@ Class OpnDevice
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int StartPolling(OpnDevice.DeviceDetectedHandler callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int StartPolling(OpnDevice.DeviceDetectedHandler callback, bool noInterrogate = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>callback</code> <a class="xref" href="Opticon.OpnDevice.html">OpnDevice</a>.<a class="xref" href="Opticon.OpnDevice.DeviceDetectedHandler.html">DeviceDetectedHandler</a></dt>
-    <dd></dd>
+    <dd><p>The callback to invoke when a device is detected.</p>
+</dd>
+    <dt><code>noInterrogate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, the devices will not automatically be interrogated upon connection.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>

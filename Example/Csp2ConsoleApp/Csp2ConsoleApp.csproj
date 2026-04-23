@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Opticon.csp2" Version="1.1.4" />
+    <PackageReference Include="Opticon.csp2" Version="1.2.1" />
   </ItemGroup>
 
 </Project>

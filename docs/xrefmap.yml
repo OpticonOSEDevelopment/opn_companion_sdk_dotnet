@@ -1116,12 +1116,15 @@ references:
   isSpec: "True"
   fullName: Opticon.OpnDevice.SetToDefault
   nameWithType: OpnDevice.SetToDefault
-- uid: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler)
-  name: StartPolling(DeviceDetectedHandler)
-  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_StartPolling_Opticon_OpnDevice_DeviceDetectedHandler_
-  commentId: M:Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler)
-  fullName: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler)
-  nameWithType: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler)
+- uid: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler,System.Boolean)
+  name: StartPolling(DeviceDetectedHandler, bool)
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_StartPolling_Opticon_OpnDevice_DeviceDetectedHandler_System_Boolean_
+  commentId: M:Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler,System.Boolean)
+  name.vb: StartPolling(DeviceDetectedHandler, Boolean)
+  fullName: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler, bool)
+  fullName.vb: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler, Boolean)
+  nameWithType: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, bool)
+  nameWithType.vb: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, Boolean)
 - uid: Opticon.OpnDevice.StartPolling*
   name: StartPolling
   href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_StartPolling_

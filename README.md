@@ -104,10 +104,12 @@ class Program
                             Console.WriteLine($"[{device.GetModel()}] [{device.GetDeviceId()}] [COM{device.Port}] Disconnected");
                         }
                     }
+                    return 1; // Return 1 to indicate the device was successfully processed
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Exception occurred: {ex.Message}");
+                    return 0; // Return 0 to continue polling, so we can retry later
                 }
             });
         }
