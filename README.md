@@ -1,8 +1,6 @@
 # OPN Companion SDK for developing .NET application
 
-This is the official .NET SDK from Opticon Sensors Europe BV for the OPN Companion Scanners to create C# applications to interface with OPN Companion devices using the  Nuget Opticon.csp2 package
-
-The GitHub Pages of this SDK can be found here: [opn_companion_sdk_dotnet](https://opticonosedevelopment.github.io/opn_companion_sdk_dotnet/)
+This is the official .NET SDK from Opticon Sensors Europe BV for the OPN Companion Scanners to create C# applications to interface with OPN Companion devices using the Nuget Opticon.csp2 package
 
 ## Features
 
@@ -24,14 +22,18 @@ Or search for 'Opticon.csp2' in the Visual Studio NuGet Package Manager.
 ## Compatibility
 
 | Platform              | Supported |
-|----------------------|----------|
+|-----------------------|-----------|
 | .NET Framework 4.6.1+ | ✅ |
 | .NET Standard 2.0     | ✅ |
 | .NET 6 / .NET 8       | ✅ |
 
+## API
+
+The documentation of the API can be found here: [API](https://opticonosedevelopment.github.io/opn_companion_sdk_dotnet/api/Opticon.html)
+
 ## Usage
 
-The following example demonstrates how to initialize the DLL, poll for devices, and retrieve barcode data.
+The following example demonstrates how to poll for devices, retrieve barcode data and manage device parameters.
 	
 ```csharp
 using Opticon;
@@ -110,6 +112,110 @@ class Program
                 {
                     Console.WriteLine($"Exception occurred: {ex.Message}");
                     return 0; // Return 0 to continue polling, so we can retry later
+                }
+            });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to start polling: {ex.Message}");
+        }
+
+        Console.ReadLine();
+    }
+}
+```
+The next example demonstrates how to use a multi-threaded approach to poll for devices and read barcodes without blocking the main thread.
+
+```csharp
+using Opticon;
+using System.Collections.Concurrent;
+
+class Program
+{
+    enum WorkerState
+    {
+        Idle,
+        Running,
+        Success,
+        Failed
+    }
+
+    static void Main(string[] args)
+    {
+        try
+        {
+            Console.WriteLine($"Csp2 DLL Version = {OpnEnvironment.GetDllVersion()}");
+
+            var workerStates = new ConcurrentDictionary<int, WorkerState>();
+
+            OpnDevice.StartPolling(device =>
+            {
+                try
+                {
+                    if (device.IsConnected)
+                    {
+                        // Start worker if none is running
+                        if (workerStates.GetOrAdd(device.Port, WorkerState.Idle) == WorkerState.Idle || workerStates[device.Port] == WorkerState.Failed)
+                        {
+                            workerStates[device.Port] = WorkerState.Running;
+
+                            Task.Run(() =>
+                            {
+                                try
+                                {
+                                    string deviceId = device.GetDeviceId();
+                                    string model = device.GetModel();
+
+                                    if (workerStates[device.Port] == WorkerState.Running) 
+                                    {
+                                        Console.WriteLine($"[{model}] [{deviceId}] [COM{device.Port}] Connected ({device.GetSoftwareVersion()})");
+                                    }
+
+                                    if (device.IsDataAvailable)
+                                    {
+                                        int cnt = 0;
+
+                                        foreach (var barcode in device.EnumerateBarcodes())
+                                        {
+                                            Console.WriteLine($"[{++cnt}][{model}] [{deviceId}] [COM{device.Port}] [{barcode.Timestamp}] [{barcode.Data}] [{barcode.SymbologyName}]");
+                                        }
+                                    }
+
+                                    device.SetTime(DateTime.Now);
+
+                                    device.ClearBarcodes();
+
+                                    workerStates[device.Port] = WorkerState.Success;
+                                }
+                                catch (Exception ex)
+                                {
+                                    Console.WriteLine($"Worker exception (COM{device.Port}): {ex.Message}");
+                                    workerStates[device.Port] = WorkerState.Failed;
+                                }
+                            });
+                        }
+
+                        // Decide return value based on worker state
+                        if (workerStates.TryGetValue(device.Port, out var state))
+                        {
+                            return state == WorkerState.Success ? 1 : 0;
+                        }
+
+                        return 0;
+                    }
+                    else
+                    {
+                        if (workerStates.TryRemove(device.Port, out _))
+                        {
+                            Console.WriteLine($"[{device.GetModel()}] [{device.GetDeviceId()}] [COM{device.Port}] Disconnected");
+                        }
+                        return 0;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Exception occurred: {ex.Message}");
+                    return 0;
                 }
             });
         }
