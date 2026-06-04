@@ -413,6 +413,1875 @@ references:
   commentId: F:Opticon.BuzzerVolume.Soft
   fullName: Opticon.BuzzerVolume.Soft
   nameWithType: BuzzerVolume.Soft
+- uid: Opticon.Csp2Net
+  name: Opticon.Csp2Net
+  href: api/Opticon.Csp2Net.html
+  commentId: N:Opticon.Csp2Net
+  fullName: Opticon.Csp2Net
+  nameWithType: Opticon.Csp2Net
+- uid: Opticon.Csp2Net.BarcodeRecord
+  name: BarcodeRecord
+  href: api/Opticon.Csp2Net.BarcodeRecord.html
+  commentId: T:Opticon.Csp2Net.BarcodeRecord
+  fullName: Opticon.Csp2Net.BarcodeRecord
+  nameWithType: BarcodeRecord
+- uid: Opticon.Csp2Net.BarcodeRecord.Data
+  name: Data
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_Data
+  commentId: P:Opticon.Csp2Net.BarcodeRecord.Data
+  fullName: Opticon.Csp2Net.BarcodeRecord.Data
+  nameWithType: BarcodeRecord.Data
+- uid: Opticon.Csp2Net.BarcodeRecord.Data*
+  name: Data
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_Data_
+  commentId: Overload:Opticon.Csp2Net.BarcodeRecord.Data
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.BarcodeRecord.Data
+  nameWithType: BarcodeRecord.Data
+- uid: Opticon.Csp2Net.BarcodeRecord.Symbology
+  name: Symbology
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_Symbology
+  commentId: P:Opticon.Csp2Net.BarcodeRecord.Symbology
+  fullName: Opticon.Csp2Net.BarcodeRecord.Symbology
+  nameWithType: BarcodeRecord.Symbology
+- uid: Opticon.Csp2Net.BarcodeRecord.Symbology*
+  name: Symbology
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_Symbology_
+  commentId: Overload:Opticon.Csp2Net.BarcodeRecord.Symbology
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.BarcodeRecord.Symbology
+  nameWithType: BarcodeRecord.Symbology
+- uid: Opticon.Csp2Net.BarcodeRecord.SymbologyName
+  name: SymbologyName
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_SymbologyName
+  commentId: P:Opticon.Csp2Net.BarcodeRecord.SymbologyName
+  fullName: Opticon.Csp2Net.BarcodeRecord.SymbologyName
+  nameWithType: BarcodeRecord.SymbologyName
+- uid: Opticon.Csp2Net.BarcodeRecord.SymbologyName*
+  name: SymbologyName
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_SymbologyName_
+  commentId: Overload:Opticon.Csp2Net.BarcodeRecord.SymbologyName
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.BarcodeRecord.SymbologyName
+  nameWithType: BarcodeRecord.SymbologyName
+- uid: Opticon.Csp2Net.BarcodeRecord.Timestamp
+  name: Timestamp
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_Timestamp
+  commentId: P:Opticon.Csp2Net.BarcodeRecord.Timestamp
+  fullName: Opticon.Csp2Net.BarcodeRecord.Timestamp
+  nameWithType: BarcodeRecord.Timestamp
+- uid: Opticon.Csp2Net.BarcodeRecord.Timestamp*
+  name: Timestamp
+  href: api/Opticon.Csp2Net.BarcodeRecord.html#Opticon_Csp2Net_BarcodeRecord_Timestamp_
+  commentId: Overload:Opticon.Csp2Net.BarcodeRecord.Timestamp
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.BarcodeRecord.Timestamp
+  nameWithType: BarcodeRecord.Timestamp
+- uid: Opticon.Csp2Net.BarcodeSymbology
+  name: BarcodeSymbology
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html
+  commentId: T:Opticon.Csp2Net.BarcodeSymbology
+  fullName: Opticon.Csp2Net.BarcodeSymbology
+  nameWithType: BarcodeSymbology
+- uid: Opticon.Csp2Net.BarcodeSymbology.Bookland
+  name: Bookland
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Bookland
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Bookland
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Bookland
+  nameWithType: BarcodeSymbology.Bookland
+- uid: Opticon.Csp2Net.BarcodeSymbology.Codabar
+  name: Codabar
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Codabar
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Codabar
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Codabar
+  nameWithType: BarcodeSymbology.Codabar
+- uid: Opticon.Csp2Net.BarcodeSymbology.Code11
+  name: Code11
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Code11
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Code11
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Code11
+  nameWithType: BarcodeSymbology.Code11
+- uid: Opticon.Csp2Net.BarcodeSymbology.Code128
+  name: Code128
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Code128
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Code128
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Code128
+  nameWithType: BarcodeSymbology.Code128
+- uid: Opticon.Csp2Net.BarcodeSymbology.Code32
+  name: Code32
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Code32
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Code32
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Code32
+  nameWithType: BarcodeSymbology.Code32
+- uid: Opticon.Csp2Net.BarcodeSymbology.Code39
+  name: Code39
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Code39
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Code39
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Code39
+  nameWithType: BarcodeSymbology.Code39
+- uid: Opticon.Csp2Net.BarcodeSymbology.Code39FullAscii
+  name: Code39FullAscii
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Code39FullAscii
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Code39FullAscii
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Code39FullAscii
+  nameWithType: BarcodeSymbology.Code39FullAscii
+- uid: Opticon.Csp2Net.BarcodeSymbology.Code93
+  name: Code93
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Code93
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Code93
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Code93
+  nameWithType: BarcodeSymbology.Code93
+- uid: Opticon.Csp2Net.BarcodeSymbology.Composite
+  name: Composite
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Composite
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Composite
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Composite
+  nameWithType: BarcodeSymbology.Composite
+- uid: Opticon.Csp2Net.BarcodeSymbology.Coupon
+  name: Coupon
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Coupon
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Coupon
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Coupon
+  nameWithType: BarcodeSymbology.Coupon
+- uid: Opticon.Csp2Net.BarcodeSymbology.D25
+  name: D25
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_D25
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.D25
+  fullName: Opticon.Csp2Net.BarcodeSymbology.D25
+  nameWithType: BarcodeSymbology.D25
+- uid: Opticon.Csp2Net.BarcodeSymbology.DataMatrix
+  name: DataMatrix
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_DataMatrix
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.DataMatrix
+  fullName: Opticon.Csp2Net.BarcodeSymbology.DataMatrix
+  nameWithType: BarcodeSymbology.DataMatrix
+- uid: Opticon.Csp2Net.BarcodeSymbology.Ean128
+  name: Ean128
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Ean128
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Ean128
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Ean128
+  nameWithType: BarcodeSymbology.Ean128
+- uid: Opticon.Csp2Net.BarcodeSymbology.Ean13
+  name: Ean13
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Ean13
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Ean13
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Ean13
+  nameWithType: BarcodeSymbology.Ean13
+- uid: Opticon.Csp2Net.BarcodeSymbology.Ean13_2
+  name: Ean13_2
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Ean13_2
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Ean13_2
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Ean13_2
+  nameWithType: BarcodeSymbology.Ean13_2
+- uid: Opticon.Csp2Net.BarcodeSymbology.Ean13_5
+  name: Ean13_5
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Ean13_5
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Ean13_5
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Ean13_5
+  nameWithType: BarcodeSymbology.Ean13_5
+- uid: Opticon.Csp2Net.BarcodeSymbology.Ean8
+  name: Ean8
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Ean8
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Ean8
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Ean8
+  nameWithType: BarcodeSymbology.Ean8
+- uid: Opticon.Csp2Net.BarcodeSymbology.Ean8_2
+  name: Ean8_2
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Ean8_2
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Ean8_2
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Ean8_2
+  nameWithType: BarcodeSymbology.Ean8_2
+- uid: Opticon.Csp2Net.BarcodeSymbology.Ean8_5
+  name: Ean8_5
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Ean8_5
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Ean8_5
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Ean8_5
+  nameWithType: BarcodeSymbology.Ean8_5
+- uid: Opticon.Csp2Net.BarcodeSymbology.Iata
+  name: Iata
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Iata
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Iata
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Iata
+  nameWithType: BarcodeSymbology.Iata
+- uid: Opticon.Csp2Net.BarcodeSymbology.Isbt128
+  name: Isbt128
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Isbt128
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Isbt128
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Isbt128
+  nameWithType: BarcodeSymbology.Isbt128
+- uid: Opticon.Csp2Net.BarcodeSymbology.Isbt128Concat
+  name: Isbt128Concat
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Isbt128Concat
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Isbt128Concat
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Isbt128Concat
+  nameWithType: BarcodeSymbology.Isbt128Concat
+- uid: Opticon.Csp2Net.BarcodeSymbology.Itf
+  name: Itf
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Itf
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Itf
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Itf
+  nameWithType: BarcodeSymbology.Itf
+- uid: Opticon.Csp2Net.BarcodeSymbology.MacroPdf
+  name: MacroPdf
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_MacroPdf
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.MacroPdf
+  fullName: Opticon.Csp2Net.BarcodeSymbology.MacroPdf
+  nameWithType: BarcodeSymbology.MacroPdf
+- uid: Opticon.Csp2Net.BarcodeSymbology.Msi
+  name: Msi
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Msi
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Msi
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Msi
+  nameWithType: BarcodeSymbology.Msi
+- uid: Opticon.Csp2Net.BarcodeSymbology.Pdf417
+  name: Pdf417
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Pdf417
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Pdf417
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Pdf417
+  nameWithType: BarcodeSymbology.Pdf417
+- uid: Opticon.Csp2Net.BarcodeSymbology.PostalAustralia
+  name: PostalAustralia
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_PostalAustralia
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.PostalAustralia
+  fullName: Opticon.Csp2Net.BarcodeSymbology.PostalAustralia
+  nameWithType: BarcodeSymbology.PostalAustralia
+- uid: Opticon.Csp2Net.BarcodeSymbology.PostalJapan
+  name: PostalJapan
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_PostalJapan
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.PostalJapan
+  fullName: Opticon.Csp2Net.BarcodeSymbology.PostalJapan
+  nameWithType: BarcodeSymbology.PostalJapan
+- uid: Opticon.Csp2Net.BarcodeSymbology.PostalUk
+  name: PostalUk
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_PostalUk
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.PostalUk
+  fullName: Opticon.Csp2Net.BarcodeSymbology.PostalUk
+  nameWithType: BarcodeSymbology.PostalUk
+- uid: Opticon.Csp2Net.BarcodeSymbology.PostbarCanada
+  name: PostbarCanada
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_PostbarCanada
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.PostbarCanada
+  fullName: Opticon.Csp2Net.BarcodeSymbology.PostbarCanada
+  nameWithType: BarcodeSymbology.PostbarCanada
+- uid: Opticon.Csp2Net.BarcodeSymbology.PostnetUs
+  name: PostnetUs
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_PostnetUs
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.PostnetUs
+  fullName: Opticon.Csp2Net.BarcodeSymbology.PostnetUs
+  nameWithType: BarcodeSymbology.PostnetUs
+- uid: Opticon.Csp2Net.BarcodeSymbology.QrCode
+  name: QrCode
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_QrCode
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.QrCode
+  fullName: Opticon.Csp2Net.BarcodeSymbology.QrCode
+  nameWithType: BarcodeSymbology.QrCode
+- uid: Opticon.Csp2Net.BarcodeSymbology.Rss14
+  name: Rss14
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Rss14
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Rss14
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Rss14
+  nameWithType: BarcodeSymbology.Rss14
+- uid: Opticon.Csp2Net.BarcodeSymbology.RssExpanded
+  name: RssExpanded
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_RssExpanded
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.RssExpanded
+  fullName: Opticon.Csp2Net.BarcodeSymbology.RssExpanded
+  nameWithType: BarcodeSymbology.RssExpanded
+- uid: Opticon.Csp2Net.BarcodeSymbology.RssLimited
+  name: RssLimited
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_RssLimited
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.RssLimited
+  fullName: Opticon.Csp2Net.BarcodeSymbology.RssLimited
+  nameWithType: BarcodeSymbology.RssLimited
+- uid: Opticon.Csp2Net.BarcodeSymbology.Signature
+  name: Signature
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_Signature
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.Signature
+  fullName: Opticon.Csp2Net.BarcodeSymbology.Signature
+  nameWithType: BarcodeSymbology.Signature
+- uid: Opticon.Csp2Net.BarcodeSymbology.TriopticCode39
+  name: TriopticCode39
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_TriopticCode39
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.TriopticCode39
+  fullName: Opticon.Csp2Net.BarcodeSymbology.TriopticCode39
+  nameWithType: BarcodeSymbology.TriopticCode39
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcA
+  name: UpcA
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcA
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcA
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcA
+  nameWithType: BarcodeSymbology.UpcA
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcA_2
+  name: UpcA_2
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcA_2
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcA_2
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcA_2
+  nameWithType: BarcodeSymbology.UpcA_2
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcA_5
+  name: UpcA_5
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcA_5
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcA_5
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcA_5
+  nameWithType: BarcodeSymbology.UpcA_5
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcE
+  name: UpcE
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcE
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcE
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcE
+  nameWithType: BarcodeSymbology.UpcE
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcE1
+  name: UpcE1
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcE1
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcE1
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcE1
+  nameWithType: BarcodeSymbology.UpcE1
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcE1_2
+  name: UpcE1_2
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcE1_2
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcE1_2
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcE1_2
+  nameWithType: BarcodeSymbology.UpcE1_2
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcE1_5
+  name: UpcE1_5
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcE1_5
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcE1_5
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcE1_5
+  nameWithType: BarcodeSymbology.UpcE1_5
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcE_2
+  name: UpcE_2
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcE_2
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcE_2
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcE_2
+  nameWithType: BarcodeSymbology.UpcE_2
+- uid: Opticon.Csp2Net.BarcodeSymbology.UpcE_5
+  name: UpcE_5
+  href: api/Opticon.Csp2Net.BarcodeSymbology.html#Opticon_Csp2Net_BarcodeSymbology_UpcE_5
+  commentId: F:Opticon.Csp2Net.BarcodeSymbology.UpcE_5
+  fullName: Opticon.Csp2Net.BarcodeSymbology.UpcE_5
+  nameWithType: BarcodeSymbology.UpcE_5
+- uid: Opticon.Csp2Net.BatteryLowIndication
+  name: BatteryLowIndication
+  href: api/Opticon.Csp2Net.BatteryLowIndication.html
+  commentId: T:Opticon.Csp2Net.BatteryLowIndication
+  fullName: Opticon.Csp2Net.BatteryLowIndication
+  nameWithType: BatteryLowIndication
+- uid: Opticon.Csp2Net.BatteryLowIndication.AllowOperation
+  name: AllowOperation
+  href: api/Opticon.Csp2Net.BatteryLowIndication.html#Opticon_Csp2Net_BatteryLowIndication_AllowOperation
+  commentId: F:Opticon.Csp2Net.BatteryLowIndication.AllowOperation
+  fullName: Opticon.Csp2Net.BatteryLowIndication.AllowOperation
+  nameWithType: BatteryLowIndication.AllowOperation
+- uid: Opticon.Csp2Net.BatteryLowIndication.IndicationEnabled
+  name: IndicationEnabled
+  href: api/Opticon.Csp2Net.BatteryLowIndication.html#Opticon_Csp2Net_BatteryLowIndication_IndicationEnabled
+  commentId: F:Opticon.Csp2Net.BatteryLowIndication.IndicationEnabled
+  fullName: Opticon.Csp2Net.BatteryLowIndication.IndicationEnabled
+  nameWithType: BatteryLowIndication.IndicationEnabled
+- uid: Opticon.Csp2Net.BatteryLowIndication.None
+  name: None
+  href: api/Opticon.Csp2Net.BatteryLowIndication.html#Opticon_Csp2Net_BatteryLowIndication_None
+  commentId: F:Opticon.Csp2Net.BatteryLowIndication.None
+  fullName: Opticon.Csp2Net.BatteryLowIndication.None
+  nameWithType: BatteryLowIndication.None
+- uid: Opticon.Csp2Net.BuzzerVolume
+  name: BuzzerVolume
+  href: api/Opticon.Csp2Net.BuzzerVolume.html
+  commentId: T:Opticon.Csp2Net.BuzzerVolume
+  fullName: Opticon.Csp2Net.BuzzerVolume
+  nameWithType: BuzzerVolume
+- uid: Opticon.Csp2Net.BuzzerVolume.Disabled
+  name: Disabled
+  href: api/Opticon.Csp2Net.BuzzerVolume.html#Opticon_Csp2Net_BuzzerVolume_Disabled
+  commentId: F:Opticon.Csp2Net.BuzzerVolume.Disabled
+  fullName: Opticon.Csp2Net.BuzzerVolume.Disabled
+  nameWithType: BuzzerVolume.Disabled
+- uid: Opticon.Csp2Net.BuzzerVolume.Loud
+  name: Loud
+  href: api/Opticon.Csp2Net.BuzzerVolume.html#Opticon_Csp2Net_BuzzerVolume_Loud
+  commentId: F:Opticon.Csp2Net.BuzzerVolume.Loud
+  fullName: Opticon.Csp2Net.BuzzerVolume.Loud
+  nameWithType: BuzzerVolume.Loud
+- uid: Opticon.Csp2Net.BuzzerVolume.Maximum
+  name: Maximum
+  href: api/Opticon.Csp2Net.BuzzerVolume.html#Opticon_Csp2Net_BuzzerVolume_Maximum
+  commentId: F:Opticon.Csp2Net.BuzzerVolume.Maximum
+  fullName: Opticon.Csp2Net.BuzzerVolume.Maximum
+  nameWithType: BuzzerVolume.Maximum
+- uid: Opticon.Csp2Net.BuzzerVolume.Minimum
+  name: Minimum
+  href: api/Opticon.Csp2Net.BuzzerVolume.html#Opticon_Csp2Net_BuzzerVolume_Minimum
+  commentId: F:Opticon.Csp2Net.BuzzerVolume.Minimum
+  fullName: Opticon.Csp2Net.BuzzerVolume.Minimum
+  nameWithType: BuzzerVolume.Minimum
+- uid: Opticon.Csp2Net.BuzzerVolume.Normal
+  name: Normal
+  href: api/Opticon.Csp2Net.BuzzerVolume.html#Opticon_Csp2Net_BuzzerVolume_Normal
+  commentId: F:Opticon.Csp2Net.BuzzerVolume.Normal
+  fullName: Opticon.Csp2Net.BuzzerVolume.Normal
+  nameWithType: BuzzerVolume.Normal
+- uid: Opticon.Csp2Net.BuzzerVolume.Soft
+  name: Soft
+  href: api/Opticon.Csp2Net.BuzzerVolume.html#Opticon_Csp2Net_BuzzerVolume_Soft
+  commentId: F:Opticon.Csp2Net.BuzzerVolume.Soft
+  fullName: Opticon.Csp2Net.BuzzerVolume.Soft
+  nameWithType: BuzzerVolume.Soft
+- uid: Opticon.Csp2Net.Csp2Status
+  name: Csp2Status
+  href: api/Opticon.Csp2Net.Csp2Status.html
+  commentId: T:Opticon.Csp2Net.Csp2Status
+  fullName: Opticon.Csp2Net.Csp2Status
+  nameWithType: Csp2Status
+- uid: Opticon.Csp2Net.Csp2Status.AccessDenied
+  name: AccessDenied
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_AccessDenied
+  commentId: F:Opticon.Csp2Net.Csp2Status.AccessDenied
+  fullName: Opticon.Csp2Net.Csp2Status.AccessDenied
+  nameWithType: Csp2Status.AccessDenied
+- uid: Opticon.Csp2Net.Csp2Status.BadParameter
+  name: BadParameter
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_BadParameter
+  commentId: F:Opticon.Csp2Net.Csp2Status.BadParameter
+  fullName: Opticon.Csp2Net.Csp2Status.BadParameter
+  nameWithType: Csp2Status.BadParameter
+- uid: Opticon.Csp2Net.Csp2Status.CommandLrcError
+  name: CommandLrcError
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_CommandLrcError
+  commentId: F:Opticon.Csp2Net.Csp2Status.CommandLrcError
+  fullName: Opticon.Csp2Net.Csp2Status.CommandLrcError
+  nameWithType: Csp2Status.CommandLrcError
+- uid: Opticon.Csp2Net.Csp2Status.CommunicationsError
+  name: CommunicationsError
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_CommunicationsError
+  commentId: F:Opticon.Csp2Net.Csp2Status.CommunicationsError
+  fullName: Opticon.Csp2Net.Csp2Status.CommunicationsError
+  nameWithType: Csp2Status.CommunicationsError
+- uid: Opticon.Csp2Net.Csp2Status.DllArchitectureMismatch
+  name: DllArchitectureMismatch
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_DllArchitectureMismatch
+  commentId: F:Opticon.Csp2Net.Csp2Status.DllArchitectureMismatch
+  fullName: Opticon.Csp2Net.Csp2Status.DllArchitectureMismatch
+  nameWithType: Csp2Status.DllArchitectureMismatch
+- uid: Opticon.Csp2Net.Csp2Status.DllNotFound
+  name: DllNotFound
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_DllNotFound
+  commentId: F:Opticon.Csp2Net.Csp2Status.DllNotFound
+  fullName: Opticon.Csp2Net.Csp2Status.DllNotFound
+  nameWithType: Csp2Status.DllNotFound
+- uid: Opticon.Csp2Net.Csp2Status.FileNotFound
+  name: FileNotFound
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_FileNotFound
+  commentId: F:Opticon.Csp2Net.Csp2Status.FileNotFound
+  fullName: Opticon.Csp2Net.Csp2Status.FileNotFound
+  nameWithType: Csp2Status.FileNotFound
+- uid: Opticon.Csp2Net.Csp2Status.FirmwareFailure
+  name: FirmwareFailure
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_FirmwareFailure
+  commentId: F:Opticon.Csp2Net.Csp2Status.FirmwareFailure
+  fullName: Opticon.Csp2Net.Csp2Status.FirmwareFailure
+  nameWithType: Csp2Status.FirmwareFailure
+- uid: Opticon.Csp2Net.Csp2Status.GeneralError
+  name: GeneralError
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_GeneralError
+  commentId: F:Opticon.Csp2Net.Csp2Status.GeneralError
+  fullName: Opticon.Csp2Net.Csp2Status.GeneralError
+  nameWithType: Csp2Status.GeneralError
+- uid: Opticon.Csp2Net.Csp2Status.InvalidCommandNumber
+  name: InvalidCommandNumber
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_InvalidCommandNumber
+  commentId: F:Opticon.Csp2Net.Csp2Status.InvalidCommandNumber
+  fullName: Opticon.Csp2Net.Csp2Status.InvalidCommandNumber
+  nameWithType: Csp2Status.InvalidCommandNumber
+- uid: Opticon.Csp2Net.Csp2Status.Ok
+  name: Ok
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_Ok
+  commentId: F:Opticon.Csp2Net.Csp2Status.Ok
+  fullName: Opticon.Csp2Net.Csp2Status.Ok
+  nameWithType: Csp2Status.Ok
+- uid: Opticon.Csp2Net.Csp2Status.ReceivedCharacterError
+  name: ReceivedCharacterError
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_ReceivedCharacterError
+  commentId: F:Opticon.Csp2Net.Csp2Status.ReceivedCharacterError
+  fullName: Opticon.Csp2Net.Csp2Status.ReceivedCharacterError
+  nameWithType: Csp2Status.ReceivedCharacterError
+- uid: Opticon.Csp2Net.Csp2Status.SetupError
+  name: SetupError
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_SetupError
+  commentId: F:Opticon.Csp2Net.Csp2Status.SetupError
+  fullName: Opticon.Csp2Net.Csp2Status.SetupError
+  nameWithType: Csp2Status.SetupError
+- uid: Opticon.Csp2Net.Csp2Status.TemporaryError
+  name: TemporaryError
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_TemporaryError
+  commentId: F:Opticon.Csp2Net.Csp2Status.TemporaryError
+  fullName: Opticon.Csp2Net.Csp2Status.TemporaryError
+  nameWithType: Csp2Status.TemporaryError
+- uid: Opticon.Csp2Net.Csp2Status.Uninitialized
+  name: Uninitialized
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_Uninitialized
+  commentId: F:Opticon.Csp2Net.Csp2Status.Uninitialized
+  fullName: Opticon.Csp2Net.Csp2Status.Uninitialized
+  nameWithType: Csp2Status.Uninitialized
+- uid: Opticon.Csp2Net.Csp2Status.VersionError
+  name: VersionError
+  href: api/Opticon.Csp2Net.Csp2Status.html#Opticon_Csp2Net_Csp2Status_VersionError
+  commentId: F:Opticon.Csp2Net.Csp2Status.VersionError
+  fullName: Opticon.Csp2Net.Csp2Status.VersionError
+  nameWithType: Csp2Status.VersionError
+- uid: Opticon.Csp2Net.DeleteEnableOptions
+  name: DeleteEnableOptions
+  href: api/Opticon.Csp2Net.DeleteEnableOptions.html
+  commentId: T:Opticon.Csp2Net.DeleteEnableOptions
+  fullName: Opticon.Csp2Net.DeleteEnableOptions
+  nameWithType: DeleteEnableOptions
+- uid: Opticon.Csp2Net.DeleteEnableOptions.ClearAll
+  name: ClearAll
+  href: api/Opticon.Csp2Net.DeleteEnableOptions.html#Opticon_Csp2Net_DeleteEnableOptions_ClearAll
+  commentId: F:Opticon.Csp2Net.DeleteEnableOptions.ClearAll
+  fullName: Opticon.Csp2Net.DeleteEnableOptions.ClearAll
+  nameWithType: DeleteEnableOptions.ClearAll
+- uid: Opticon.Csp2Net.DeleteEnableOptions.Delete
+  name: Delete
+  href: api/Opticon.Csp2Net.DeleteEnableOptions.html#Opticon_Csp2Net_DeleteEnableOptions_Delete
+  commentId: F:Opticon.Csp2Net.DeleteEnableOptions.Delete
+  fullName: Opticon.Csp2Net.DeleteEnableOptions.Delete
+  nameWithType: DeleteEnableOptions.Delete
+- uid: Opticon.Csp2Net.DeleteEnableOptions.Disabled
+  name: Disabled
+  href: api/Opticon.Csp2Net.DeleteEnableOptions.html#Opticon_Csp2Net_DeleteEnableOptions_Disabled
+  commentId: F:Opticon.Csp2Net.DeleteEnableOptions.Disabled
+  fullName: Opticon.Csp2Net.DeleteEnableOptions.Disabled
+  nameWithType: DeleteEnableOptions.Disabled
+- uid: Opticon.Csp2Net.DeleteEnableOptions.SetDefault
+  name: SetDefault
+  href: api/Opticon.Csp2Net.DeleteEnableOptions.html#Opticon_Csp2Net_DeleteEnableOptions_SetDefault
+  commentId: F:Opticon.Csp2Net.DeleteEnableOptions.SetDefault
+  fullName: Opticon.Csp2Net.DeleteEnableOptions.SetDefault
+  nameWithType: DeleteEnableOptions.SetDefault
+- uid: Opticon.Csp2Net.GoodReadLedOnTime
+  name: GoodReadLedOnTime
+  href: api/Opticon.Csp2Net.GoodReadLedOnTime.html
+  commentId: T:Opticon.Csp2Net.GoodReadLedOnTime
+  fullName: Opticon.Csp2Net.GoodReadLedOnTime
+  nameWithType: GoodReadLedOnTime
+- uid: Opticon.Csp2Net.GoodReadLedOnTime.Ms1000
+  name: Ms1000
+  href: api/Opticon.Csp2Net.GoodReadLedOnTime.html#Opticon_Csp2Net_GoodReadLedOnTime_Ms1000
+  commentId: F:Opticon.Csp2Net.GoodReadLedOnTime.Ms1000
+  fullName: Opticon.Csp2Net.GoodReadLedOnTime.Ms1000
+  nameWithType: GoodReadLedOnTime.Ms1000
+- uid: Opticon.Csp2Net.GoodReadLedOnTime.Ms250
+  name: Ms250
+  href: api/Opticon.Csp2Net.GoodReadLedOnTime.html#Opticon_Csp2Net_GoodReadLedOnTime_Ms250
+  commentId: F:Opticon.Csp2Net.GoodReadLedOnTime.Ms250
+  fullName: Opticon.Csp2Net.GoodReadLedOnTime.Ms250
+  nameWithType: GoodReadLedOnTime.Ms250
+- uid: Opticon.Csp2Net.GoodReadLedOnTime.Ms500
+  name: Ms500
+  href: api/Opticon.Csp2Net.GoodReadLedOnTime.html#Opticon_Csp2Net_GoodReadLedOnTime_Ms500
+  commentId: F:Opticon.Csp2Net.GoodReadLedOnTime.Ms500
+  fullName: Opticon.Csp2Net.GoodReadLedOnTime.Ms500
+  nameWithType: GoodReadLedOnTime.Ms500
+- uid: Opticon.Csp2Net.GoodReadLedOnTime.Ms750
+  name: Ms750
+  href: api/Opticon.Csp2Net.GoodReadLedOnTime.html#Opticon_Csp2Net_GoodReadLedOnTime_Ms750
+  commentId: F:Opticon.Csp2Net.GoodReadLedOnTime.Ms750
+  fullName: Opticon.Csp2Net.GoodReadLedOnTime.Ms750
+  nameWithType: GoodReadLedOnTime.Ms750
+- uid: Opticon.Csp2Net.Gs1DataBarOptions
+  name: Gs1DataBarOptions
+  href: api/Opticon.Csp2Net.Gs1DataBarOptions.html
+  commentId: T:Opticon.Csp2Net.Gs1DataBarOptions
+  fullName: Opticon.Csp2Net.Gs1DataBarOptions
+  nameWithType: Gs1DataBarOptions
+- uid: Opticon.Csp2Net.Gs1DataBarOptions.Disabled
+  name: Disabled
+  href: api/Opticon.Csp2Net.Gs1DataBarOptions.html#Opticon_Csp2Net_Gs1DataBarOptions_Disabled
+  commentId: F:Opticon.Csp2Net.Gs1DataBarOptions.Disabled
+  fullName: Opticon.Csp2Net.Gs1DataBarOptions.Disabled
+  nameWithType: Gs1DataBarOptions.Disabled
+- uid: Opticon.Csp2Net.Gs1DataBarOptions.Gs1DataBar
+  name: Gs1DataBar
+  href: api/Opticon.Csp2Net.Gs1DataBarOptions.html#Opticon_Csp2Net_Gs1DataBarOptions_Gs1DataBar
+  commentId: F:Opticon.Csp2Net.Gs1DataBarOptions.Gs1DataBar
+  fullName: Opticon.Csp2Net.Gs1DataBarOptions.Gs1DataBar
+  nameWithType: Gs1DataBarOptions.Gs1DataBar
+- uid: Opticon.Csp2Net.Gs1DataBarOptions.Gs1Expanded
+  name: Gs1Expanded
+  href: api/Opticon.Csp2Net.Gs1DataBarOptions.html#Opticon_Csp2Net_Gs1DataBarOptions_Gs1Expanded
+  commentId: F:Opticon.Csp2Net.Gs1DataBarOptions.Gs1Expanded
+  fullName: Opticon.Csp2Net.Gs1DataBarOptions.Gs1Expanded
+  nameWithType: Gs1DataBarOptions.Gs1Expanded
+- uid: Opticon.Csp2Net.Gs1DataBarOptions.Gs1Limited
+  name: Gs1Limited
+  href: api/Opticon.Csp2Net.Gs1DataBarOptions.html#Opticon_Csp2Net_Gs1DataBarOptions_Gs1Limited
+  commentId: F:Opticon.Csp2Net.Gs1DataBarOptions.Gs1Limited
+  fullName: Opticon.Csp2Net.Gs1DataBarOptions.Gs1Limited
+  nameWithType: Gs1DataBarOptions.Gs1Limited
+- uid: Opticon.Csp2Net.I2of5CheckDigit
+  name: I2of5CheckDigit
+  href: api/Opticon.Csp2Net.I2of5CheckDigit.html
+  commentId: T:Opticon.Csp2Net.I2of5CheckDigit
+  fullName: Opticon.Csp2Net.I2of5CheckDigit
+  nameWithType: I2of5CheckDigit
+- uid: Opticon.Csp2Net.I2of5CheckDigit.Disabled
+  name: Disabled
+  href: api/Opticon.Csp2Net.I2of5CheckDigit.html#Opticon_Csp2Net_I2of5CheckDigit_Disabled
+  commentId: F:Opticon.Csp2Net.I2of5CheckDigit.Disabled
+  fullName: Opticon.Csp2Net.I2of5CheckDigit.Disabled
+  nameWithType: I2of5CheckDigit.Disabled
+- uid: Opticon.Csp2Net.I2of5CheckDigit.Opcc
+  name: Opcc
+  href: api/Opticon.Csp2Net.I2of5CheckDigit.html#Opticon_Csp2Net_I2of5CheckDigit_Opcc
+  commentId: F:Opticon.Csp2Net.I2of5CheckDigit.Opcc
+  fullName: Opticon.Csp2Net.I2of5CheckDigit.Opcc
+  nameWithType: I2of5CheckDigit.Opcc
+- uid: Opticon.Csp2Net.I2of5CheckDigit.Uss
+  name: Uss
+  href: api/Opticon.Csp2Net.I2of5CheckDigit.html#Opticon_Csp2Net_I2of5CheckDigit_Uss
+  commentId: F:Opticon.Csp2Net.I2of5CheckDigit.Uss
+  fullName: Opticon.Csp2Net.I2of5CheckDigit.Uss
+  nameWithType: I2of5CheckDigit.Uss
+- uid: Opticon.Csp2Net.LaserMode
+  name: LaserMode
+  href: api/Opticon.Csp2Net.LaserMode.html
+  commentId: T:Opticon.Csp2Net.LaserMode
+  fullName: Opticon.Csp2Net.LaserMode
+  nameWithType: LaserMode
+- uid: Opticon.Csp2Net.LaserMode.AimingHelp
+  name: AimingHelp
+  href: api/Opticon.Csp2Net.LaserMode.html#Opticon_Csp2Net_LaserMode_AimingHelp
+  commentId: F:Opticon.Csp2Net.LaserMode.AimingHelp
+  fullName: Opticon.Csp2Net.LaserMode.AimingHelp
+  nameWithType: LaserMode.AimingHelp
+- uid: Opticon.Csp2Net.LaserMode.Normal
+  name: Normal
+  href: api/Opticon.Csp2Net.LaserMode.html#Opticon_Csp2Net_LaserMode_Normal
+  commentId: F:Opticon.Csp2Net.LaserMode.Normal
+  fullName: Opticon.Csp2Net.LaserMode.Normal
+  nameWithType: LaserMode.Normal
+- uid: Opticon.Csp2Net.LaserMode.Small
+  name: Small
+  href: api/Opticon.Csp2Net.LaserMode.html#Opticon_Csp2Net_LaserMode_Small
+  commentId: F:Opticon.Csp2Net.LaserMode.Small
+  fullName: Opticon.Csp2Net.LaserMode.Small
+  nameWithType: LaserMode.Small
+- uid: Opticon.Csp2Net.MemoryIndication
+  name: MemoryIndication
+  href: api/Opticon.Csp2Net.MemoryIndication.html
+  commentId: T:Opticon.Csp2Net.MemoryIndication
+  fullName: Opticon.Csp2Net.MemoryIndication
+  nameWithType: MemoryIndication
+- uid: Opticon.Csp2Net.MemoryIndication.At90Percent
+  name: At90Percent
+  href: api/Opticon.Csp2Net.MemoryIndication.html#Opticon_Csp2Net_MemoryIndication_At90Percent
+  commentId: F:Opticon.Csp2Net.MemoryIndication.At90Percent
+  fullName: Opticon.Csp2Net.MemoryIndication.At90Percent
+  nameWithType: MemoryIndication.At90Percent
+- uid: Opticon.Csp2Net.MemoryIndication.Disabled
+  name: Disabled
+  href: api/Opticon.Csp2Net.MemoryIndication.html#Opticon_Csp2Net_MemoryIndication_Disabled
+  commentId: F:Opticon.Csp2Net.MemoryIndication.Disabled
+  fullName: Opticon.Csp2Net.MemoryIndication.Disabled
+  nameWithType: MemoryIndication.Disabled
+- uid: Opticon.Csp2Net.MemoryIndication.NotEmpty
+  name: NotEmpty
+  href: api/Opticon.Csp2Net.MemoryIndication.html#Opticon_Csp2Net_MemoryIndication_NotEmpty
+  commentId: F:Opticon.Csp2Net.MemoryIndication.NotEmpty
+  fullName: Opticon.Csp2Net.MemoryIndication.NotEmpty
+  nameWithType: MemoryIndication.NotEmpty
+- uid: Opticon.Csp2Net.OpnCommunicationException
+  name: OpnCommunicationException
+  href: api/Opticon.Csp2Net.OpnCommunicationException.html
+  commentId: T:Opticon.Csp2Net.OpnCommunicationException
+  fullName: Opticon.Csp2Net.OpnCommunicationException
+  nameWithType: OpnCommunicationException
+- uid: Opticon.Csp2Net.OpnCommunicationException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)
+  name: OpnCommunicationException(string, Csp2Status)
+  href: api/Opticon.Csp2Net.OpnCommunicationException.html#Opticon_Csp2Net_OpnCommunicationException__ctor_System_String_Opticon_Csp2Net_Csp2Status_
+  commentId: M:Opticon.Csp2Net.OpnCommunicationException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)
+  name.vb: New(String, Csp2Status)
+  fullName: Opticon.Csp2Net.OpnCommunicationException.OpnCommunicationException(string, Opticon.Csp2Net.Csp2Status)
+  fullName.vb: Opticon.Csp2Net.OpnCommunicationException.New(String, Opticon.Csp2Net.Csp2Status)
+  nameWithType: OpnCommunicationException.OpnCommunicationException(string, Csp2Status)
+  nameWithType.vb: OpnCommunicationException.New(String, Csp2Status)
+- uid: Opticon.Csp2Net.OpnCommunicationException.#ctor*
+  name: OpnCommunicationException
+  href: api/Opticon.Csp2Net.OpnCommunicationException.html#Opticon_Csp2Net_OpnCommunicationException__ctor_
+  commentId: Overload:Opticon.Csp2Net.OpnCommunicationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Opticon.Csp2Net.OpnCommunicationException.OpnCommunicationException
+  fullName.vb: Opticon.Csp2Net.OpnCommunicationException.New
+  nameWithType: OpnCommunicationException.OpnCommunicationException
+  nameWithType.vb: OpnCommunicationException.New
+- uid: Opticon.Csp2Net.OpnDevice
+  name: OpnDevice
+  href: api/Opticon.Csp2Net.OpnDevice.html
+  commentId: T:Opticon.Csp2Net.OpnDevice
+  fullName: Opticon.Csp2Net.OpnDevice
+  nameWithType: OpnDevice
+- uid: Opticon.Csp2Net.OpnDevice.#ctor(System.String)
+  name: OpnDevice(string)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice__ctor_System_String_
+  commentId: M:Opticon.Csp2Net.OpnDevice.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Opticon.Csp2Net.OpnDevice.OpnDevice(string)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.New(String)
+  nameWithType: OpnDevice.OpnDevice(string)
+  nameWithType.vb: OpnDevice.New(String)
+- uid: Opticon.Csp2Net.OpnDevice.#ctor*
+  name: OpnDevice
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice__ctor_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Opticon.Csp2Net.OpnDevice.OpnDevice
+  fullName.vb: Opticon.Csp2Net.OpnDevice.New
+  nameWithType: OpnDevice.OpnDevice
+  nameWithType.vb: OpnDevice.New
+- uid: Opticon.Csp2Net.OpnDevice.ClearBarcodes
+  name: ClearBarcodes()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_ClearBarcodes
+  commentId: M:Opticon.Csp2Net.OpnDevice.ClearBarcodes
+  fullName: Opticon.Csp2Net.OpnDevice.ClearBarcodes()
+  nameWithType: OpnDevice.ClearBarcodes()
+- uid: Opticon.Csp2Net.OpnDevice.ClearBarcodes*
+  name: ClearBarcodes
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_ClearBarcodes_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.ClearBarcodes
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.ClearBarcodes
+  nameWithType: OpnDevice.ClearBarcodes
+- uid: Opticon.Csp2Net.OpnDevice.Connect
+  name: Connect()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Connect
+  commentId: M:Opticon.Csp2Net.OpnDevice.Connect
+  fullName: Opticon.Csp2Net.OpnDevice.Connect()
+  nameWithType: OpnDevice.Connect()
+- uid: Opticon.Csp2Net.OpnDevice.Connect*
+  name: Connect
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Connect_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.Connect
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.Connect
+  nameWithType: OpnDevice.Connect
+- uid: Opticon.Csp2Net.OpnDevice.DeviceChangedHandler
+  name: OpnDevice.DeviceChangedHandler
+  href: api/Opticon.Csp2Net.OpnDevice.DeviceChangedHandler.html
+  commentId: T:Opticon.Csp2Net.OpnDevice.DeviceChangedHandler
+  fullName: Opticon.Csp2Net.OpnDevice.DeviceChangedHandler
+  nameWithType: OpnDevice.DeviceChangedHandler
+- uid: Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler
+  name: OpnDevice.DeviceDetectedHandler
+  href: api/Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler.html
+  commentId: T:Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler
+  fullName: Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler
+  nameWithType: OpnDevice.DeviceDetectedHandler
+- uid: Opticon.Csp2Net.OpnDevice.DisablePolling
+  name: DisablePolling()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_DisablePolling
+  commentId: M:Opticon.Csp2Net.OpnDevice.DisablePolling
+  fullName: Opticon.Csp2Net.OpnDevice.DisablePolling()
+  nameWithType: OpnDevice.DisablePolling()
+- uid: Opticon.Csp2Net.OpnDevice.DisablePolling*
+  name: DisablePolling
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_DisablePolling_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.DisablePolling
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.DisablePolling
+  nameWithType: OpnDevice.DisablePolling
+- uid: Opticon.Csp2Net.OpnDevice.Disconnect
+  name: Disconnect()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Disconnect
+  commentId: M:Opticon.Csp2Net.OpnDevice.Disconnect
+  fullName: Opticon.Csp2Net.OpnDevice.Disconnect()
+  nameWithType: OpnDevice.Disconnect()
+- uid: Opticon.Csp2Net.OpnDevice.Disconnect*
+  name: Disconnect
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Disconnect_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.Disconnect
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.Disconnect
+  nameWithType: OpnDevice.Disconnect
+- uid: Opticon.Csp2Net.OpnDevice.Dispose
+  name: Dispose()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Dispose
+  commentId: M:Opticon.Csp2Net.OpnDevice.Dispose
+  fullName: Opticon.Csp2Net.OpnDevice.Dispose()
+  nameWithType: OpnDevice.Dispose()
+- uid: Opticon.Csp2Net.OpnDevice.Dispose*
+  name: Dispose
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Dispose_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.Dispose
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.Dispose
+  nameWithType: OpnDevice.Dispose
+- uid: Opticon.Csp2Net.OpnDevice.EnablePolling
+  name: EnablePolling()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_EnablePolling
+  commentId: M:Opticon.Csp2Net.OpnDevice.EnablePolling
+  fullName: Opticon.Csp2Net.OpnDevice.EnablePolling()
+  nameWithType: OpnDevice.EnablePolling()
+- uid: Opticon.Csp2Net.OpnDevice.EnablePolling*
+  name: EnablePolling
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_EnablePolling_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.EnablePolling
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.EnablePolling
+  nameWithType: OpnDevice.EnablePolling
+- uid: Opticon.Csp2Net.OpnDevice.EnumerateBarcodes
+  name: EnumerateBarcodes()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_EnumerateBarcodes
+  commentId: M:Opticon.Csp2Net.OpnDevice.EnumerateBarcodes
+  fullName: Opticon.Csp2Net.OpnDevice.EnumerateBarcodes()
+  nameWithType: OpnDevice.EnumerateBarcodes()
+- uid: Opticon.Csp2Net.OpnDevice.EnumerateBarcodes*
+  name: EnumerateBarcodes
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_EnumerateBarcodes_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.EnumerateBarcodes
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.EnumerateBarcodes
+  nameWithType: OpnDevice.EnumerateBarcodes
+- uid: Opticon.Csp2Net.OpnDevice.FindDevices
+  name: FindDevices()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_FindDevices
+  commentId: M:Opticon.Csp2Net.OpnDevice.FindDevices
+  fullName: Opticon.Csp2Net.OpnDevice.FindDevices()
+  nameWithType: OpnDevice.FindDevices()
+- uid: Opticon.Csp2Net.OpnDevice.FindDevices*
+  name: FindDevices
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_FindDevices_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.FindDevices
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.FindDevices
+  nameWithType: OpnDevice.FindDevices
+- uid: Opticon.Csp2Net.OpnDevice.GetDeviceId
+  name: GetDeviceId()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetDeviceId
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetDeviceId
+  fullName: Opticon.Csp2Net.OpnDevice.GetDeviceId()
+  nameWithType: OpnDevice.GetDeviceId()
+- uid: Opticon.Csp2Net.OpnDevice.GetDeviceId*
+  name: GetDeviceId
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetDeviceId_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetDeviceId
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetDeviceId
+  nameWithType: OpnDevice.GetDeviceId
+- uid: Opticon.Csp2Net.OpnDevice.GetModel
+  name: GetModel()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetModel
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetModel
+  fullName: Opticon.Csp2Net.OpnDevice.GetModel()
+  nameWithType: OpnDevice.GetModel()
+- uid: Opticon.Csp2Net.OpnDevice.GetModel*
+  name: GetModel
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetModel_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetModel
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetModel
+  nameWithType: OpnDevice.GetModel
+- uid: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean@)
+  name: GetParameter(OpnParameter, out bool)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetParameter_Opticon_Csp2Net_OpnParameter_System_Boolean__
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean@)
+  name.vb: GetParameter(OpnParameter, Boolean)
+  fullName: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, out bool)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, Boolean)
+  nameWithType: OpnDevice.GetParameter(OpnParameter, out bool)
+  nameWithType.vb: OpnDevice.GetParameter(OpnParameter, Boolean)
+- uid: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[]@)
+  name: GetParameter(OpnParameter, out byte[])
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetParameter_Opticon_Csp2Net_OpnParameter_System_Byte____
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[]@)
+  name.vb: GetParameter(OpnParameter, Byte())
+  fullName: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, out byte[])
+  fullName.vb: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, Byte())
+  nameWithType: OpnDevice.GetParameter(OpnParameter, out byte[])
+  nameWithType.vb: OpnDevice.GetParameter(OpnParameter, Byte())
+- uid: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.Int32@)
+  name: GetParameter(OpnParameter, out int)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetParameter_Opticon_Csp2Net_OpnParameter_System_Int32__
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.Int32@)
+  name.vb: GetParameter(OpnParameter, Integer)
+  fullName: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, out int)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, Integer)
+  nameWithType: OpnDevice.GetParameter(OpnParameter, out int)
+  nameWithType.vb: OpnDevice.GetParameter(OpnParameter, Integer)
+- uid: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.String@)
+  name: GetParameter(OpnParameter, out string)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetParameter_Opticon_Csp2Net_OpnParameter_System_String__
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter,System.String@)
+  name.vb: GetParameter(OpnParameter, String)
+  fullName: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, out string)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.GetParameter(Opticon.Csp2Net.OpnParameter, String)
+  nameWithType: OpnDevice.GetParameter(OpnParameter, out string)
+  nameWithType.vb: OpnDevice.GetParameter(OpnParameter, String)
+- uid: Opticon.Csp2Net.OpnDevice.GetParameter*
+  name: GetParameter
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetParameter_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetParameter
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetParameter
+  nameWithType: OpnDevice.GetParameter
+- uid: Opticon.Csp2Net.OpnDevice.GetParameter``1(Opticon.Csp2Net.OpnParameter,``0@)
+  name: GetParameter<TEnum>(OpnParameter, out TEnum)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetParameter__1_Opticon_Csp2Net_OpnParameter___0__
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetParameter``1(Opticon.Csp2Net.OpnParameter,``0@)
+  name.vb: GetParameter(Of TEnum)(OpnParameter, TEnum)
+  fullName: Opticon.Csp2Net.OpnDevice.GetParameter<TEnum>(Opticon.Csp2Net.OpnParameter, out TEnum)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.GetParameter(Of TEnum)(Opticon.Csp2Net.OpnParameter, TEnum)
+  nameWithType: OpnDevice.GetParameter<TEnum>(OpnParameter, out TEnum)
+  nameWithType.vb: OpnDevice.GetParameter(Of TEnum)(OpnParameter, TEnum)
+- uid: Opticon.Csp2Net.OpnDevice.GetProtocolVersion
+  name: GetProtocolVersion()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetProtocolVersion
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetProtocolVersion
+  fullName: Opticon.Csp2Net.OpnDevice.GetProtocolVersion()
+  nameWithType: OpnDevice.GetProtocolVersion()
+- uid: Opticon.Csp2Net.OpnDevice.GetProtocolVersion*
+  name: GetProtocolVersion
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetProtocolVersion_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetProtocolVersion
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetProtocolVersion
+  nameWithType: OpnDevice.GetProtocolVersion
+- uid: Opticon.Csp2Net.OpnDevice.GetRtcMode
+  name: GetRtcMode()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetRtcMode
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetRtcMode
+  fullName: Opticon.Csp2Net.OpnDevice.GetRtcMode()
+  nameWithType: OpnDevice.GetRtcMode()
+- uid: Opticon.Csp2Net.OpnDevice.GetRtcMode*
+  name: GetRtcMode
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetRtcMode_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetRtcMode
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetRtcMode
+  nameWithType: OpnDevice.GetRtcMode
+- uid: Opticon.Csp2Net.OpnDevice.GetSoftwareVersion
+  name: GetSoftwareVersion()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetSoftwareVersion
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetSoftwareVersion
+  fullName: Opticon.Csp2Net.OpnDevice.GetSoftwareVersion()
+  nameWithType: OpnDevice.GetSoftwareVersion()
+- uid: Opticon.Csp2Net.OpnDevice.GetSoftwareVersion*
+  name: GetSoftwareVersion
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetSoftwareVersion_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetSoftwareVersion
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetSoftwareVersion
+  nameWithType: OpnDevice.GetSoftwareVersion
+- uid: Opticon.Csp2Net.OpnDevice.GetSystemStatus
+  name: GetSystemStatus()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetSystemStatus
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetSystemStatus
+  fullName: Opticon.Csp2Net.OpnDevice.GetSystemStatus()
+  nameWithType: OpnDevice.GetSystemStatus()
+- uid: Opticon.Csp2Net.OpnDevice.GetSystemStatus*
+  name: GetSystemStatus
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetSystemStatus_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetSystemStatus
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetSystemStatus
+  nameWithType: OpnDevice.GetSystemStatus
+- uid: Opticon.Csp2Net.OpnDevice.GetTime
+  name: GetTime()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetTime
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetTime
+  fullName: Opticon.Csp2Net.OpnDevice.GetTime()
+  nameWithType: OpnDevice.GetTime()
+- uid: Opticon.Csp2Net.OpnDevice.GetTime(System.DateTime@)
+  name: GetTime(out DateTime)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetTime_System_DateTime__
+  commentId: M:Opticon.Csp2Net.OpnDevice.GetTime(System.DateTime@)
+  name.vb: GetTime(Date)
+  fullName: Opticon.Csp2Net.OpnDevice.GetTime(out System.DateTime)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.GetTime(Date)
+  nameWithType: OpnDevice.GetTime(out DateTime)
+  nameWithType.vb: OpnDevice.GetTime(Date)
+- uid: Opticon.Csp2Net.OpnDevice.GetTime*
+  name: GetTime
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_GetTime_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.GetTime
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.GetTime
+  nameWithType: OpnDevice.GetTime
+- uid: Opticon.Csp2Net.OpnDevice.Interrogate
+  name: Interrogate()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Interrogate
+  commentId: M:Opticon.Csp2Net.OpnDevice.Interrogate
+  fullName: Opticon.Csp2Net.OpnDevice.Interrogate()
+  nameWithType: OpnDevice.Interrogate()
+- uid: Opticon.Csp2Net.OpnDevice.Interrogate*
+  name: Interrogate
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Interrogate_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.Interrogate
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.Interrogate
+  nameWithType: OpnDevice.Interrogate
+- uid: Opticon.Csp2Net.OpnDevice.IsConnected
+  name: IsConnected
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_IsConnected
+  commentId: P:Opticon.Csp2Net.OpnDevice.IsConnected
+  fullName: Opticon.Csp2Net.OpnDevice.IsConnected
+  nameWithType: OpnDevice.IsConnected
+- uid: Opticon.Csp2Net.OpnDevice.IsConnected*
+  name: IsConnected
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_IsConnected_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.IsConnected
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.IsConnected
+  nameWithType: OpnDevice.IsConnected
+- uid: Opticon.Csp2Net.OpnDevice.IsDataAvailable
+  name: IsDataAvailable
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_IsDataAvailable
+  commentId: P:Opticon.Csp2Net.OpnDevice.IsDataAvailable
+  fullName: Opticon.Csp2Net.OpnDevice.IsDataAvailable
+  nameWithType: OpnDevice.IsDataAvailable
+- uid: Opticon.Csp2Net.OpnDevice.IsDataAvailable*
+  name: IsDataAvailable
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_IsDataAvailable_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.IsDataAvailable
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.IsDataAvailable
+  nameWithType: OpnDevice.IsDataAvailable
+- uid: Opticon.Csp2Net.OpnDevice.Port
+  name: Port
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Port
+  commentId: P:Opticon.Csp2Net.OpnDevice.Port
+  fullName: Opticon.Csp2Net.OpnDevice.Port
+  nameWithType: OpnDevice.Port
+- uid: Opticon.Csp2Net.OpnDevice.Port*
+  name: Port
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_Port_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.Port
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.Port
+  nameWithType: OpnDevice.Port
+- uid: Opticon.Csp2Net.OpnDevice.PortName
+  name: PortName
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_PortName
+  commentId: P:Opticon.Csp2Net.OpnDevice.PortName
+  fullName: Opticon.Csp2Net.OpnDevice.PortName
+  nameWithType: OpnDevice.PortName
+- uid: Opticon.Csp2Net.OpnDevice.PortName*
+  name: PortName
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_PortName_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.PortName
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.PortName
+  nameWithType: OpnDevice.PortName
+- uid: Opticon.Csp2Net.OpnDevice.PowerDown
+  name: PowerDown()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_PowerDown
+  commentId: M:Opticon.Csp2Net.OpnDevice.PowerDown
+  fullName: Opticon.Csp2Net.OpnDevice.PowerDown()
+  nameWithType: OpnDevice.PowerDown()
+- uid: Opticon.Csp2Net.OpnDevice.PowerDown*
+  name: PowerDown
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_PowerDown_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.PowerDown
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.PowerDown
+  nameWithType: OpnDevice.PowerDown
+- uid: Opticon.Csp2Net.OpnDevice.ReadBarcodes
+  name: ReadBarcodes()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_ReadBarcodes
+  commentId: M:Opticon.Csp2Net.OpnDevice.ReadBarcodes
+  fullName: Opticon.Csp2Net.OpnDevice.ReadBarcodes()
+  nameWithType: OpnDevice.ReadBarcodes()
+- uid: Opticon.Csp2Net.OpnDevice.ReadBarcodes*
+  name: ReadBarcodes
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_ReadBarcodes_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.ReadBarcodes
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.ReadBarcodes
+  nameWithType: OpnDevice.ReadBarcodes
+- uid: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean)
+  name: SetParameter(OpnParameter, bool)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetParameter_Opticon_Csp2Net_OpnParameter_System_Boolean_
+  commentId: M:Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean)
+  name.vb: SetParameter(OpnParameter, Boolean)
+  fullName: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, bool)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, Boolean)
+  nameWithType: OpnDevice.SetParameter(OpnParameter, bool)
+  nameWithType.vb: OpnDevice.SetParameter(OpnParameter, Boolean)
+- uid: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[])
+  name: SetParameter(OpnParameter, byte[])
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetParameter_Opticon_Csp2Net_OpnParameter_System_Byte___
+  commentId: M:Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[])
+  name.vb: SetParameter(OpnParameter, Byte())
+  fullName: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, byte[])
+  fullName.vb: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, Byte())
+  nameWithType: OpnDevice.SetParameter(OpnParameter, byte[])
+  nameWithType.vb: OpnDevice.SetParameter(OpnParameter, Byte())
+- uid: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.Int32)
+  name: SetParameter(OpnParameter, int)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetParameter_Opticon_Csp2Net_OpnParameter_System_Int32_
+  commentId: M:Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.Int32)
+  name.vb: SetParameter(OpnParameter, Integer)
+  fullName: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, int)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, Integer)
+  nameWithType: OpnDevice.SetParameter(OpnParameter, int)
+  nameWithType.vb: OpnDevice.SetParameter(OpnParameter, Integer)
+- uid: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.String)
+  name: SetParameter(OpnParameter, string)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetParameter_Opticon_Csp2Net_OpnParameter_System_String_
+  commentId: M:Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter,System.String)
+  name.vb: SetParameter(OpnParameter, String)
+  fullName: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, string)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.SetParameter(Opticon.Csp2Net.OpnParameter, String)
+  nameWithType: OpnDevice.SetParameter(OpnParameter, string)
+  nameWithType.vb: OpnDevice.SetParameter(OpnParameter, String)
+- uid: Opticon.Csp2Net.OpnDevice.SetParameter*
+  name: SetParameter
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetParameter_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.SetParameter
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.SetParameter
+  nameWithType: OpnDevice.SetParameter
+- uid: Opticon.Csp2Net.OpnDevice.SetParameter``1(Opticon.Csp2Net.OpnParameter,``0)
+  name: SetParameter<TEnum>(OpnParameter, TEnum)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetParameter__1_Opticon_Csp2Net_OpnParameter___0_
+  commentId: M:Opticon.Csp2Net.OpnDevice.SetParameter``1(Opticon.Csp2Net.OpnParameter,``0)
+  name.vb: SetParameter(Of TEnum)(OpnParameter, TEnum)
+  fullName: Opticon.Csp2Net.OpnDevice.SetParameter<TEnum>(Opticon.Csp2Net.OpnParameter, TEnum)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.SetParameter(Of TEnum)(Opticon.Csp2Net.OpnParameter, TEnum)
+  nameWithType: OpnDevice.SetParameter<TEnum>(OpnParameter, TEnum)
+  nameWithType.vb: OpnDevice.SetParameter(Of TEnum)(OpnParameter, TEnum)
+- uid: Opticon.Csp2Net.OpnDevice.SetTime(System.DateTime)
+  name: SetTime(DateTime)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetTime_System_DateTime_
+  commentId: M:Opticon.Csp2Net.OpnDevice.SetTime(System.DateTime)
+  name.vb: SetTime(Date)
+  fullName: Opticon.Csp2Net.OpnDevice.SetTime(System.DateTime)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.SetTime(Date)
+  nameWithType: OpnDevice.SetTime(DateTime)
+  nameWithType.vb: OpnDevice.SetTime(Date)
+- uid: Opticon.Csp2Net.OpnDevice.SetTime*
+  name: SetTime
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetTime_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.SetTime
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.SetTime
+  nameWithType: OpnDevice.SetTime
+- uid: Opticon.Csp2Net.OpnDevice.SetToDefault
+  name: SetToDefault()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetToDefault
+  commentId: M:Opticon.Csp2Net.OpnDevice.SetToDefault
+  fullName: Opticon.Csp2Net.OpnDevice.SetToDefault()
+  nameWithType: OpnDevice.SetToDefault()
+- uid: Opticon.Csp2Net.OpnDevice.SetToDefault*
+  name: SetToDefault
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetToDefault_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.SetToDefault
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.SetToDefault
+  nameWithType: OpnDevice.SetToDefault
+- uid: Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceChangedHandler,System.String)
+  name: StartPolling(DeviceChangedHandler, string)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_StartPolling_Opticon_Csp2Net_OpnDevice_DeviceChangedHandler_System_String_
+  commentId: M:Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceChangedHandler,System.String)
+  name.vb: StartPolling(DeviceChangedHandler, String)
+  fullName: Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceChangedHandler, string)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceChangedHandler, String)
+  nameWithType: OpnDevice.StartPolling(OpnDevice.DeviceChangedHandler, string)
+  nameWithType.vb: OpnDevice.StartPolling(OpnDevice.DeviceChangedHandler, String)
+- uid: Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler,System.String)
+  name: StartPolling(DeviceDetectedHandler, string)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_StartPolling_Opticon_Csp2Net_OpnDevice_DeviceDetectedHandler_System_String_
+  commentId: M:Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler,System.String)
+  name.vb: StartPolling(DeviceDetectedHandler, String)
+  fullName: Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler, string)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.StartPolling(Opticon.Csp2Net.OpnDevice.DeviceDetectedHandler, String)
+  nameWithType: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, string)
+  nameWithType.vb: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, String)
+- uid: Opticon.Csp2Net.OpnDevice.StartPolling*
+  name: StartPolling
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_StartPolling_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.StartPolling
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.StartPolling
+  nameWithType: OpnDevice.StartPolling
+- uid: Opticon.Csp2Net.OpnDevice.StopPolling
+  name: StopPolling()
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_StopPolling
+  commentId: M:Opticon.Csp2Net.OpnDevice.StopPolling
+  fullName: Opticon.Csp2Net.OpnDevice.StopPolling()
+  nameWithType: OpnDevice.StopPolling()
+- uid: Opticon.Csp2Net.OpnDevice.StopPolling*
+  name: StopPolling
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_StopPolling_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.StopPolling
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.StopPolling
+  nameWithType: OpnDevice.StopPolling
+- uid: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean@)
+  name: TryGetParameter(OpnParameter, out bool)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetParameter_Opticon_Csp2Net_OpnParameter_System_Boolean__
+  commentId: M:Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean@)
+  name.vb: TryGetParameter(OpnParameter, Boolean)
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, out bool)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, Boolean)
+  nameWithType: OpnDevice.TryGetParameter(OpnParameter, out bool)
+  nameWithType.vb: OpnDevice.TryGetParameter(OpnParameter, Boolean)
+- uid: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[]@)
+  name: TryGetParameter(OpnParameter, out byte[])
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetParameter_Opticon_Csp2Net_OpnParameter_System_Byte____
+  commentId: M:Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[]@)
+  name.vb: TryGetParameter(OpnParameter, Byte())
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, out byte[])
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, Byte())
+  nameWithType: OpnDevice.TryGetParameter(OpnParameter, out byte[])
+  nameWithType.vb: OpnDevice.TryGetParameter(OpnParameter, Byte())
+- uid: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.Int32@)
+  name: TryGetParameter(OpnParameter, out int)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetParameter_Opticon_Csp2Net_OpnParameter_System_Int32__
+  commentId: M:Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.Int32@)
+  name.vb: TryGetParameter(OpnParameter, Integer)
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, out int)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, Integer)
+  nameWithType: OpnDevice.TryGetParameter(OpnParameter, out int)
+  nameWithType.vb: OpnDevice.TryGetParameter(OpnParameter, Integer)
+- uid: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.String@)
+  name: TryGetParameter(OpnParameter, out string)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetParameter_Opticon_Csp2Net_OpnParameter_System_String__
+  commentId: M:Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter,System.String@)
+  name.vb: TryGetParameter(OpnParameter, String)
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, out string)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TryGetParameter(Opticon.Csp2Net.OpnParameter, String)
+  nameWithType: OpnDevice.TryGetParameter(OpnParameter, out string)
+  nameWithType.vb: OpnDevice.TryGetParameter(OpnParameter, String)
+- uid: Opticon.Csp2Net.OpnDevice.TryGetParameter*
+  name: TryGetParameter
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetParameter_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.TryGetParameter
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetParameter
+  nameWithType: OpnDevice.TryGetParameter
+- uid: Opticon.Csp2Net.OpnDevice.TryGetParameter``1(Opticon.Csp2Net.OpnParameter,``0@)
+  name: TryGetParameter<TEnum>(OpnParameter, out TEnum)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetParameter__1_Opticon_Csp2Net_OpnParameter___0__
+  commentId: M:Opticon.Csp2Net.OpnDevice.TryGetParameter``1(Opticon.Csp2Net.OpnParameter,``0@)
+  name.vb: TryGetParameter(Of TEnum)(OpnParameter, TEnum)
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetParameter<TEnum>(Opticon.Csp2Net.OpnParameter, out TEnum)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TryGetParameter(Of TEnum)(Opticon.Csp2Net.OpnParameter, TEnum)
+  nameWithType: OpnDevice.TryGetParameter<TEnum>(OpnParameter, out TEnum)
+  nameWithType.vb: OpnDevice.TryGetParameter(Of TEnum)(OpnParameter, TEnum)
+- uid: Opticon.Csp2Net.OpnDevice.TryGetTime(System.DateTime@)
+  name: TryGetTime(out DateTime)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetTime_System_DateTime__
+  commentId: M:Opticon.Csp2Net.OpnDevice.TryGetTime(System.DateTime@)
+  name.vb: TryGetTime(Date)
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetTime(out System.DateTime)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TryGetTime(Date)
+  nameWithType: OpnDevice.TryGetTime(out DateTime)
+  nameWithType.vb: OpnDevice.TryGetTime(Date)
+- uid: Opticon.Csp2Net.OpnDevice.TryGetTime*
+  name: TryGetTime
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TryGetTime_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.TryGetTime
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.TryGetTime
+  nameWithType: OpnDevice.TryGetTime
+- uid: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean)
+  name: TrySetParameter(OpnParameter, bool)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TrySetParameter_Opticon_Csp2Net_OpnParameter_System_Boolean_
+  commentId: M:Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.Boolean)
+  name.vb: TrySetParameter(OpnParameter, Boolean)
+  fullName: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, bool)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, Boolean)
+  nameWithType: OpnDevice.TrySetParameter(OpnParameter, bool)
+  nameWithType.vb: OpnDevice.TrySetParameter(OpnParameter, Boolean)
+- uid: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[])
+  name: TrySetParameter(OpnParameter, byte[])
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TrySetParameter_Opticon_Csp2Net_OpnParameter_System_Byte___
+  commentId: M:Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.Byte[])
+  name.vb: TrySetParameter(OpnParameter, Byte())
+  fullName: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, byte[])
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, Byte())
+  nameWithType: OpnDevice.TrySetParameter(OpnParameter, byte[])
+  nameWithType.vb: OpnDevice.TrySetParameter(OpnParameter, Byte())
+- uid: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.Int32)
+  name: TrySetParameter(OpnParameter, int)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TrySetParameter_Opticon_Csp2Net_OpnParameter_System_Int32_
+  commentId: M:Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.Int32)
+  name.vb: TrySetParameter(OpnParameter, Integer)
+  fullName: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, int)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, Integer)
+  nameWithType: OpnDevice.TrySetParameter(OpnParameter, int)
+  nameWithType.vb: OpnDevice.TrySetParameter(OpnParameter, Integer)
+- uid: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.String)
+  name: TrySetParameter(OpnParameter, string)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TrySetParameter_Opticon_Csp2Net_OpnParameter_System_String_
+  commentId: M:Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter,System.String)
+  name.vb: TrySetParameter(OpnParameter, String)
+  fullName: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, string)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TrySetParameter(Opticon.Csp2Net.OpnParameter, String)
+  nameWithType: OpnDevice.TrySetParameter(OpnParameter, string)
+  nameWithType.vb: OpnDevice.TrySetParameter(OpnParameter, String)
+- uid: Opticon.Csp2Net.OpnDevice.TrySetParameter*
+  name: TrySetParameter
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TrySetParameter_
+  commentId: Overload:Opticon.Csp2Net.OpnDevice.TrySetParameter
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnDevice.TrySetParameter
+  nameWithType: OpnDevice.TrySetParameter
+- uid: Opticon.Csp2Net.OpnDevice.TrySetParameter``1(Opticon.Csp2Net.OpnParameter,``0)
+  name: TrySetParameter<TEnum>(OpnParameter, TEnum)
+  href: api/Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_TrySetParameter__1_Opticon_Csp2Net_OpnParameter___0_
+  commentId: M:Opticon.Csp2Net.OpnDevice.TrySetParameter``1(Opticon.Csp2Net.OpnParameter,``0)
+  name.vb: TrySetParameter(Of TEnum)(OpnParameter, TEnum)
+  fullName: Opticon.Csp2Net.OpnDevice.TrySetParameter<TEnum>(Opticon.Csp2Net.OpnParameter, TEnum)
+  fullName.vb: Opticon.Csp2Net.OpnDevice.TrySetParameter(Of TEnum)(Opticon.Csp2Net.OpnParameter, TEnum)
+  nameWithType: OpnDevice.TrySetParameter<TEnum>(OpnParameter, TEnum)
+  nameWithType.vb: OpnDevice.TrySetParameter(Of TEnum)(OpnParameter, TEnum)
+- uid: Opticon.Csp2Net.OpnEnvironment
+  name: OpnEnvironment
+  href: api/Opticon.Csp2Net.OpnEnvironment.html
+  commentId: T:Opticon.Csp2Net.OpnEnvironment
+  fullName: Opticon.Csp2Net.OpnEnvironment
+  nameWithType: OpnEnvironment
+- uid: Opticon.Csp2Net.OpnEnvironment.GetDllVersion
+  name: GetDllVersion()
+  href: api/Opticon.Csp2Net.OpnEnvironment.html#Opticon_Csp2Net_OpnEnvironment_GetDllVersion
+  commentId: M:Opticon.Csp2Net.OpnEnvironment.GetDllVersion
+  fullName: Opticon.Csp2Net.OpnEnvironment.GetDllVersion()
+  nameWithType: OpnEnvironment.GetDllVersion()
+- uid: Opticon.Csp2Net.OpnEnvironment.GetDllVersion*
+  name: GetDllVersion
+  href: api/Opticon.Csp2Net.OpnEnvironment.html#Opticon_Csp2Net_OpnEnvironment_GetDllVersion_
+  commentId: Overload:Opticon.Csp2Net.OpnEnvironment.GetDllVersion
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnEnvironment.GetDllVersion
+  nameWithType: OpnEnvironment.GetDllVersion
+- uid: Opticon.Csp2Net.OpnEnvironment.RetryCount
+  name: RetryCount
+  href: api/Opticon.Csp2Net.OpnEnvironment.html#Opticon_Csp2Net_OpnEnvironment_RetryCount
+  commentId: P:Opticon.Csp2Net.OpnEnvironment.RetryCount
+  fullName: Opticon.Csp2Net.OpnEnvironment.RetryCount
+  nameWithType: OpnEnvironment.RetryCount
+- uid: Opticon.Csp2Net.OpnEnvironment.RetryCount*
+  name: RetryCount
+  href: api/Opticon.Csp2Net.OpnEnvironment.html#Opticon_Csp2Net_OpnEnvironment_RetryCount_
+  commentId: Overload:Opticon.Csp2Net.OpnEnvironment.RetryCount
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnEnvironment.RetryCount
+  nameWithType: OpnEnvironment.RetryCount
+- uid: Opticon.Csp2Net.OpnException
+  name: OpnException
+  href: api/Opticon.Csp2Net.OpnException.html
+  commentId: T:Opticon.Csp2Net.OpnException
+  fullName: Opticon.Csp2Net.OpnException
+  nameWithType: OpnException
+- uid: Opticon.Csp2Net.OpnException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)
+  name: OpnException(string, Csp2Status)
+  href: api/Opticon.Csp2Net.OpnException.html#Opticon_Csp2Net_OpnException__ctor_System_String_Opticon_Csp2Net_Csp2Status_
+  commentId: M:Opticon.Csp2Net.OpnException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)
+  name.vb: New(String, Csp2Status)
+  fullName: Opticon.Csp2Net.OpnException.OpnException(string, Opticon.Csp2Net.Csp2Status)
+  fullName.vb: Opticon.Csp2Net.OpnException.New(String, Opticon.Csp2Net.Csp2Status)
+  nameWithType: OpnException.OpnException(string, Csp2Status)
+  nameWithType.vb: OpnException.New(String, Csp2Status)
+- uid: Opticon.Csp2Net.OpnException.#ctor*
+  name: OpnException
+  href: api/Opticon.Csp2Net.OpnException.html#Opticon_Csp2Net_OpnException__ctor_
+  commentId: Overload:Opticon.Csp2Net.OpnException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Opticon.Csp2Net.OpnException.OpnException
+  fullName.vb: Opticon.Csp2Net.OpnException.New
+  nameWithType: OpnException.OpnException
+  nameWithType.vb: OpnException.New
+- uid: Opticon.Csp2Net.OpnException.Status
+  name: Status
+  href: api/Opticon.Csp2Net.OpnException.html#Opticon_Csp2Net_OpnException_Status
+  commentId: P:Opticon.Csp2Net.OpnException.Status
+  fullName: Opticon.Csp2Net.OpnException.Status
+  nameWithType: OpnException.Status
+- uid: Opticon.Csp2Net.OpnException.Status*
+  name: Status
+  href: api/Opticon.Csp2Net.OpnException.html#Opticon_Csp2Net_OpnException_Status_
+  commentId: Overload:Opticon.Csp2Net.OpnException.Status
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnException.Status
+  nameWithType: OpnException.Status
+- uid: Opticon.Csp2Net.OpnParameter
+  name: OpnParameter
+  href: api/Opticon.Csp2Net.OpnParameter.html
+  commentId: T:Opticon.Csp2Net.OpnParameter
+  fullName: Opticon.Csp2Net.OpnParameter
+  nameWithType: OpnParameter
+- uid: Opticon.Csp2Net.OpnParameter.AimingOnTime
+  name: AimingOnTime
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_AimingOnTime
+  commentId: F:Opticon.Csp2Net.OpnParameter.AimingOnTime
+  fullName: Opticon.Csp2Net.OpnParameter.AimingOnTime
+  nameWithType: OpnParameter.AimingOnTime
+- uid: Opticon.Csp2Net.OpnParameter.AsciiMode
+  name: AsciiMode
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_AsciiMode
+  commentId: F:Opticon.Csp2Net.OpnParameter.AsciiMode
+  fullName: Opticon.Csp2Net.OpnParameter.AsciiMode
+  nameWithType: OpnParameter.AsciiMode
+- uid: Opticon.Csp2Net.OpnParameter.AutoClear
+  name: AutoClear
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_AutoClear
+  commentId: F:Opticon.Csp2Net.OpnParameter.AutoClear
+  fullName: Opticon.Csp2Net.OpnParameter.AutoClear
+  nameWithType: OpnParameter.AutoClear
+- uid: Opticon.Csp2Net.OpnParameter.BaudRate
+  name: BaudRate
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_BaudRate
+  commentId: F:Opticon.Csp2Net.OpnParameter.BaudRate
+  fullName: Opticon.Csp2Net.OpnParameter.BaudRate
+  nameWithType: OpnParameter.BaudRate
+- uid: Opticon.Csp2Net.OpnParameter.BaudSwitchDelay
+  name: BaudSwitchDelay
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_BaudSwitchDelay
+  commentId: F:Opticon.Csp2Net.OpnParameter.BaudSwitchDelay
+  fullName: Opticon.Csp2Net.OpnParameter.BaudSwitchDelay
+  nameWithType: OpnParameter.BaudSwitchDelay
+- uid: Opticon.Csp2Net.OpnParameter.BuzzerAutoOn
+  name: BuzzerAutoOn
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_BuzzerAutoOn
+  commentId: F:Opticon.Csp2Net.OpnParameter.BuzzerAutoOn
+  fullName: Opticon.Csp2Net.OpnParameter.BuzzerAutoOn
+  nameWithType: OpnParameter.BuzzerAutoOn
+- uid: Opticon.Csp2Net.OpnParameter.BuzzerOn
+  name: BuzzerOn
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_BuzzerOn
+  commentId: F:Opticon.Csp2Net.OpnParameter.BuzzerOn
+  fullName: Opticon.Csp2Net.OpnParameter.BuzzerOn
+  nameWithType: OpnParameter.BuzzerOn
+- uid: Opticon.Csp2Net.OpnParameter.BuzzerToggle
+  name: BuzzerToggle
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_BuzzerToggle
+  commentId: F:Opticon.Csp2Net.OpnParameter.BuzzerToggle
+  fullName: Opticon.Csp2Net.OpnParameter.BuzzerToggle
+  nameWithType: OpnParameter.BuzzerToggle
+- uid: Opticon.Csp2Net.OpnParameter.BuzzerVolume
+  name: BuzzerVolume
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_BuzzerVolume
+  commentId: F:Opticon.Csp2Net.OpnParameter.BuzzerVolume
+  fullName: Opticon.Csp2Net.OpnParameter.BuzzerVolume
+  nameWithType: OpnParameter.BuzzerVolume
+- uid: Opticon.Csp2Net.OpnParameter.Code128
+  name: Code128
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_Code128
+  commentId: F:Opticon.Csp2Net.OpnParameter.Code128
+  fullName: Opticon.Csp2Net.OpnParameter.Code128
+  nameWithType: OpnParameter.Code128
+- uid: Opticon.Csp2Net.OpnParameter.Code39
+  name: Code39
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_Code39
+  commentId: F:Opticon.Csp2Net.OpnParameter.Code39
+  fullName: Opticon.Csp2Net.OpnParameter.Code39
+  nameWithType: OpnParameter.Code39
+- uid: Opticon.Csp2Net.OpnParameter.Code39CheckDigit
+  name: Code39CheckDigit
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_Code39CheckDigit
+  commentId: F:Opticon.Csp2Net.OpnParameter.Code39CheckDigit
+  fullName: Opticon.Csp2Net.OpnParameter.Code39CheckDigit
+  nameWithType: OpnParameter.Code39CheckDigit
+- uid: Opticon.Csp2Net.OpnParameter.Code39FullAscii
+  name: Code39FullAscii
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_Code39FullAscii
+  commentId: F:Opticon.Csp2Net.OpnParameter.Code39FullAscii
+  fullName: Opticon.Csp2Net.OpnParameter.Code39FullAscii
+  nameWithType: OpnParameter.Code39FullAscii
+- uid: Opticon.Csp2Net.OpnParameter.CommAwakeTime
+  name: CommAwakeTime
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_CommAwakeTime
+  commentId: F:Opticon.Csp2Net.OpnParameter.CommAwakeTime
+  fullName: Opticon.Csp2Net.OpnParameter.CommAwakeTime
+  nameWithType: OpnParameter.CommAwakeTime
+- uid: Opticon.Csp2Net.OpnParameter.ConvertEan8ToEan13
+  name: ConvertEan8ToEan13
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_ConvertEan8ToEan13
+  commentId: F:Opticon.Csp2Net.OpnParameter.ConvertEan8ToEan13
+  fullName: Opticon.Csp2Net.OpnParameter.ConvertEan8ToEan13
+  nameWithType: OpnParameter.ConvertEan8ToEan13
+- uid: Opticon.Csp2Net.OpnParameter.ConvertEan8ToEan13Type
+  name: ConvertEan8ToEan13Type
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_ConvertEan8ToEan13Type
+  commentId: F:Opticon.Csp2Net.OpnParameter.ConvertEan8ToEan13Type
+  fullName: Opticon.Csp2Net.OpnParameter.ConvertEan8ToEan13Type
+  nameWithType: OpnParameter.ConvertEan8ToEan13Type
+- uid: Opticon.Csp2Net.OpnParameter.ConvertItf14ToEan13
+  name: ConvertItf14ToEan13
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_ConvertItf14ToEan13
+  commentId: F:Opticon.Csp2Net.OpnParameter.ConvertItf14ToEan13
+  fullName: Opticon.Csp2Net.OpnParameter.ConvertItf14ToEan13
+  nameWithType: OpnParameter.ConvertItf14ToEan13
+- uid: Opticon.Csp2Net.OpnParameter.ConvertUpcEToA
+  name: ConvertUpcEToA
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_ConvertUpcEToA
+  commentId: F:Opticon.Csp2Net.OpnParameter.ConvertUpcEToA
+  fullName: Opticon.Csp2Net.OpnParameter.ConvertUpcEToA
+  nameWithType: OpnParameter.ConvertUpcEToA
+- uid: Opticon.Csp2Net.OpnParameter.CouponCode
+  name: CouponCode
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_CouponCode
+  commentId: F:Opticon.Csp2Net.OpnParameter.CouponCode
+  fullName: Opticon.Csp2Net.OpnParameter.CouponCode
+  nameWithType: OpnParameter.CouponCode
+- uid: Opticon.Csp2Net.OpnParameter.D2of5
+  name: D2of5
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_D2of5
+  commentId: F:Opticon.Csp2Net.OpnParameter.D2of5
+  fullName: Opticon.Csp2Net.OpnParameter.D2of5
+  nameWithType: OpnParameter.D2of5
+- uid: Opticon.Csp2Net.OpnParameter.D2of5Length1
+  name: D2of5Length1
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_D2of5Length1
+  commentId: F:Opticon.Csp2Net.OpnParameter.D2of5Length1
+  fullName: Opticon.Csp2Net.OpnParameter.D2of5Length1
+  nameWithType: OpnParameter.D2of5Length1
+- uid: Opticon.Csp2Net.OpnParameter.D2of5Length2
+  name: D2of5Length2
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_D2of5Length2
+  commentId: F:Opticon.Csp2Net.OpnParameter.D2of5Length2
+  fullName: Opticon.Csp2Net.OpnParameter.D2of5Length2
+  nameWithType: OpnParameter.D2of5Length2
+- uid: Opticon.Csp2Net.OpnParameter.DataProtection
+  name: DataProtection
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_DataProtection
+  commentId: F:Opticon.Csp2Net.OpnParameter.DataProtection
+  fullName: Opticon.Csp2Net.OpnParameter.DataProtection
+  nameWithType: OpnParameter.DataProtection
+- uid: Opticon.Csp2Net.OpnParameter.DeleteEnable
+  name: DeleteEnable
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_DeleteEnable
+  commentId: F:Opticon.Csp2Net.OpnParameter.DeleteEnable
+  fullName: Opticon.Csp2Net.OpnParameter.DeleteEnable
+  nameWithType: OpnParameter.DeleteEnable
+- uid: Opticon.Csp2Net.OpnParameter.Ean128
+  name: Ean128
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_Ean128
+  commentId: F:Opticon.Csp2Net.OpnParameter.Ean128
+  fullName: Opticon.Csp2Net.OpnParameter.Ean128
+  nameWithType: OpnParameter.Ean128
+- uid: Opticon.Csp2Net.OpnParameter.GoodDecodeLedOnTime
+  name: GoodDecodeLedOnTime
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_GoodDecodeLedOnTime
+  commentId: F:Opticon.Csp2Net.OpnParameter.GoodDecodeLedOnTime
+  fullName: Opticon.Csp2Net.OpnParameter.GoodDecodeLedOnTime
+  nameWithType: OpnParameter.GoodDecodeLedOnTime
+- uid: Opticon.Csp2Net.OpnParameter.Gs1DataBar
+  name: Gs1DataBar
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_Gs1DataBar
+  commentId: F:Opticon.Csp2Net.OpnParameter.Gs1DataBar
+  fullName: Opticon.Csp2Net.OpnParameter.Gs1DataBar
+  nameWithType: OpnParameter.Gs1DataBar
+- uid: Opticon.Csp2Net.OpnParameter.HostCompleteBeep
+  name: HostCompleteBeep
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_HostCompleteBeep
+  commentId: F:Opticon.Csp2Net.OpnParameter.HostCompleteBeep
+  fullName: Opticon.Csp2Net.OpnParameter.HostCompleteBeep
+  nameWithType: OpnParameter.HostCompleteBeep
+- uid: Opticon.Csp2Net.OpnParameter.HostConnectBeep
+  name: HostConnectBeep
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_HostConnectBeep
+  commentId: F:Opticon.Csp2Net.OpnParameter.HostConnectBeep
+  fullName: Opticon.Csp2Net.OpnParameter.HostConnectBeep
+  nameWithType: OpnParameter.HostConnectBeep
+- uid: Opticon.Csp2Net.OpnParameter.I2of5
+  name: I2of5
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_I2of5
+  commentId: F:Opticon.Csp2Net.OpnParameter.I2of5
+  fullName: Opticon.Csp2Net.OpnParameter.I2of5
+  nameWithType: OpnParameter.I2of5
+- uid: Opticon.Csp2Net.OpnParameter.I2of5CheckDigit
+  name: I2of5CheckDigit
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_I2of5CheckDigit
+  commentId: F:Opticon.Csp2Net.OpnParameter.I2of5CheckDigit
+  fullName: Opticon.Csp2Net.OpnParameter.I2of5CheckDigit
+  nameWithType: OpnParameter.I2of5CheckDigit
+- uid: Opticon.Csp2Net.OpnParameter.I2of5Length1
+  name: I2of5Length1
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_I2of5Length1
+  commentId: F:Opticon.Csp2Net.OpnParameter.I2of5Length1
+  fullName: Opticon.Csp2Net.OpnParameter.I2of5Length1
+  nameWithType: OpnParameter.I2of5Length1
+- uid: Opticon.Csp2Net.OpnParameter.I2of5Length2
+  name: I2of5Length2
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_I2of5Length2
+  commentId: F:Opticon.Csp2Net.OpnParameter.I2of5Length2
+  fullName: Opticon.Csp2Net.OpnParameter.I2of5Length2
+  nameWithType: OpnParameter.I2of5Length2
+- uid: Opticon.Csp2Net.OpnParameter.LaserMode
+  name: LaserMode
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_LaserMode
+  commentId: F:Opticon.Csp2Net.OpnParameter.LaserMode
+  fullName: Opticon.Csp2Net.OpnParameter.LaserMode
+  nameWithType: OpnParameter.LaserMode
+- uid: Opticon.Csp2Net.OpnParameter.LowBatteryIndication
+  name: LowBatteryIndication
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_LowBatteryIndication
+  commentId: F:Opticon.Csp2Net.OpnParameter.LowBatteryIndication
+  fullName: Opticon.Csp2Net.OpnParameter.LowBatteryIndication
+  nameWithType: OpnParameter.LowBatteryIndication
+- uid: Opticon.Csp2Net.OpnParameter.MaxBarcodeLength
+  name: MaxBarcodeLength
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_MaxBarcodeLength
+  commentId: F:Opticon.Csp2Net.OpnParameter.MaxBarcodeLength
+  fullName: Opticon.Csp2Net.OpnParameter.MaxBarcodeLength
+  nameWithType: OpnParameter.MaxBarcodeLength
+- uid: Opticon.Csp2Net.OpnParameter.MemoryFullIndication
+  name: MemoryFullIndication
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_MemoryFullIndication
+  commentId: F:Opticon.Csp2Net.OpnParameter.MemoryFullIndication
+  fullName: Opticon.Csp2Net.OpnParameter.MemoryFullIndication
+  nameWithType: OpnParameter.MemoryFullIndication
+- uid: Opticon.Csp2Net.OpnParameter.MemoryLowIndication
+  name: MemoryLowIndication
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_MemoryLowIndication
+  commentId: F:Opticon.Csp2Net.OpnParameter.MemoryLowIndication
+  fullName: Opticon.Csp2Net.OpnParameter.MemoryLowIndication
+  nameWithType: OpnParameter.MemoryLowIndication
+- uid: Opticon.Csp2Net.OpnParameter.RejectRedundantBarcode
+  name: RejectRedundantBarcode
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_RejectRedundantBarcode
+  commentId: F:Opticon.Csp2Net.OpnParameter.RejectRedundantBarcode
+  fullName: Opticon.Csp2Net.OpnParameter.RejectRedundantBarcode
+  nameWithType: OpnParameter.RejectRedundantBarcode
+- uid: Opticon.Csp2Net.OpnParameter.ResetBaudRates
+  name: ResetBaudRates
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_ResetBaudRates
+  commentId: F:Opticon.Csp2Net.OpnParameter.ResetBaudRates
+  fullName: Opticon.Csp2Net.OpnParameter.ResetBaudRates
+  nameWithType: OpnParameter.ResetBaudRates
+- uid: Opticon.Csp2Net.OpnParameter.ScannerOnTime
+  name: ScannerOnTime
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_ScannerOnTime
+  commentId: F:Opticon.Csp2Net.OpnParameter.ScannerOnTime
+  fullName: Opticon.Csp2Net.OpnParameter.ScannerOnTime
+  nameWithType: OpnParameter.ScannerOnTime
+- uid: Opticon.Csp2Net.OpnParameter.ScratchPad
+  name: ScratchPad
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_ScratchPad
+  commentId: F:Opticon.Csp2Net.OpnParameter.ScratchPad
+  fullName: Opticon.Csp2Net.OpnParameter.ScratchPad
+  nameWithType: OpnParameter.ScratchPad
+- uid: Opticon.Csp2Net.OpnParameter.SendUpcACheckDigit
+  name: SendUpcACheckDigit
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_SendUpcACheckDigit
+  commentId: F:Opticon.Csp2Net.OpnParameter.SendUpcACheckDigit
+  fullName: Opticon.Csp2Net.OpnParameter.SendUpcACheckDigit
+  nameWithType: OpnParameter.SendUpcACheckDigit
+- uid: Opticon.Csp2Net.OpnParameter.SendUpcECheckDigit
+  name: SendUpcECheckDigit
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_SendUpcECheckDigit
+  commentId: F:Opticon.Csp2Net.OpnParameter.SendUpcECheckDigit
+  fullName: Opticon.Csp2Net.OpnParameter.SendUpcECheckDigit
+  nameWithType: OpnParameter.SendUpcECheckDigit
+- uid: Opticon.Csp2Net.OpnParameter.StoreRtc
+  name: StoreRtc
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_StoreRtc
+  commentId: F:Opticon.Csp2Net.OpnParameter.StoreRtc
+  fullName: Opticon.Csp2Net.OpnParameter.StoreRtc
+  nameWithType: OpnParameter.StoreRtc
+- uid: Opticon.Csp2Net.OpnParameter.TransmitCode39CheckDigit
+  name: TransmitCode39CheckDigit
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_TransmitCode39CheckDigit
+  commentId: F:Opticon.Csp2Net.OpnParameter.TransmitCode39CheckDigit
+  fullName: Opticon.Csp2Net.OpnParameter.TransmitCode39CheckDigit
+  nameWithType: OpnParameter.TransmitCode39CheckDigit
+- uid: Opticon.Csp2Net.OpnParameter.TransmitI2of5CheckDigit
+  name: TransmitI2of5CheckDigit
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_TransmitI2of5CheckDigit
+  commentId: F:Opticon.Csp2Net.OpnParameter.TransmitI2of5CheckDigit
+  fullName: Opticon.Csp2Net.OpnParameter.TransmitI2of5CheckDigit
+  nameWithType: OpnParameter.TransmitI2of5CheckDigit
+- uid: Opticon.Csp2Net.OpnParameter.Upc
+  name: Upc
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_Upc
+  commentId: F:Opticon.Csp2Net.OpnParameter.Upc
+  fullName: Opticon.Csp2Net.OpnParameter.Upc
+  nameWithType: OpnParameter.Upc
+- uid: Opticon.Csp2Net.OpnParameter.UpcAPreamble
+  name: UpcAPreamble
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_UpcAPreamble
+  commentId: F:Opticon.Csp2Net.OpnParameter.UpcAPreamble
+  fullName: Opticon.Csp2Net.OpnParameter.UpcAPreamble
+  nameWithType: OpnParameter.UpcAPreamble
+- uid: Opticon.Csp2Net.OpnParameter.UpcEPreamble
+  name: UpcEPreamble
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_UpcEPreamble
+  commentId: F:Opticon.Csp2Net.OpnParameter.UpcEPreamble
+  fullName: Opticon.Csp2Net.OpnParameter.UpcEPreamble
+  nameWithType: OpnParameter.UpcEPreamble
+- uid: Opticon.Csp2Net.OpnParameter.UpcEanSecurityLevel
+  name: UpcEanSecurityLevel
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_UpcEanSecurityLevel
+  commentId: F:Opticon.Csp2Net.OpnParameter.UpcEanSecurityLevel
+  fullName: Opticon.Csp2Net.OpnParameter.UpcEanSecurityLevel
+  nameWithType: OpnParameter.UpcEanSecurityLevel
+- uid: Opticon.Csp2Net.OpnParameter.UpcEanSupplementalRedundancy
+  name: UpcEanSupplementalRedundancy
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_UpcEanSupplementalRedundancy
+  commentId: F:Opticon.Csp2Net.OpnParameter.UpcEanSupplementalRedundancy
+  fullName: Opticon.Csp2Net.OpnParameter.UpcEanSupplementalRedundancy
+  nameWithType: OpnParameter.UpcEanSupplementalRedundancy
+- uid: Opticon.Csp2Net.OpnParameter.UpcSupplements
+  name: UpcSupplements
+  href: api/Opticon.Csp2Net.OpnParameter.html#Opticon_Csp2Net_OpnParameter_UpcSupplements
+  commentId: F:Opticon.Csp2Net.OpnParameter.UpcSupplements
+  fullName: Opticon.Csp2Net.OpnParameter.UpcSupplements
+  nameWithType: OpnParameter.UpcSupplements
+- uid: Opticon.Csp2Net.OpnResult
+  name: OpnResult
+  href: api/Opticon.Csp2Net.OpnResult.html
+  commentId: T:Opticon.Csp2Net.OpnResult
+  fullName: Opticon.Csp2Net.OpnResult
+  nameWithType: OpnResult
+- uid: Opticon.Csp2Net.OpnResult.BAD_PARAM
+  name: BAD_PARAM
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_BAD_PARAM
+  commentId: F:Opticon.Csp2Net.OpnResult.BAD_PARAM
+  fullName: Opticon.Csp2Net.OpnResult.BAD_PARAM
+  nameWithType: OpnResult.BAD_PARAM
+- uid: Opticon.Csp2Net.OpnResult.COMMUNICATIONS_ERROR
+  name: COMMUNICATIONS_ERROR
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_COMMUNICATIONS_ERROR
+  commentId: F:Opticon.Csp2Net.OpnResult.COMMUNICATIONS_ERROR
+  fullName: Opticon.Csp2Net.OpnResult.COMMUNICATIONS_ERROR
+  nameWithType: OpnResult.COMMUNICATIONS_ERROR
+- uid: Opticon.Csp2Net.OpnResult.FIRMWARE_FAILURE
+  name: FIRMWARE_FAILURE
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_FIRMWARE_FAILURE
+  commentId: F:Opticon.Csp2Net.OpnResult.FIRMWARE_FAILURE
+  fullName: Opticon.Csp2Net.OpnResult.FIRMWARE_FAILURE
+  nameWithType: OpnResult.FIRMWARE_FAILURE
+- uid: Opticon.Csp2Net.OpnResult.GENERAL_ERROR
+  name: GENERAL_ERROR
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_GENERAL_ERROR
+  commentId: F:Opticon.Csp2Net.OpnResult.GENERAL_ERROR
+  fullName: Opticon.Csp2Net.OpnResult.GENERAL_ERROR
+  nameWithType: OpnResult.GENERAL_ERROR
+- uid: Opticon.Csp2Net.OpnResult.SETUP_ERROR
+  name: SETUP_ERROR
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_SETUP_ERROR
+  commentId: F:Opticon.Csp2Net.OpnResult.SETUP_ERROR
+  fullName: Opticon.Csp2Net.OpnResult.SETUP_ERROR
+  nameWithType: OpnResult.SETUP_ERROR
+- uid: Opticon.Csp2Net.OpnResult.STATUS_OK
+  name: STATUS_OK
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_STATUS_OK
+  commentId: F:Opticon.Csp2Net.OpnResult.STATUS_OK
+  fullName: Opticon.Csp2Net.OpnResult.STATUS_OK
+  nameWithType: OpnResult.STATUS_OK
+- uid: Opticon.Csp2Net.OpnResult.TEMPORARY_ERROR
+  name: TEMPORARY_ERROR
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_TEMPORARY_ERROR
+  commentId: F:Opticon.Csp2Net.OpnResult.TEMPORARY_ERROR
+  fullName: Opticon.Csp2Net.OpnResult.TEMPORARY_ERROR
+  nameWithType: OpnResult.TEMPORARY_ERROR
+- uid: Opticon.Csp2Net.OpnResult.UNINITIALIZED
+  name: UNINITIALIZED
+  href: api/Opticon.Csp2Net.OpnResult.html#Opticon_Csp2Net_OpnResult_UNINITIALIZED
+  commentId: F:Opticon.Csp2Net.OpnResult.UNINITIALIZED
+  fullName: Opticon.Csp2Net.OpnResult.UNINITIALIZED
+  nameWithType: OpnResult.UNINITIALIZED
+- uid: Opticon.Csp2Net.OpnTemporaryException
+  name: OpnTemporaryException
+  href: api/Opticon.Csp2Net.OpnTemporaryException.html
+  commentId: T:Opticon.Csp2Net.OpnTemporaryException
+  fullName: Opticon.Csp2Net.OpnTemporaryException
+  nameWithType: OpnTemporaryException
+- uid: Opticon.Csp2Net.OpnTemporaryException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)
+  name: OpnTemporaryException(string, Csp2Status)
+  href: api/Opticon.Csp2Net.OpnTemporaryException.html#Opticon_Csp2Net_OpnTemporaryException__ctor_System_String_Opticon_Csp2Net_Csp2Status_
+  commentId: M:Opticon.Csp2Net.OpnTemporaryException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)
+  name.vb: New(String, Csp2Status)
+  fullName: Opticon.Csp2Net.OpnTemporaryException.OpnTemporaryException(string, Opticon.Csp2Net.Csp2Status)
+  fullName.vb: Opticon.Csp2Net.OpnTemporaryException.New(String, Opticon.Csp2Net.Csp2Status)
+  nameWithType: OpnTemporaryException.OpnTemporaryException(string, Csp2Status)
+  nameWithType.vb: OpnTemporaryException.New(String, Csp2Status)
+- uid: Opticon.Csp2Net.OpnTemporaryException.#ctor*
+  name: OpnTemporaryException
+  href: api/Opticon.Csp2Net.OpnTemporaryException.html#Opticon_Csp2Net_OpnTemporaryException__ctor_
+  commentId: Overload:Opticon.Csp2Net.OpnTemporaryException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Opticon.Csp2Net.OpnTemporaryException.OpnTemporaryException
+  fullName.vb: Opticon.Csp2Net.OpnTemporaryException.New
+  nameWithType: OpnTemporaryException.OpnTemporaryException
+  nameWithType.vb: OpnTemporaryException.New
+- uid: Opticon.Csp2Net.RejectRedundantCodes
+  name: RejectRedundantCodes
+  href: api/Opticon.Csp2Net.RejectRedundantCodes.html
+  commentId: T:Opticon.Csp2Net.RejectRedundantCodes
+  fullName: Opticon.Csp2Net.RejectRedundantCodes
+  nameWithType: RejectRedundantCodes
+- uid: Opticon.Csp2Net.RejectRedundantCodes.Any
+  name: Any
+  href: api/Opticon.Csp2Net.RejectRedundantCodes.html#Opticon_Csp2Net_RejectRedundantCodes_Any
+  commentId: F:Opticon.Csp2Net.RejectRedundantCodes.Any
+  fullName: Opticon.Csp2Net.RejectRedundantCodes.Any
+  nameWithType: RejectRedundantCodes.Any
+- uid: Opticon.Csp2Net.RejectRedundantCodes.Consecutive
+  name: Consecutive
+  href: api/Opticon.Csp2Net.RejectRedundantCodes.html#Opticon_Csp2Net_RejectRedundantCodes_Consecutive
+  commentId: F:Opticon.Csp2Net.RejectRedundantCodes.Consecutive
+  fullName: Opticon.Csp2Net.RejectRedundantCodes.Consecutive
+  nameWithType: RejectRedundantCodes.Consecutive
+- uid: Opticon.Csp2Net.RejectRedundantCodes.Off
+  name: Off
+  href: api/Opticon.Csp2Net.RejectRedundantCodes.html#Opticon_Csp2Net_RejectRedundantCodes_Off
+  commentId: F:Opticon.Csp2Net.RejectRedundantCodes.Off
+  fullName: Opticon.Csp2Net.RejectRedundantCodes.Off
+  nameWithType: RejectRedundantCodes.Off
+- uid: Opticon.Csp2Net.UpcPreamble
+  name: UpcPreamble
+  href: api/Opticon.Csp2Net.UpcPreamble.html
+  commentId: T:Opticon.Csp2Net.UpcPreamble
+  fullName: Opticon.Csp2Net.UpcPreamble
+  nameWithType: UpcPreamble
+- uid: Opticon.Csp2Net.UpcPreamble.None
+  name: None
+  href: api/Opticon.Csp2Net.UpcPreamble.html#Opticon_Csp2Net_UpcPreamble_None
+  commentId: F:Opticon.Csp2Net.UpcPreamble.None
+  fullName: Opticon.Csp2Net.UpcPreamble.None
+  nameWithType: UpcPreamble.None
+- uid: Opticon.Csp2Net.UpcPreamble.System
+  name: System
+  href: api/Opticon.Csp2Net.UpcPreamble.html#Opticon_Csp2Net_UpcPreamble_System
+  commentId: F:Opticon.Csp2Net.UpcPreamble.System
+  fullName: Opticon.Csp2Net.UpcPreamble.System
+  nameWithType: UpcPreamble.System
+- uid: Opticon.Csp2Net.UpcPreamble.SystemAndCountry
+  name: SystemAndCountry
+  href: api/Opticon.Csp2Net.UpcPreamble.html#Opticon_Csp2Net_UpcPreamble_SystemAndCountry
+  commentId: F:Opticon.Csp2Net.UpcPreamble.SystemAndCountry
+  fullName: Opticon.Csp2Net.UpcPreamble.SystemAndCountry
+  nameWithType: UpcPreamble.SystemAndCountry
+- uid: Opticon.Csp2Net.UpcSupplements
+  name: UpcSupplements
+  href: api/Opticon.Csp2Net.UpcSupplements.html
+  commentId: T:Opticon.Csp2Net.UpcSupplements
+  fullName: Opticon.Csp2Net.UpcSupplements
+  nameWithType: UpcSupplements
+- uid: Opticon.Csp2Net.UpcSupplements.Auto
+  name: Auto
+  href: api/Opticon.Csp2Net.UpcSupplements.html#Opticon_Csp2Net_UpcSupplements_Auto
+  commentId: F:Opticon.Csp2Net.UpcSupplements.Auto
+  fullName: Opticon.Csp2Net.UpcSupplements.Auto
+  nameWithType: UpcSupplements.Auto
+- uid: Opticon.Csp2Net.UpcSupplements.None
+  name: None
+  href: api/Opticon.Csp2Net.UpcSupplements.html#Opticon_Csp2Net_UpcSupplements_None
+  commentId: F:Opticon.Csp2Net.UpcSupplements.None
+  fullName: Opticon.Csp2Net.UpcSupplements.None
+  nameWithType: UpcSupplements.None
+- uid: Opticon.Csp2Net.UpcSupplements.Only
+  name: Only
+  href: api/Opticon.Csp2Net.UpcSupplements.html#Opticon_Csp2Net_UpcSupplements_Only
+  commentId: F:Opticon.Csp2Net.UpcSupplements.Only
+  fullName: Opticon.Csp2Net.UpcSupplements.Only
+  nameWithType: UpcSupplements.Only
 - uid: Opticon.Csp2Status
   name: Csp2Status
   href: api/Opticon.Csp2Status.html
@@ -708,15 +2577,15 @@ references:
   commentId: T:Opticon.OpnDevice
   fullName: Opticon.OpnDevice
   nameWithType: OpnDevice
-- uid: Opticon.OpnDevice.#ctor(System.Int32)
-  name: OpnDevice(int)
-  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice__ctor_System_Int32_
-  commentId: M:Opticon.OpnDevice.#ctor(System.Int32)
-  name.vb: New(Integer)
-  fullName: Opticon.OpnDevice.OpnDevice(int)
-  fullName.vb: Opticon.OpnDevice.New(Integer)
-  nameWithType: OpnDevice.OpnDevice(int)
-  nameWithType.vb: OpnDevice.New(Integer)
+- uid: Opticon.OpnDevice.#ctor(System.String)
+  name: OpnDevice(string)
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice__ctor_System_String_
+  commentId: M:Opticon.OpnDevice.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Opticon.OpnDevice.OpnDevice(string)
+  fullName.vb: Opticon.OpnDevice.New(String)
+  nameWithType: OpnDevice.OpnDevice(string)
+  nameWithType.vb: OpnDevice.New(String)
 - uid: Opticon.OpnDevice.#ctor*
   name: OpnDevice
   href: api/Opticon.OpnDevice.html#Opticon_OpnDevice__ctor_
@@ -753,6 +2622,12 @@ references:
   isSpec: "True"
   fullName: Opticon.OpnDevice.Connect
   nameWithType: OpnDevice.Connect
+- uid: Opticon.OpnDevice.DeviceChangedHandler
+  name: OpnDevice.DeviceChangedHandler
+  href: api/Opticon.OpnDevice.DeviceChangedHandler.html
+  commentId: T:Opticon.OpnDevice.DeviceChangedHandler
+  fullName: Opticon.OpnDevice.DeviceChangedHandler
+  nameWithType: OpnDevice.DeviceChangedHandler
 - uid: Opticon.OpnDevice.DeviceDetectedHandler
   name: OpnDevice.DeviceDetectedHandler
   href: api/Opticon.OpnDevice.DeviceDetectedHandler.html
@@ -954,6 +2829,25 @@ references:
   isSpec: "True"
   fullName: Opticon.OpnDevice.GetSoftwareVersion
   nameWithType: OpnDevice.GetSoftwareVersion
+- uid: Opticon.OpnDevice.GetSystemStatus
+  name: GetSystemStatus()
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_GetSystemStatus
+  commentId: M:Opticon.OpnDevice.GetSystemStatus
+  fullName: Opticon.OpnDevice.GetSystemStatus()
+  nameWithType: OpnDevice.GetSystemStatus()
+- uid: Opticon.OpnDevice.GetSystemStatus*
+  name: GetSystemStatus
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_GetSystemStatus_
+  commentId: Overload:Opticon.OpnDevice.GetSystemStatus
+  isSpec: "True"
+  fullName: Opticon.OpnDevice.GetSystemStatus
+  nameWithType: OpnDevice.GetSystemStatus
+- uid: Opticon.OpnDevice.GetTime
+  name: GetTime()
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_GetTime
+  commentId: M:Opticon.OpnDevice.GetTime
+  fullName: Opticon.OpnDevice.GetTime()
+  nameWithType: OpnDevice.GetTime()
 - uid: Opticon.OpnDevice.GetTime(System.DateTime@)
   name: GetTime(out DateTime)
   href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_GetTime_System_DateTime__
@@ -1022,6 +2916,32 @@ references:
   isSpec: "True"
   fullName: Opticon.OpnDevice.Port
   nameWithType: OpnDevice.Port
+- uid: Opticon.OpnDevice.PortName
+  name: PortName
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_PortName
+  commentId: P:Opticon.OpnDevice.PortName
+  fullName: Opticon.OpnDevice.PortName
+  nameWithType: OpnDevice.PortName
+- uid: Opticon.OpnDevice.PortName*
+  name: PortName
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_PortName_
+  commentId: Overload:Opticon.OpnDevice.PortName
+  isSpec: "True"
+  fullName: Opticon.OpnDevice.PortName
+  nameWithType: OpnDevice.PortName
+- uid: Opticon.OpnDevice.PowerDown
+  name: PowerDown()
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_PowerDown
+  commentId: M:Opticon.OpnDevice.PowerDown
+  fullName: Opticon.OpnDevice.PowerDown()
+  nameWithType: OpnDevice.PowerDown()
+- uid: Opticon.OpnDevice.PowerDown*
+  name: PowerDown
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_PowerDown_
+  commentId: Overload:Opticon.OpnDevice.PowerDown
+  isSpec: "True"
+  fullName: Opticon.OpnDevice.PowerDown
+  nameWithType: OpnDevice.PowerDown
 - uid: Opticon.OpnDevice.ReadBarcodes
   name: ReadBarcodes()
   href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_ReadBarcodes
@@ -1116,15 +3036,24 @@ references:
   isSpec: "True"
   fullName: Opticon.OpnDevice.SetToDefault
   nameWithType: OpnDevice.SetToDefault
-- uid: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler,System.Boolean)
-  name: StartPolling(DeviceDetectedHandler, bool)
-  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_StartPolling_Opticon_OpnDevice_DeviceDetectedHandler_System_Boolean_
-  commentId: M:Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler,System.Boolean)
-  name.vb: StartPolling(DeviceDetectedHandler, Boolean)
-  fullName: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler, bool)
-  fullName.vb: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler, Boolean)
-  nameWithType: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, bool)
-  nameWithType.vb: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, Boolean)
+- uid: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceChangedHandler,System.String)
+  name: StartPolling(DeviceChangedHandler, string)
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_StartPolling_Opticon_OpnDevice_DeviceChangedHandler_System_String_
+  commentId: M:Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceChangedHandler,System.String)
+  name.vb: StartPolling(DeviceChangedHandler, String)
+  fullName: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceChangedHandler, string)
+  fullName.vb: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceChangedHandler, String)
+  nameWithType: OpnDevice.StartPolling(OpnDevice.DeviceChangedHandler, string)
+  nameWithType.vb: OpnDevice.StartPolling(OpnDevice.DeviceChangedHandler, String)
+- uid: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler,System.String)
+  name: StartPolling(DeviceDetectedHandler, string)
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_StartPolling_Opticon_OpnDevice_DeviceDetectedHandler_System_String_
+  commentId: M:Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler,System.String)
+  name.vb: StartPolling(DeviceDetectedHandler, String)
+  fullName: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler, string)
+  fullName.vb: Opticon.OpnDevice.StartPolling(Opticon.OpnDevice.DeviceDetectedHandler, String)
+  nameWithType: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, string)
+  nameWithType.vb: OpnDevice.StartPolling(OpnDevice.DeviceDetectedHandler, String)
 - uid: Opticon.OpnDevice.StartPolling*
   name: StartPolling
   href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_StartPolling_
@@ -1197,6 +3126,22 @@ references:
   fullName.vb: Opticon.OpnDevice.TryGetParameter(Of TEnum)(Opticon.OpnParameter, TEnum)
   nameWithType: OpnDevice.TryGetParameter<TEnum>(OpnParameter, out TEnum)
   nameWithType.vb: OpnDevice.TryGetParameter(Of TEnum)(OpnParameter, TEnum)
+- uid: Opticon.OpnDevice.TryGetTime(System.DateTime@)
+  name: TryGetTime(out DateTime)
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_TryGetTime_System_DateTime__
+  commentId: M:Opticon.OpnDevice.TryGetTime(System.DateTime@)
+  name.vb: TryGetTime(Date)
+  fullName: Opticon.OpnDevice.TryGetTime(out System.DateTime)
+  fullName.vb: Opticon.OpnDevice.TryGetTime(Date)
+  nameWithType: OpnDevice.TryGetTime(out DateTime)
+  nameWithType.vb: OpnDevice.TryGetTime(Date)
+- uid: Opticon.OpnDevice.TryGetTime*
+  name: TryGetTime
+  href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_TryGetTime_
+  commentId: Overload:Opticon.OpnDevice.TryGetTime
+  isSpec: "True"
+  fullName: Opticon.OpnDevice.TryGetTime
+  nameWithType: OpnDevice.TryGetTime
 - uid: Opticon.OpnDevice.TrySetParameter(Opticon.OpnParameter,System.Boolean)
   name: TrySetParameter(OpnParameter, bool)
   href: api/Opticon.OpnDevice.html#Opticon_OpnDevice_TrySetParameter_Opticon_OpnParameter_System_Boolean_
@@ -1255,19 +3200,6 @@ references:
   commentId: T:Opticon.OpnEnvironment
   fullName: Opticon.OpnEnvironment
   nameWithType: OpnEnvironment
-- uid: Opticon.OpnEnvironment.DebugMode
-  name: DebugMode
-  href: api/Opticon.OpnEnvironment.html#Opticon_OpnEnvironment_DebugMode
-  commentId: P:Opticon.OpnEnvironment.DebugMode
-  fullName: Opticon.OpnEnvironment.DebugMode
-  nameWithType: OpnEnvironment.DebugMode
-- uid: Opticon.OpnEnvironment.DebugMode*
-  name: DebugMode
-  href: api/Opticon.OpnEnvironment.html#Opticon_OpnEnvironment_DebugMode_
-  commentId: Overload:Opticon.OpnEnvironment.DebugMode
-  isSpec: "True"
-  fullName: Opticon.OpnEnvironment.DebugMode
-  nameWithType: OpnEnvironment.DebugMode
 - uid: Opticon.OpnEnvironment.GetDllVersion
   name: GetDllVersion()
   href: api/Opticon.OpnEnvironment.html#Opticon_OpnEnvironment_GetDllVersion
@@ -1398,6 +3330,12 @@ references:
   commentId: F:Opticon.OpnParameter.BuzzerAutoOn
   fullName: Opticon.OpnParameter.BuzzerAutoOn
   nameWithType: OpnParameter.BuzzerAutoOn
+- uid: Opticon.OpnParameter.BuzzerOn
+  name: BuzzerOn
+  href: api/Opticon.OpnParameter.html#Opticon_OpnParameter_BuzzerOn
+  commentId: F:Opticon.OpnParameter.BuzzerOn
+  fullName: Opticon.OpnParameter.BuzzerOn
+  nameWithType: OpnParameter.BuzzerOn
 - uid: Opticon.OpnParameter.BuzzerToggle
   name: BuzzerToggle
   href: api/Opticon.OpnParameter.html#Opticon_OpnParameter_BuzzerToggle
@@ -1674,6 +3612,60 @@ references:
   commentId: F:Opticon.OpnParameter.UpcSupplements
   fullName: Opticon.OpnParameter.UpcSupplements
   nameWithType: OpnParameter.UpcSupplements
+- uid: Opticon.OpnResult
+  name: OpnResult
+  href: api/Opticon.OpnResult.html
+  commentId: T:Opticon.OpnResult
+  fullName: Opticon.OpnResult
+  nameWithType: OpnResult
+- uid: Opticon.OpnResult.BAD_PARAM
+  name: BAD_PARAM
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_BAD_PARAM
+  commentId: F:Opticon.OpnResult.BAD_PARAM
+  fullName: Opticon.OpnResult.BAD_PARAM
+  nameWithType: OpnResult.BAD_PARAM
+- uid: Opticon.OpnResult.COMMUNICATIONS_ERROR
+  name: COMMUNICATIONS_ERROR
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_COMMUNICATIONS_ERROR
+  commentId: F:Opticon.OpnResult.COMMUNICATIONS_ERROR
+  fullName: Opticon.OpnResult.COMMUNICATIONS_ERROR
+  nameWithType: OpnResult.COMMUNICATIONS_ERROR
+- uid: Opticon.OpnResult.FIRMWARE_FAILURE
+  name: FIRMWARE_FAILURE
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_FIRMWARE_FAILURE
+  commentId: F:Opticon.OpnResult.FIRMWARE_FAILURE
+  fullName: Opticon.OpnResult.FIRMWARE_FAILURE
+  nameWithType: OpnResult.FIRMWARE_FAILURE
+- uid: Opticon.OpnResult.GENERAL_ERROR
+  name: GENERAL_ERROR
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_GENERAL_ERROR
+  commentId: F:Opticon.OpnResult.GENERAL_ERROR
+  fullName: Opticon.OpnResult.GENERAL_ERROR
+  nameWithType: OpnResult.GENERAL_ERROR
+- uid: Opticon.OpnResult.SETUP_ERROR
+  name: SETUP_ERROR
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_SETUP_ERROR
+  commentId: F:Opticon.OpnResult.SETUP_ERROR
+  fullName: Opticon.OpnResult.SETUP_ERROR
+  nameWithType: OpnResult.SETUP_ERROR
+- uid: Opticon.OpnResult.STATUS_OK
+  name: STATUS_OK
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_STATUS_OK
+  commentId: F:Opticon.OpnResult.STATUS_OK
+  fullName: Opticon.OpnResult.STATUS_OK
+  nameWithType: OpnResult.STATUS_OK
+- uid: Opticon.OpnResult.TEMPORARY_ERROR
+  name: TEMPORARY_ERROR
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_TEMPORARY_ERROR
+  commentId: F:Opticon.OpnResult.TEMPORARY_ERROR
+  fullName: Opticon.OpnResult.TEMPORARY_ERROR
+  nameWithType: OpnResult.TEMPORARY_ERROR
+- uid: Opticon.OpnResult.UNINITIALIZED
+  name: UNINITIALIZED
+  href: api/Opticon.OpnResult.html#Opticon_OpnResult_UNINITIALIZED
+  commentId: F:Opticon.OpnResult.UNINITIALIZED
+  fullName: Opticon.OpnResult.UNINITIALIZED
+  nameWithType: OpnResult.UNINITIALIZED
 - uid: Opticon.OpnTemporaryException
   name: OpnTemporaryException
   href: api/Opticon.OpnTemporaryException.html

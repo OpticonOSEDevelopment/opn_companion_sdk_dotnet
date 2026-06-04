@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>OPN Companion SDK for developing .NET application | Opticon.csp2 .NET wrapper for the Opticon CSP2 library </title>
+      <title>OPN Companion SDK for developing .NET application | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="OPN Companion SDK for developing .NET application | Opticon.csp2 .NET wrapper for the Opticon CSP2 library ">
+      <meta name="title" content="OPN Companion SDK for developing .NET application | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
       
       
       <link rel="icon" href="favicon.ico">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="index.html">
-            <img id="logo" class="svg" src="/images/logo.svg" alt="Opticon.csp2 .NET wrapper for the Opticon CSP2 library">
-            Opticon.csp2 .NET wrapper for the Opticon CSP2 library
+            <img id="logo" class="svg" src="/images/logo.svg" alt="Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol">
+            Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -77,8 +77,8 @@
 <h2 id="features">Features</h2>
 <ul>
 <li>Provides a C# interface for communicating with Opticon Companion devices using the CSP2 native functionality.</li>
-<li>Supports .NET Standard 2.0/2.1, .NET 6, .NET 8, and .NET Framework 4.6.1+.</li>
-<li>Compatible with WinForms, WPF, Console applications, and Windows Services.</li>
+<li>Supports both legacy .NET Framework applications and modern .NET applications.</li>
+<li>Fully cross-platform on Windows, Linux, and macOS when running on supported .NET runtimes.</li>
 <li>Simplifies device connection, polling, barcode reading, and parameter management</li>
 </ul>
 <h2 id="installation">Installation</h2>
@@ -90,7 +90,7 @@
 <table>
 <thead>
 <tr>
-<th>Platform</th>
+<th>Platform / Runtime</th>
 <th>Supported</th>
 </tr>
 </thead>
@@ -104,7 +104,38 @@
 <td>✅</td>
 </tr>
 <tr>
-<td>.NET 6 / .NET 8</td>
+<td>.NET 6</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>.NET 8</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>.NET 9</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<h2 id="operating-systems">Operating Systems</h2>
+<table>
+<thead>
+<tr>
+<th>Operating System</th>
+<th>Supported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>macOS</td>
 <td>✅</td>
 </tr>
 </tbody>
@@ -113,7 +144,7 @@
 <p>The documentation of the API can be found here: <a href="https://opticonosedevelopment.github.io/opn_companion_sdk_dotnet/api/Opticon.html">API</a></p>
 <h2 id="usage">Usage</h2>
 <p>The following example demonstrates how to poll for devices, retrieve barcode data and manage device parameters.</p>
-<pre><code class="lang-csharp">using Opticon;
+<pre><code class="lang-csharp">using Opticon.Csp2Net;
 
 class Program
 {
@@ -121,23 +152,30 @@ class Program
     {
         try
         {
-            Console.WriteLine(String.Format(&quot;Csp2 DLL Version = {0}&quot;, OpnEnvironment.GetDllVersion()));
+            Console.WriteLine($&quot;Csp2Net Package Version = {OpnEnvironment.GetDllVersion()}&quot;);
 
-            var connectedDevices = new HashSet&lt;int&gt;();   // Used to avoid duplicate connection messages
+            if (OperatingSystem.IsMacOS() || OperatingSystem.IsLinux())
+                Console.WriteLine($&quot;\nMake sure your device is configured to use the CDC-driver (default: BQZ; OPN-2500/OPN-6000 only)\n(See https://opticonfigure.opticon.com)\n&quot;);
 
-            OpnDevice.StartPolling(device =&gt;
+            var connectedDevices = new HashSet&lt;string&gt;();   // Used to avoid duplicate connection messages
+
+            OpnDevice.StartPolling((device, connected) =&gt;
             {
                 try
                 {
-                    if (device.IsConnected)
+                    if (connected)
                     {
-                        string deviceId = device.GetDeviceId();
+                        device.Connect();
+
+                        device.Interrogate(); // Retrieve additional information about the device
+
+                        string deviceId = device.GetDeviceId() ?? &quot;?&quot;;
                         string model = device.GetModel();
 
                         // Handle new connection
-                        if (connectedDevices.Add(device.Port))
+                        if (connectedDevices.Add(device.PortName))
                         {
-                            Console.WriteLine($&quot;[{model}] [{deviceId}] [COM{device.Port}] Connected ({device.GetSoftwareVersion()})&quot;);
+                            Console.WriteLine($&quot;[{model}] [{deviceId}] [{device.PortName}] Connected ({device.GetSoftwareVersion()})&quot;);
                         }
 
                         // Handle barcode data
@@ -146,11 +184,11 @@ class Program
                             // Read all barcodes from the device and store them in a list
                             var barcodes = device.ReadBarcodes();
 
-                            Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [COM{device.Port}] {barcodes.Count} Barcode(s) Read&quot;);
+                            Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [{device.PortName}] {barcodes.Count} Barcode(s) Read&quot;);
 
                             foreach (var barcode in barcodes)
                             {
-                                Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [COM{device.Port}] [{barcode.Timestamp}] [{barcode.Data}] [{barcode.SymbologyName}]&quot;);
+                                Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [{device.PortName}] [{barcode.Timestamp}] [{barcode.Data}] [{barcode.SymbologyName}]&quot;);
                             }
 
                             device.ClearBarcodes();
@@ -171,16 +209,19 @@ class Program
 
                         device.SetParameter(OpnParameter.ScratchPad, &quot;Hello&quot;);
 
-                        device.GetTime(out DateTime dTime);
+                        device.TryGetTime(out DateTime dTime);
 
                         device.SetTime(DateTime.Now);       // Sync device time with PC time
+
+                        // Don't call disconnect to receive a new call back when data becomes available (Windows only)
+                        //device.Disconnect();        
                     }
                     else
                     {
                         // Handle disconnect
-                        if (connectedDevices.Remove(device.Port))
+                        if (connectedDevices.Remove(device.PortName))
                         {
-                            Console.WriteLine($&quot;[{device.GetModel()}] [{device.GetDeviceId()}] [COM{device.Port}] Disconnected&quot;);
+                            Console.WriteLine($&quot;[{device.GetModel()}] [{device.GetDeviceId()}] [{device.PortName}] Disconnected&quot;);
                         }
                     }
                     return 1; // Return 1 to indicate the device was successfully processed
@@ -202,7 +243,7 @@ class Program
 }
 </code></pre>
 <p>The next example demonstrates how to use a multi-threaded approach to poll for devices and read barcodes without blocking the main thread.</p>
-<pre><code class="lang-csharp">using Opticon;
+<pre><code class="lang-csharp">using Opticon.Csp2Net;
 using System.Collections.Concurrent;
 
 class Program
@@ -219,9 +260,12 @@ class Program
     {
         try
         {
-            Console.WriteLine($&quot;Csp2 DLL Version = {OpnEnvironment.GetDllVersion()}&quot;);
+             Console.WriteLine($&quot;Csp2Net Package Version = {OpnEnvironment.GetDllVersion()}&quot;);
 
-            var workerStates = new ConcurrentDictionary&lt;int, WorkerState&gt;();
+            if (OperatingSystem.IsMacOS() || OperatingSystem.IsLinux())
+                Console.WriteLine($&quot;\nMake sure your device is configured to use the CDC-driver (default: BQZ; OPN-2500/OPN-6000 only)\n(See https://opticonfigure.opticon.com)\n&quot;);
+
+            var workerStates = new ConcurrentDictionary&lt;string, WorkerState&gt;();
 
             OpnDevice.StartPolling(device =&gt;
             {
@@ -304,8 +348,9 @@ class Program
 }
 </code></pre>
 <h2 id="troubleshooting">Troubleshooting</h2>
-<h3 id="runtime-errors--dll-not-found">Runtime Errors / DLL Not Found</h3>
-<p>This NuGet package of the CSP2 .NET wrapper should automatically add the correct native Csp2.dll to your output directory. If any DLL errors occur, verify that the correct native Csp2.dll is present in your application's output directory. Ensure the native binary matches your target architecture (x86/x64).</p>
+<h3 id="runtime-errors--device-not-found">Runtime Errors / Device Not Found</h3>
+<p>On Linux and macOS, make sure your device is configured to use the <strong>CDC driver</strong> (default: BQZ; only supported on OPN-2500 and OPN-6000).</p>
+<p>For more information, see <strong>OptiConfigure</strong>: <a href="https://opticonfigure.opticon.com">https://opticonfigure.opticon.com</a></p>
 <h2 id="license">License</h2>
 <p>This project is licensed under the MIT License.</p>
 
