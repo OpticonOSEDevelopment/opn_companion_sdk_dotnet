@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum RejectRedundantCodes | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
+      <title>Enum BatteryLowIndication | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum RejectRedundantCodes | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
+      <meta name="title" content="Enum BatteryLowIndication | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
       
-      <meta name="description" content="Redundant barcode filtering options.">
+      <meta name="description" content="Battery low indication options (bit flags).">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Opticon.RejectRedundantCodes">
+        <article data-uid="Opticon.Csp2Net.BatteryLowIndication">
 
 
 
 
-  <h1 id="Opticon_RejectRedundantCodes" data-uid="Opticon.RejectRedundantCodes" class="text-break">
-Enum RejectRedundantCodes  
+  <h1 id="Opticon_Csp2Net_BatteryLowIndication" data-uid="Opticon.Csp2Net.BatteryLowIndication" class="text-break">
+Enum BatteryLowIndication  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Opticon.html">Opticon</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Opticon.html">Opticon</a>.<a class="xref" href="Opticon.Csp2Net.html">Csp2Net</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Opticon.csp2.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Redundant barcode filtering options.</p>
+  <div class="markdown summary"><p>Battery low indication options (bit flags).</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum RejectRedundantCodes</code></pre>
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum BatteryLowIndication</code></pre>
   </div>
 
 
@@ -117,17 +118,17 @@ Enum RejectRedundantCodes
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="Opticon_RejectRedundantCodes_Any"><code>Any = 2</code></dt>
+    <dt id="Opticon_Csp2Net_BatteryLowIndication_AllowOperation"><code>AllowOperation = 2</code></dt>
   
-  <dd><p>Reject any duplicate barcodes.</p>
+  <dd><p>Allow operation when low.</p>
 </dd>
-    <dt id="Opticon_RejectRedundantCodes_Consecutive"><code>Consecutive = 1</code></dt>
+    <dt id="Opticon_Csp2Net_BatteryLowIndication_IndicationEnabled"><code>IndicationEnabled = 1</code></dt>
   
-  <dd><p>Reject consecutive identical barcodes.</p>
+  <dd><p>Enable indication.</p>
 </dd>
-    <dt id="Opticon_RejectRedundantCodes_Off"><code>Off = 0</code></dt>
+    <dt id="Opticon_Csp2Net_BatteryLowIndication_None"><code>None = 0</code></dt>
   
-  <dd><p>Redundant barcode filtering disabled (default)</p>
+  <dd><p>No indication.</p>
 </dd>
   </dl>
 

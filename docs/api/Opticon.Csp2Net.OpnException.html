@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class OpnCommunicationException | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
+      <title>Class OpnException | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class OpnCommunicationException | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
+      <meta name="title" content="Class OpnException | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
       
-      <meta name="description" content="Exception thrown when a communication failure occurs between the host and the OPN device.">
+      <meta name="description" content="Represents a general error that occurs during an OPN device operation.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,25 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Opticon.OpnCommunicationException">
+        <article data-uid="Opticon.Csp2Net.OpnException">
 
 
 
-  <h1 id="Opticon_OpnCommunicationException" data-uid="Opticon.OpnCommunicationException" class="text-break">
-Class OpnCommunicationException  
+  <h1 id="Opticon_Csp2Net_OpnException" data-uid="Opticon.Csp2Net.OpnException" class="text-break">
+Class OpnException  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Opticon.html">Opticon</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Opticon.html">Opticon</a>.<a class="xref" href="Opticon.Csp2Net.html">Csp2Net</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Opticon.csp2.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Exception thrown when a communication failure occurs between the host and the OPN device.</p>
+  <div class="markdown summary"><p>Represents a general error that occurs during an OPN device operation.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OpnCommunicationException : OpnException, ISerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class OpnException : Exception, ISerializable</code></pre>
   </div>
 
 
@@ -113,8 +113,7 @@ Class OpnCommunicationException
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></div>
-      <div><a class="xref" href="Opticon.OpnException.html">OpnException</a></div>
-      <div><span class="xref">OpnCommunicationException</span></div>
+      <div><span class="xref">OpnException</span></div>
     </dd>
   </dl>
 
@@ -125,13 +124,17 @@ Class OpnCommunicationException
     </dd>
   </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Opticon.Csp2Net.OpnCommunicationException.html">OpnCommunicationException</a></div>
+      <div><a class="xref" href="Opticon.Csp2Net.OpnTemporaryException.html">OpnTemporaryException</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Opticon.OpnException.html#Opticon_OpnException_Status">OpnException.Status</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception">Exception.GetBaseException()</a>
     </div>
@@ -197,34 +200,70 @@ Class OpnCommunicationException
 </h2>
 
 
-  <a id="Opticon_OpnCommunicationException__ctor_" data-uid="Opticon.OpnCommunicationException.#ctor*"></a>
+  <a id="Opticon_Csp2Net_OpnException__ctor_" data-uid="Opticon.Csp2Net.OpnException.#ctor*"></a>
 
-  <h3 id="Opticon_OpnCommunicationException__ctor_System_String_Opticon_Csp2Status_" data-uid="Opticon.OpnCommunicationException.#ctor(System.String,Opticon.Csp2Status)">
-  OpnCommunicationException(string, Csp2Status)
+  <h3 id="Opticon_Csp2Net_OpnException__ctor_System_String_Opticon_Csp2Net_Csp2Status_" data-uid="Opticon.Csp2Net.OpnException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)">
+  OpnException(string, Csp2Status)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Opticon.OpnCommunicationException.html">OpnCommunicationException</a> class.</p>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Opticon.Csp2Net.OpnException.html">OpnException</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OpnCommunicationException(string message, Csp2Status status)</code></pre>
+    <pre><code class="lang-csharp hljs">public OpnException(string message, Csp2Status status)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The message that describes the communication error.</p>
+    <dd><p>The message that describes the error.</p>
 </dd>
-    <dt><code>status</code> <a class="xref" href="Opticon.Csp2Status.html">Csp2Status</a></dt>
-    <dd><p>The status code associated with the communication failure.</p>
+    <dt><code>status</code> <a class="xref" href="Opticon.Csp2Net.Csp2Status.html">Csp2Status</a></dt>
+    <dd><p>The status code returned by the device library.</p>
 </dd>
   </dl>
 
 
 
 
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Opticon_Csp2Net_OpnException_Status_" data-uid="Opticon.Csp2Net.OpnException.Status*"></a>
+
+  <h3 id="Opticon_Csp2Net_OpnException_Status" data-uid="Opticon.Csp2Net.OpnException.Status">
+  Status
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the hardware status code associated with this exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Csp2Status Status { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Opticon.Csp2Net.Csp2Status.html">Csp2Status</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

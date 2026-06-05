@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum RejectRedundantCodes | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
+      <title>Delegate OpnDevice.DeviceChangedHandler | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum RejectRedundantCodes | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
+      <meta name="title" content="Delegate OpnDevice.DeviceChangedHandler | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
       
-      <meta name="description" content="Redundant barcode filtering options.">
+      <meta name="description" content="Called when a device is detected.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,13 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Opticon.RejectRedundantCodes">
+        <article data-uid="Opticon.OpnDevice.DeviceChangedHandler">
 
 
 
-
-  <h1 id="Opticon_RejectRedundantCodes" data-uid="Opticon.RejectRedundantCodes" class="text-break">
-Enum RejectRedundantCodes  
+  <h1 id="Opticon_OpnDevice_DeviceChangedHandler" data-uid="Opticon.OpnDevice.DeviceChangedHandler" class="text-break">
+Delegate OpnDevice.DeviceChangedHandler  
   </h1>
 
   <div class="facts text-secondary">
@@ -98,38 +97,36 @@ Enum RejectRedundantCodes
   <dl><dt>Assembly</dt><dd>Opticon.csp2.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Redundant barcode filtering options.</p>
+  <div class="markdown summary"><p>Called when a device is detected.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum RejectRedundantCodes</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate int OpnDevice.DeviceChangedHandler(OpnDevice device, bool connected)</code></pre>
   </div>
 
-
-
-
-
-
-
-
-
-  <h2 id="fields">Fields
-</h2>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt id="Opticon_RejectRedundantCodes_Any"><code>Any = 2</code></dt>
-  
-  <dd><p>Reject any duplicate barcodes.</p>
-</dd>
-    <dt id="Opticon_RejectRedundantCodes_Consecutive"><code>Consecutive = 1</code></dt>
-  
-  <dd><p>Reject consecutive identical barcodes.</p>
-</dd>
-    <dt id="Opticon_RejectRedundantCodes_Off"><code>Off = 0</code></dt>
-  
-  <dd><p>Redundant barcode filtering disabled (default)</p>
-</dd>
+    <dt><code>device</code> <a class="xref" href="Opticon.OpnDevice.html">OpnDevice</a></dt>
+    <dd>Called when a device is detected.</dd>
+    <dt><code>connected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Called when a device is detected.</dd>
   </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd>Called when a device is detected.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
 
