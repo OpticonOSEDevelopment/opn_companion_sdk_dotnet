@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>OPN Companion SDK for developing .NET application | Opticon.csp2 .NET wrapper for the Opticon CSP2 library </title>
+      <title>Opticon.Csp2Net | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="OPN Companion SDK for developing .NET application | Opticon.csp2 .NET wrapper for the Opticon CSP2 library ">
+      <meta name="title" content="Opticon.Csp2Net | Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol ">
       
       
       <link rel="icon" href="favicon.ico">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="index.html">
-            <img id="logo" class="svg" src="/images/logo.svg" alt="Opticon.csp2 .NET wrapper for the Opticon CSP2 library">
-            Opticon.csp2 .NET wrapper for the Opticon CSP2 library
+            <img id="logo" class="svg" src="/images/logo.svg" alt="Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol">
+            Opticon .NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -71,14 +71,14 @@
         </div>
 
         <article data-uid="">
-<h1 id="opn-companion-sdk-for-developing-net-application">OPN Companion SDK for developing .NET application</h1>
+<h1 id="opticoncsp2net">Opticon.Csp2Net</h1>
 
-<p>This is the official .NET SDK from Opticon Sensors Europe BV for the OPN Companion Scanners to create C# applications to interface with OPN Companion devices using the Nuget Opticon.csp2 package</p>
+<p>.NET package for interfacing with Opticon OPN Companion devices using the CSP2 protocol</p>
 <h2 id="features">Features</h2>
 <ul>
 <li>Provides a C# interface for communicating with Opticon Companion devices using the CSP2 native functionality.</li>
-<li>Supports .NET Standard 2.0/2.1, .NET 6, .NET 8, and .NET Framework 4.6.1+.</li>
-<li>Compatible with WinForms, WPF, Console applications, and Windows Services.</li>
+<li>Supports both legacy .NET Framework applications and modern .NET applications.</li>
+<li>Fully cross-platform on Windows, Linux, and macOS when running on supported .NET runtimes.</li>
 <li>Simplifies device connection, polling, barcode reading, and parameter management</li>
 </ul>
 <h2 id="installation">Installation</h2>
@@ -90,7 +90,7 @@
 <table>
 <thead>
 <tr>
-<th>Platform</th>
+<th>Platform / Runtime</th>
 <th>Supported</th>
 </tr>
 </thead>
@@ -104,16 +104,51 @@
 <td>✅</td>
 </tr>
 <tr>
-<td>.NET 6 / .NET 8</td>
+<td>.NET Standard 2.1</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>.NET 6</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>.NET 8</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>.NET 9</td>
 <td>✅</td>
 </tr>
 </tbody>
 </table>
-<h2 id="api">API</h2>
-<p>The documentation of the API can be found here: <a href="https://opticonosedevelopment.github.io/opn_companion_sdk_dotnet/api/Opticon.html">API</a></p>
+<h2 id="operating-systems">Operating Systems</h2>
+<table>
+<thead>
+<tr>
+<th>Operating System</th>
+<th>Supported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>macOS</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<h2 id="documentation">Documentation</h2>
+<p>The full documentation of this package can be found here: <a href="https://opticonosedevelopment.github.io/opn_companion_sdk_dotnet/api/Opticon.html">API</a></p>
 <h2 id="usage">Usage</h2>
 <p>The following example demonstrates how to poll for devices, retrieve barcode data and manage device parameters.</p>
-<pre><code class="lang-csharp">using Opticon;
+<pre><code class="lang-csharp">using Opticon.Csp2Net;
 
 class Program
 {
@@ -121,73 +156,79 @@ class Program
     {
         try
         {
-            Console.WriteLine(String.Format(&quot;Csp2 DLL Version = {0}&quot;, OpnEnvironment.GetDllVersion()));
+            Console.WriteLine($&quot;Csp2Net Package Version = {OpnEnvironment.GetDllVersion()}&quot;);
 
-            var connectedDevices = new HashSet&lt;int&gt;();   // Used to avoid duplicate connection messages
+            if (OperatingSystem.IsMacOS() || OperatingSystem.IsLinux())
+                Console.WriteLine($&quot;\nMake sure your device is configured to use the CDC-driver (default: BQZ; OPN-2500/OPN-6000 only)\n(See https://opticonfigure.opticon.com)\n&quot;);
 
-            OpnDevice.StartPolling(device =&gt;
+            string logDirectory = Path.Combine(AppContext.BaseDirectory, &quot;Logs&quot;);
+            Directory.CreateDirectory(logDirectory);
+
+            OpnDevice.StartPolling((device, connected) =&gt;
             {
                 try
                 {
-                    if (device.IsConnected)
+                    if (connected)
                     {
-                        string deviceId = device.GetDeviceId();
-                        string model = device.GetModel();
+                        // device.Connect();		// Not mandatory (port is automatically opened on each request if needed)
+                        // device.Interrogate();	// No longer needed (Interrogate is automatically called when requesting device info)
+
+                        string deviceId = device.GetDeviceId() ?? &quot;Unknown&quot;;
+                        string model = device.GetModel() ?? &quot;Unknown&quot;;
 
                         // Handle new connection
-                        if (connectedDevices.Add(device.Port))
+                        Console.WriteLine($&quot;[{model}] [{deviceId}] [{device.PortName}] Connected ({device.GetSoftwareVersion()})&quot;);
+
+                        // Read all barcodes from the device AND correct time stamps based on device and system time
+                        var barcodes = device.ReadBarcodes(true);
+
+                        Console.WriteLine($&quot;[{model}] [{deviceId}] [{device.PortName}] {barcodes.Count} Barcode(s) Read&quot;);
+
+                        string logFile = Path.Combine(logDirectory, $&quot;Barcodes_{deviceId}.txt&quot;);
+
+                        foreach (var barcode in barcodes)
                         {
-                            Console.WriteLine($&quot;[{model}] [{deviceId}] [COM{device.Port}] Connected ({device.GetSoftwareVersion()})&quot;);
+                            DateTime ts = barcode.Timestamp;
+
+                            string line = $&quot;{barcode.Data};{ts:HH:mm:ss};{ts:dd-MM-yyyy};{barcode.SymbologyName};{deviceId}&quot;;
+
+                            File.AppendAllText(logFile, line + Environment.NewLine);
+
+                            Console.WriteLine($&quot;[{model}] [{deviceId}] [{device.PortName}] [{ts}] [{barcode.Data}] [{barcode.SymbologyName}]&quot;);
                         }
 
-                        // Handle barcode data
-                        if (device.IsDataAvailable)
-                        {
-                            // Read all barcodes from the device and store them in a list
-                            var barcodes = device.ReadBarcodes();
+                        device.ClearBarcodes();
 
-                            Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [COM{device.Port}] {barcodes.Count} Barcode(s) Read&quot;);
-
-                            foreach (var barcode in barcodes)
-                            {
-                                Console.WriteLine($&quot;[{device.GetModel()}] [{deviceId}] [COM{device.Port}] [{barcode.Timestamp}] [{barcode.Data}] [{barcode.SymbologyName}]&quot;);
-                            }
-
-                            device.ClearBarcodes();
-                        }
+                        // Sync device time AFTER reading barcodes to be able to correct time stamps based on the computer and device time
+                        // Calling device.ReadBarcodes(true) already syncs the time
+                        //device.TryGetTime(out DateTime dTime);
+                        //device.SetTime(DateTime.Now);    
 
                         // Demonstrates the reading and writing of all parameter types (bool, int, enum and string/byte array)
-                        device.GetParameter(OpnParameter.Code39, out bool enabled);
+                        //device.GetParameter(OpnParameter.Code39, out bool enabled);
+                        //device.GetParameter(OpnParameter.ScannerOnTime, out int time);
+                        //device.GetParameter(OpnParameter.DeleteEnable, out DeleteEnableOptions deleteOptions);
+                        //device.SetParameter(OpnParameter.Code39, true);
+                        //device.SetParameter(OpnParameter.ScannerOnTime, 20);
+                        //device.SetParameter(OpnParameter.Gs1DataBar, Gs1DataBarOptions.Gs1DataBar | Gs1DataBarOptions.Gs1Expanded);
+                        //device.SetParameter(OpnParameter.ScratchPad, &quot;Hello&quot;);
 
-                        device.GetParameter(OpnParameter.ScannerOnTime, out int time);
-
-                        device.GetParameter(OpnParameter.DeleteEnable, out DeleteEnableOptions deleteOptions);
-
-                        device.SetParameter(OpnParameter.Code39, true);
-
-                        device.SetParameter(OpnParameter.ScannerOnTime, 20);
-
-                        device.SetParameter(OpnParameter.Gs1DataBar, Gs1DataBarOptions.Gs1DataBar | Gs1DataBarOptions.Gs1Expanded);
-
-                        device.SetParameter(OpnParameter.ScratchPad, &quot;Hello&quot;);
-
-                        device.GetTime(out DateTime dTime);
-
-                        device.SetTime(DateTime.Now);       // Sync device time with PC time
+                        // Don't disconnect if you want callbacks for detecting new barcodes while connected (only works on Windows and using the USB-VCP driver)
+                        //device.Disconnect();
                     }
                     else
-                    {
-                        // Handle disconnect
-                        if (connectedDevices.Remove(device.Port))
-                        {
-                            Console.WriteLine($&quot;[{device.GetModel()}] [{device.GetDeviceId()}] [COM{device.Port}] Disconnected&quot;);
-                        }
+                    {   // Handle removal / disconnect
+                        if(device.GetDeviceId() != null)
+                            Console.WriteLine($&quot;[{device.GetModel()}] [{device.GetDeviceId()}] [{device.PortName}] Disconnected&quot;);
+                        else
+                            Console.WriteLine($&quot;[{device.PortName}] Removed&quot;);
                     }
+
                     return 1; // Return 1 to indicate the device was successfully processed
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($&quot;Exception occurred: {ex.Message}&quot;);
+                    Console.WriteLine($&quot;Exception occurred ({device.PortName}): {ex.Message}&quot;);
                     return 0; // Return 0 to continue polling, so we can retry later
                 }
             });
@@ -201,111 +242,13 @@ class Program
     }
 }
 </code></pre>
-<p>The next example demonstrates how to use a multi-threaded approach to poll for devices and read barcodes without blocking the main thread.</p>
-<pre><code class="lang-csharp">using Opticon;
-using System.Collections.Concurrent;
-
-class Program
-{
-    enum WorkerState
-    {
-        Idle,
-        Running,
-        Success,
-        Failed
-    }
-
-    static void Main(string[] args)
-    {
-        try
-        {
-            Console.WriteLine($&quot;Csp2 DLL Version = {OpnEnvironment.GetDllVersion()}&quot;);
-
-            var workerStates = new ConcurrentDictionary&lt;int, WorkerState&gt;();
-
-            OpnDevice.StartPolling(device =&gt;
-            {
-                try
-                {
-                    if (device.IsConnected)
-                    {
-                        // Start worker if none is running
-                        if (workerStates.GetOrAdd(device.Port, WorkerState.Idle) == WorkerState.Idle || workerStates[device.Port] == WorkerState.Failed)
-                        {
-                            workerStates[device.Port] = WorkerState.Running;
-
-                            Task.Run(() =&gt;
-                            {
-                                try
-                                {
-                                    string deviceId = device.GetDeviceId();
-                                    string model = device.GetModel();
-
-                                    if (workerStates[device.Port] == WorkerState.Running) 
-                                    {
-                                        Console.WriteLine($&quot;[{model}] [{deviceId}] [COM{device.Port}] Connected ({device.GetSoftwareVersion()})&quot;);
-                                    }
-
-                                    if (device.IsDataAvailable)
-                                    {
-                                        int cnt = 0;
-
-                                        foreach (var barcode in device.EnumerateBarcodes())
-                                        {
-                                            Console.WriteLine($&quot;[{++cnt}][{model}] [{deviceId}] [COM{device.Port}] [{barcode.Timestamp}] [{barcode.Data}] [{barcode.SymbologyName}]&quot;);
-                                        }
-                                    }
-
-                                    device.SetTime(DateTime.Now);
-
-                                    device.ClearBarcodes();
-
-                                    workerStates[device.Port] = WorkerState.Success;
-                                }
-                                catch (Exception ex)
-                                {
-                                    Console.WriteLine($&quot;Worker exception (COM{device.Port}): {ex.Message}&quot;);
-                                    workerStates[device.Port] = WorkerState.Failed;
-                                }
-                            });
-                        }
-
-                        // Decide return value based on worker state
-                        if (workerStates.TryGetValue(device.Port, out var state))
-                        {
-                            return state == WorkerState.Success ? 1 : 0;
-                        }
-
-                        return 0;
-                    }
-                    else
-                    {
-                        if (workerStates.TryRemove(device.Port, out _))
-                        {
-                            Console.WriteLine($&quot;[{device.GetModel()}] [{device.GetDeviceId()}] [COM{device.Port}] Disconnected&quot;);
-                        }
-                        return 0;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($&quot;Exception occurred: {ex.Message}&quot;);
-                    return 0;
-                }
-            });
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($&quot;Failed to start polling: {ex.Message}&quot;);
-        }
-
-        Console.ReadLine();
-    }
-}
-</code></pre>
 <h2 id="troubleshooting">Troubleshooting</h2>
-<h3 id="runtime-errors--dll-not-found">Runtime Errors / DLL Not Found</h3>
-<p>This NuGet package of the CSP2 .NET wrapper should automatically add the correct native Csp2.dll to your output directory. If any DLL errors occur, verify that the correct native Csp2.dll is present in your application's output directory. Ensure the native binary matches your target architecture (x86/x64).</p>
+<h3 id="runtime-errors--device-not-found">Runtime Errors / Device Not Found</h3>
+<p>On Linux and macOS, make sure your device is configured to use the <strong>CDC driver</strong> (default: BQZ; only supported on OPN-2500 and OPN-6000).</p>
+<p>For more information, see <strong>OptiConfigure</strong>: <a href="https://opticonfigure.opticon.com">https://opticonfigure.opticon.com</a></p>
+<h3 id="legacy-net-wrapper">Legacy .Net Wrapper</h3>
+<p>For legacy application using the old .Net wrapper, 'Opticon.csp2'-calls are still available, but COM port numbers have been replaced by port names for cross-platform compatiblity.
+However, it is recommended to upgrade to the new CspNet implementation, since it's more suitable for Object-oriented programming and is more user friendly</p>
 <h2 id="license">License</h2>
 <p>This project is licensed under the MIT License.</p>
 

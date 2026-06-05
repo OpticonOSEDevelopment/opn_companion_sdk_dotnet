@@ -1,4 +1,4 @@
-﻿using Opticon;
+﻿using Opticon.Csp2Net;
 
 class Program
 {
@@ -6,73 +6,79 @@ class Program
     {
         try
         {
-            Console.WriteLine(String.Format("Csp2 DLL Version = {0}", OpnEnvironment.GetDllVersion()));
+            Console.WriteLine($"Csp2Net Package Version = {OpnEnvironment.GetDllVersion()}");
 
-            var connectedDevices = new HashSet<int>();   // Used to avoid duplicate connection messages
+            if (OperatingSystem.IsMacOS() || OperatingSystem.IsLinux())
+                Console.WriteLine($"\nMake sure your device is configured to use the CDC-driver (default: BQZ; OPN-2500/OPN-6000 only)\n(See https://opticonfigure.opticon.com)\n");
 
-            OpnDevice.StartPolling(device =>
+            string logDirectory = Path.Combine(AppContext.BaseDirectory, "Logs");
+            Directory.CreateDirectory(logDirectory);
+
+            OpnDevice.StartPolling((device, connected) =>
             {
                 try
                 {
-                    if (device.IsConnected)
+                    if (connected)
                     {
-                        string deviceId = device.GetDeviceId();
-                        string model = device.GetModel();
+                        // device.Connect();		// Not mandatory (port is automatically opened on each request if needed)
+                        // device.Interrogate();	// No longer needed (Interrogate is automatically called when requesting device info)
+
+                        string deviceId = device.GetDeviceId() ?? "Unknown";
+                        string model = device.GetModel() ?? "Unknown";
 
                         // Handle new connection
-                        if (connectedDevices.Add(device.Port))
+                        Console.WriteLine($"[{model}] [{deviceId}] [{device.PortName}] Connected ({device.GetSoftwareVersion()})");
+
+                        // Read all barcodes from the device AND correct time stamps based on device and system time
+                        var barcodes = device.ReadBarcodes(true);
+
+                        Console.WriteLine($"[{model}] [{deviceId}] [{device.PortName}] {barcodes.Count} Barcode(s) Read");
+
+                        string logFile = Path.Combine(logDirectory, $"Barcodes_{deviceId}.txt");
+
+                        foreach (var barcode in barcodes)
                         {
-                            Console.WriteLine($"[{model}] [{deviceId}] [COM{device.Port}] Connected ({device.GetSoftwareVersion()})");
+                            DateTime ts = barcode.Timestamp;
+
+                            string line = $"{barcode.Data};{ts:HH:mm:ss};{ts:dd-MM-yyyy};{barcode.SymbologyName};{deviceId}";
+
+                            File.AppendAllText(logFile, line + Environment.NewLine);
+
+                            Console.WriteLine($"[{model}] [{deviceId}] [{device.PortName}] [{ts}] [{barcode.Data}] [{barcode.SymbologyName}]");
                         }
 
-                        // Handle barcode data
-                        if (device.IsDataAvailable)
-                        {
-                            // Read all barcodes from the device and store them in a list
-                            var barcodes = device.ReadBarcodes();
+                        device.ClearBarcodes();
 
-                            Console.WriteLine($"[{device.GetModel()}] [{deviceId}] [COM{device.Port}] {barcodes.Count} Barcode(s) Read");
-
-                            foreach (var barcode in barcodes)
-                            {
-                                Console.WriteLine($"[{device.GetModel()}] [{deviceId}] [COM{device.Port}] [{barcode.Timestamp}] [{barcode.Data}] [{barcode.SymbologyName}]");
-                            }
-
-                            device.ClearBarcodes();
-                        }
+                        // Sync device time AFTER reading barcodes to be able to correct time stamps based on the computer and device time
+                        // Calling device.ReadBarcodes(true) already syncs the time
+                        //device.TryGetTime(out DateTime dTime);
+                        //device.SetTime(DateTime.Now);    
 
                         // Demonstrates the reading and writing of all parameter types (bool, int, enum and string/byte array)
-                        device.GetParameter(OpnParameter.Code39, out bool enabled);
+                        //device.GetParameter(OpnParameter.Code39, out bool enabled);
+                        //device.GetParameter(OpnParameter.ScannerOnTime, out int time);
+                        //device.GetParameter(OpnParameter.DeleteEnable, out DeleteEnableOptions deleteOptions);
+                        //device.SetParameter(OpnParameter.Code39, true);
+                        //device.SetParameter(OpnParameter.ScannerOnTime, 20);
+                        //device.SetParameter(OpnParameter.Gs1DataBar, Gs1DataBarOptions.Gs1DataBar | Gs1DataBarOptions.Gs1Expanded);
+                        //device.SetParameter(OpnParameter.ScratchPad, "Hello");
 
-                        device.GetParameter(OpnParameter.ScannerOnTime, out int time);
-
-                        device.GetParameter(OpnParameter.DeleteEnable, out DeleteEnableOptions deleteOptions);
-
-                        device.SetParameter(OpnParameter.Code39, true);
-
-                        device.SetParameter(OpnParameter.ScannerOnTime, 20);
-
-                        device.SetParameter(OpnParameter.Gs1DataBar, Gs1DataBarOptions.Gs1DataBar | Gs1DataBarOptions.Gs1Expanded);
-
-                        device.SetParameter(OpnParameter.ScratchPad, "Hello");
-
-                        device.GetTime(out DateTime dTime);
-
-                        device.SetTime(DateTime.Now);       // Sync device time with PC time
+                        // Don't disconnect if you want callbacks for detecting new barcodes while connected (only works on Windows and using the USB-VCP driver)
+                        //device.Disconnect();
                     }
                     else
-                    {
-                        // Handle disconnect
-                        if (connectedDevices.Remove(device.Port))
-                        {
-                            Console.WriteLine($"[{device.GetModel()}] [{device.GetDeviceId()}] [COM{device.Port}] Disconnected");
-                        }
+                    {   // Handle removal / disconnect
+                        if(device.GetDeviceId() != null)
+                            Console.WriteLine($"[{device.GetModel()}] [{device.GetDeviceId()}] [{device.PortName}] Disconnected");
+                        else
+                            Console.WriteLine($"[{device.PortName}] Removed");
                     }
+
                     return 1; // Return 1 to indicate the device was successfully processed
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Exception occurred: {ex.Message}");
+                    Console.WriteLine($"Exception occurred ({device.PortName}): {ex.Message}");
                     return 0; // Return 0 to continue polling, so we can retry later
                 }
             });
