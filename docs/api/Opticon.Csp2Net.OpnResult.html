@@ -117,13 +117,17 @@ Enum OpnResult
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="Opticon_Csp2Net_OpnResult_BAD_PARAM"><code>BAD_PARAM = -2</code></dt>
+    <dt id="Opticon_Csp2Net_OpnResult_ARGUMENT_ERROR"><code>ARGUMENT_ERROR = -3</code></dt>
   
-  <dd><p>An invalid parameter was provided.</p>
+  <dd><p>Supplied parameters are incorrect or invalid.</p>
 </dd>
     <dt id="Opticon_Csp2Net_OpnResult_COMMUNICATIONS_ERROR"><code>COMMUNICATIONS_ERROR = -1</code></dt>
   
   <dd><p>A communication error occurred.</p>
+</dd>
+    <dt id="Opticon_Csp2Net_OpnResult_DEVICE_NOT_AVAILABLE"><code>DEVICE_NOT_AVAILABLE = -4</code></dt>
+  
+  <dd><p>Supplied port does not exist or was removed</p>
 </dd>
     <dt id="Opticon_Csp2Net_OpnResult_FIRMWARE_FAILURE"><code>FIRMWARE_FAILURE = -12</code></dt>
   
@@ -133,10 +137,6 @@ Enum OpnResult
   
   <dd><p>A general error occurred.</p>
 </dd>
-    <dt id="Opticon_Csp2Net_OpnResult_SETUP_ERROR"><code>SETUP_ERROR = -3</code></dt>
-  
-  <dd><p>A setup error occurred.</p>
-</dd>
     <dt id="Opticon_Csp2Net_OpnResult_STATUS_OK"><code>STATUS_OK = 0</code></dt>
   
   <dd><p>Operation completed successfully.</p>
@@ -144,6 +144,10 @@ Enum OpnResult
     <dt id="Opticon_Csp2Net_OpnResult_TEMPORARY_ERROR"><code>TEMPORARY_ERROR = -13</code></dt>
   
   <dd><p>A temporary error occurred (device may reboot and come back online, retry may succeed).</p>
+</dd>
+    <dt id="Opticon_Csp2Net_OpnResult_UNAUTHORIZED_ERROR"><code>UNAUTHORIZED_ERROR = -2</code></dt>
+  
+  <dd><p>An unauthorized access error occurred.</p>
 </dd>
     <dt id="Opticon_Csp2Net_OpnResult_UNINITIALIZED"><code>UNINITIALIZED = -10</code></dt>
   

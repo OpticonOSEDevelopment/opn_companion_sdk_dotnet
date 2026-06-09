@@ -6,6 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Opticon.csp2" Version="2.0.3" />
+    <PackageReference Include="Opticon.csp2" Version="2.0.4" />
   </ItemGroup>
 </Project>

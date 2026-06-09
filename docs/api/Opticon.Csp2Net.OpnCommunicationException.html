@@ -130,7 +130,7 @@ Class OpnCommunicationException
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Opticon.Csp2Net.OpnException.html#Opticon_Csp2Net_OpnException_Status">OpnException.Status</a>
+      <a class="xref" href="Opticon.Csp2Net.OpnException.html#Opticon_Csp2Net_OpnException_Error">OpnException.Error</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception">Exception.GetBaseException()</a>
@@ -199,8 +199,8 @@ Class OpnCommunicationException
 
   <a id="Opticon_Csp2Net_OpnCommunicationException__ctor_" data-uid="Opticon.Csp2Net.OpnCommunicationException.#ctor*"></a>
 
-  <h3 id="Opticon_Csp2Net_OpnCommunicationException__ctor_System_String_Opticon_Csp2Net_Csp2Status_" data-uid="Opticon.Csp2Net.OpnCommunicationException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)">
-  OpnCommunicationException(string, Csp2Status)
+  <h3 id="Opticon_Csp2Net_OpnCommunicationException__ctor_System_String_Opticon_Csp2Net_OpnResult_" data-uid="Opticon.Csp2Net.OpnCommunicationException.#ctor(System.String,Opticon.Csp2Net.OpnResult)">
+  OpnCommunicationException(string, OpnResult)
   
   </h3>
 
@@ -209,7 +209,7 @@ Class OpnCommunicationException
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OpnCommunicationException(string message, Csp2Status status)</code></pre>
+    <pre><code class="lang-csharp hljs">public OpnCommunicationException(string message, OpnResult status)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -217,7 +217,7 @@ Class OpnCommunicationException
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The message that describes the communication error.</p>
 </dd>
-    <dt><code>status</code> <a class="xref" href="Opticon.Csp2Net.Csp2Status.html">Csp2Status</a></dt>
+    <dt><code>status</code> <a class="xref" href="Opticon.Csp2Net.OpnResult.html">OpnResult</a></dt>
     <dd><p>The status code associated with the communication failure.</p>
 </dd>
   </dl>

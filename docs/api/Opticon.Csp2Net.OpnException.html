@@ -202,8 +202,8 @@ Class OpnException
 
   <a id="Opticon_Csp2Net_OpnException__ctor_" data-uid="Opticon.Csp2Net.OpnException.#ctor*"></a>
 
-  <h3 id="Opticon_Csp2Net_OpnException__ctor_System_String_Opticon_Csp2Net_Csp2Status_" data-uid="Opticon.Csp2Net.OpnException.#ctor(System.String,Opticon.Csp2Net.Csp2Status)">
-  OpnException(string, Csp2Status)
+  <h3 id="Opticon_Csp2Net_OpnException__ctor_System_String_Opticon_Csp2Net_OpnResult_" data-uid="Opticon.Csp2Net.OpnException.#ctor(System.String,Opticon.Csp2Net.OpnResult)">
+  OpnException(string, OpnResult)
   
   </h3>
 
@@ -212,7 +212,7 @@ Class OpnException
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OpnException(string message, Csp2Status status)</code></pre>
+    <pre><code class="lang-csharp hljs">public OpnException(string message, OpnResult error)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -220,8 +220,8 @@ Class OpnException
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The message that describes the error.</p>
 </dd>
-    <dt><code>status</code> <a class="xref" href="Opticon.Csp2Net.Csp2Status.html">Csp2Status</a></dt>
-    <dd><p>The status code returned by the device library.</p>
+    <dt><code>error</code> <a class="xref" href="Opticon.Csp2Net.OpnResult.html">OpnResult</a></dt>
+    <dd><p>The error code returned by the device library.</p>
 </dd>
   </dl>
 
@@ -240,10 +240,10 @@ Class OpnException
 </h2>
 
 
-  <a id="Opticon_Csp2Net_OpnException_Status_" data-uid="Opticon.Csp2Net.OpnException.Status*"></a>
+  <a id="Opticon_Csp2Net_OpnException_Error_" data-uid="Opticon.Csp2Net.OpnException.Error*"></a>
 
-  <h3 id="Opticon_Csp2Net_OpnException_Status" data-uid="Opticon.Csp2Net.OpnException.Status">
-  Status
+  <h3 id="Opticon_Csp2Net_OpnException_Error" data-uid="Opticon.Csp2Net.OpnException.Error">
+  Error
   
   </h3>
 
@@ -252,7 +252,7 @@ Class OpnException
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Csp2Status Status { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public OpnResult Error { get; }</code></pre>
   </div>
 
 
@@ -261,7 +261,7 @@ Class OpnException
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Opticon.Csp2Net.Csp2Status.html">Csp2Status</a></dt>
+    <dt><a class="xref" href="Opticon.Csp2Net.OpnResult.html">OpnResult</a></dt>
     <dd></dd>
   </dl>
 

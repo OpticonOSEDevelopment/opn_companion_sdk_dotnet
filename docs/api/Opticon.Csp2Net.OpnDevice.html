@@ -265,6 +265,39 @@ Class OpnDevice
 
 
 
+  <a id="Opticon_Csp2Net_OpnDevice_IsDeviceReady_" data-uid="Opticon.Csp2Net.OpnDevice.IsDeviceReady*"></a>
+
+  <h3 id="Opticon_Csp2Net_OpnDevice_IsDeviceReady" data-uid="Opticon.Csp2Net.OpnDevice.IsDeviceReady">
+  IsDeviceReady
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks whether or not the device is currently ready.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDeviceReady { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the device is ready; otherwise <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Opticon_Csp2Net_OpnDevice_Port_" data-uid="Opticon.Csp2Net.OpnDevice.Port*"></a>
 
   <h3 id="Opticon_Csp2Net_OpnDevice_Port" data-uid="Opticon.Csp2Net.OpnDevice.Port">
@@ -532,8 +565,8 @@ public int Port { get; }</code></pre>
 
   <a id="Opticon_Csp2Net_OpnDevice_EnumerateBarcodes_" data-uid="Opticon.Csp2Net.OpnDevice.EnumerateBarcodes*"></a>
 
-  <h3 id="Opticon_Csp2Net_OpnDevice_EnumerateBarcodes" data-uid="Opticon.Csp2Net.OpnDevice.EnumerateBarcodes">
-  EnumerateBarcodes()
+  <h3 id="Opticon_Csp2Net_OpnDevice_EnumerateBarcodes_System_Boolean_" data-uid="Opticon.Csp2Net.OpnDevice.EnumerateBarcodes(System.Boolean)">
+  EnumerateBarcodes(bool)
   
   </h3>
 
@@ -542,9 +575,18 @@ public int Port { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;BarcodeRecord&gt; EnumerateBarcodes()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;BarcodeRecord&gt; EnumerateBarcodes(bool correctTimestamps = false)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>correctTimestamps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Use <code>true</code> to adjust barcode timestamps based on the difference between the device time
+and the system time at the moment of reading.
+Note: If <code>true</code>, then don't call <a class="xref" href="Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetTime_System_DateTime_">SetTime(DateTime)</a> before reading barcodes,
+as it will affect the device time and thus the correction offset.</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -559,7 +601,7 @@ public int Port { get; }</code></pre>
 
 
 
-  <h4 class="section" id="Opticon_Csp2Net_OpnDevice_EnumerateBarcodes_remarks">Remarks</h4>
+  <h4 class="section" id="Opticon_Csp2Net_OpnDevice_EnumerateBarcodes_System_Boolean__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This method allows lazy iteration over barcode data.</p>
 </div>
 
@@ -1203,8 +1245,8 @@ if the operation succeeded; otherwise <a class="xref" href="https://learn.micros
 
   <a id="Opticon_Csp2Net_OpnDevice_ReadBarcodes_" data-uid="Opticon.Csp2Net.OpnDevice.ReadBarcodes*"></a>
 
-  <h3 id="Opticon_Csp2Net_OpnDevice_ReadBarcodes" data-uid="Opticon.Csp2Net.OpnDevice.ReadBarcodes">
-  ReadBarcodes()
+  <h3 id="Opticon_Csp2Net_OpnDevice_ReadBarcodes_System_Boolean_" data-uid="Opticon.Csp2Net.OpnDevice.ReadBarcodes(System.Boolean)">
+  ReadBarcodes(bool)
   
   </h3>
 
@@ -1213,9 +1255,18 @@ if the operation succeeded; otherwise <a class="xref" href="https://learn.micros
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;BarcodeRecord&gt; ReadBarcodes()</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;BarcodeRecord&gt; ReadBarcodes(bool correctTimestamps = false)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>correctTimestamps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Use <code>true</code> to adjust barcode timestamps based on the difference between the device time
+and the system time at the moment of reading.
+Note: If <code>true</code>, then don't call <a class="xref" href="Opticon.Csp2Net.OpnDevice.html#Opticon_Csp2Net_OpnDevice_SetTime_System_DateTime_">SetTime(DateTime)</a> before reading barcodes,
+as it will affect the device time and thus the correction offset.</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -1230,7 +1281,7 @@ if the operation succeeded; otherwise <a class="xref" href="https://learn.micros
 
 
 
-  <h4 class="section" id="Opticon_Csp2Net_OpnDevice_ReadBarcodes_remarks">Remarks</h4>
+  <h4 class="section" id="Opticon_Csp2Net_OpnDevice_ReadBarcodes_System_Boolean__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This method also retrieves device information such as ID, protocol, or firmware version.</p>
 </div>
 
