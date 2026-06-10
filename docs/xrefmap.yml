@@ -1248,6 +1248,19 @@ references:
   commentId: T:Opticon.Csp2Net.OpnEnvironment
   fullName: Opticon.Csp2Net.OpnEnvironment
   nameWithType: OpnEnvironment
+- uid: Opticon.Csp2Net.OpnEnvironment.DebugMode
+  name: DebugMode
+  href: api/Opticon.Csp2Net.OpnEnvironment.html#Opticon_Csp2Net_OpnEnvironment_DebugMode
+  commentId: P:Opticon.Csp2Net.OpnEnvironment.DebugMode
+  fullName: Opticon.Csp2Net.OpnEnvironment.DebugMode
+  nameWithType: OpnEnvironment.DebugMode
+- uid: Opticon.Csp2Net.OpnEnvironment.DebugMode*
+  name: DebugMode
+  href: api/Opticon.Csp2Net.OpnEnvironment.html#Opticon_Csp2Net_OpnEnvironment_DebugMode_
+  commentId: Overload:Opticon.Csp2Net.OpnEnvironment.DebugMode
+  isSpec: "True"
+  fullName: Opticon.Csp2Net.OpnEnvironment.DebugMode
+  nameWithType: OpnEnvironment.DebugMode
 - uid: Opticon.Csp2Net.OpnEnvironment.GetDllVersion
   name: GetDllVersion()
   href: api/Opticon.Csp2Net.OpnEnvironment.html#Opticon_Csp2Net_OpnEnvironment_GetDllVersion
